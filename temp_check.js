@@ -1,0 +1,2837 @@
+
+
+const KB={nodes:[{phase:"pre_election",id:"PRE_ELIGIBILITY",title:"Step 1: Check Your Eligibility",description:"Before anything else, confirm you have the legal right to vote.",steps:["Confirm you meet the minimum age requirement (typically 18 years old)","Verify your citizenship or residency status qualifies you to vote","Check that you are not disqualified by any court order or legal restriction"],why_it_matters:"Voting is a fundamental civic right — but it has legal requirements. Knowing your eligibility protects you from wasted effort and ensures your vote counts.",timeline_marker:"Months before election",region_notes:{USA:"Age 18+. U.S. citizens only. Some states restore voting rights to former felons — check your state's rules.",UK:"Age 18+ (16+ in Scotland/Wales for some elections). British, Irish, or qualifying Commonwealth citizen.",India:"Age 18+. Indian citizen. Name must appear on Electoral Roll."},keywords:["eligible","eligibility","can i vote","qualify","age","citizen","right to vote"],next_step_id:"PRE_REGISTRATION"},{phase:"pre_election",id:"PRE_REGISTRATION",title:"Step 2: Register to Vote",description:"Registration puts your name on the official voter roll — without it, you cannot vote.",steps:["Locate your official voter registration portal (national or state/local authority website)","Complete the registration form with your legal name, address, and date of birth","Submit before the registration deadline — deadlines vary significantly by region"],why_it_matters:"You can be fully eligible but still unable to vote if you are not registered. Registration is the gateway — it is how the election authority knows you exist as a voter.",timeline_marker:"Weeks to months before election",region_notes:{USA:"Register at vote.gov or your state's election website. Deadlines vary — some states allow same-day registration.",UK:"Register at gov.uk/register-to-vote. Deadline is typically 12 working days before an election.",India:"Register via voters.eci.gov.in using Form 6. The ECI conducts annual summary revisions."},keywords:["register","registration","sign up","voter roll","electoral roll","enroll"],next_step_id:"PRE_VOTER_ID"},{phase:"pre_election",id:"PRE_VOTER_ID",title:"Step 3: Get Your Voter ID",description:"Many jurisdictions require you to bring identification to vote.",steps:["Find out what form of ID is accepted at polling stations in your region","If you lack the required ID, apply for a voter ID card through your electoral authority","Keep your voter registration confirmation — you may need it on Election Day"],why_it_matters:"Arriving without the right ID can mean you cannot vote, even if you are fully registered. Preparation on this step eliminates a very fixable problem.",timeline_marker:"Weeks before election",region_notes:{USA:"ID requirements vary by state — some require photo ID, others only need a signature match.",UK:"Photo ID required in Great Britain (since 2023). Accepted: passport, driving licence, or free Voter Authority Certificate.",India:"Voter ID card (EPIC) is primary. Also accepted: Aadhaar, passport, driving licence, PAN card."},keywords:["id","voter id","identification","document","what to bring","polling card"],next_step_id:"PRE_POLLING_STATION"},{phase:"pre_election",id:"PRE_POLLING_STATION",title:"Step 4: Find Your Polling Station",description:"You must vote at your assigned polling station — you cannot vote at a different one.",steps:["Look up your assigned polling station on your electoral authority's website","Note the station's address and opening/closing hours","Plan your route and check for accessibility if needed"],why_it_matters:"Showing up at the wrong polling station wastes your trip and may mean you miss the chance to vote. Knowing your station removes all uncertainty on Election Day.",timeline_marker:"Days before election",region_notes:{USA:"Use vote.gov or your state's lookup tool. Polling hours vary by state, typically 6am–8pm.",UK:"Polling cards are sent to your registered address. Stations typically open 7am–10pm.",India:"Check your Voter Information Slip or voters.eci.gov.in. Polling typically runs 7am–6pm."},keywords:["polling station","where to vote","polling place","booth","voting location"],next_step_id:"PRE_UNDERSTAND_BALLOT"},{phase:"pre_election",id:"PRE_UNDERSTAND_BALLOT",title:"Step 5: Understand Your Ballot",description:"Know who and what you will be voting for before you enter the polling booth.",steps:["Research the candidates and parties on your ballot","Understand the voting method used (first-past-the-post, ranked choice, etc.)","If there are referendums or propositions, read official summaries"],why_it_matters:"An informed vote is a powerful vote. Understanding your ballot before you arrive means you are not guessing under pressure in the booth.",timeline_marker:"Days to weeks before election",region_notes:{USA:"Presidential elections use Electoral College. Some states use ranked-choice voting. Sample ballots often available online.",UK:"First-Past-The-Post for general elections. In some devolved elections proportional representation is used.",India:"First-Past-The-Post. Voting on EVMs — candidates listed with party symbols."},keywords:["ballot","candidates","who to vote","parties","referendum","understand voting","how to vote"],next_step_id:"ED_ARRIVE"},{phase:"election_day",id:"ED_ARRIVE",title:"Step 6: Arrive at Your Polling Station",description:"Election Day has arrived. Here is what to do when you get there.",steps:["Bring your required ID and any voter registration confirmation","Arrive with enough time — queues can form, especially in the morning","If you are in the queue before closing time, you have the right to vote — do not leave"],why_it_matters:"Getting there prepared and on time is the difference between your vote counting and being left out.",timeline_marker:"Election Day — morning",region_notes:{USA:"If you are in line when polls close, you have the right to vote. Some states have long early voting periods.",UK:"Polls close at 10pm. Any voter in the queue at 10pm can vote. You do not need your polling card.",India:"Carry your Voter ID or any approved alternate ID. Queues can be very long in populous constituencies."},keywords:["election day","arrive","go to vote","when to go","polling day"],next_step_id:"ED_CHECK_IN"},{phase:"election_day",id:"ED_CHECK_IN",title:"Step 7: Check In at the Polling Station",description:"When you enter, polling staff will verify your identity and find you on the voter roll.",steps:["Present your ID to the polling officer at the check-in desk","The officer will find your name on the electoral register and mark you as attending","You will receive your official ballot paper or be directed to a voting machine"],why_it_matters:"The check-in process ensures one person = one vote. It is quick and straightforward — polling officers are trained to help.",timeline_marker:"Election Day — at the station",region_notes:{USA:"Show your ID (if required by your state) and state your name/address. You may be asked to sign a poll book.",UK:"Show your photo ID. The clerk will cross your name off the register and hand you a ballot paper.",India:"Show your Voter ID. The presiding officer checks the roll and applies indelible ink to your finger."},keywords:["check in","sign in","polling officer","verify","ink","mark register"],next_step_id:"ED_CAST_VOTE"},{phase:"election_day",id:"ED_CAST_VOTE",title:"Step 8: Cast Your Vote",description:"This is the moment. Mark your ballot correctly and submit it.",steps:["Go to the private voting booth — your vote is completely secret","Mark your ballot clearly according to the instructions (tick, cross, number, or EVM button)","Submit: fold and place paper ballot in sealed box, or confirm on the EVM"],why_it_matters:"A spoiled or incorrectly marked ballot may not be counted. Taking 60 seconds to mark it correctly is the most important action you take today.",timeline_marker:"Election Day — in the booth",region_notes:{USA:"Methods vary: paper ballot, optical scan, or touch screen depending on your county.",UK:"Put a single X in the box next to your chosen candidate. Any other marking may spoil your ballot.",India:"Press the blue button next to your chosen candidate on the EVM. A beep confirms. VVPAT shows paper confirmation."},keywords:["cast vote","mark ballot","evm","ballot paper","booth","secret ballot","submit vote","how to vote"],next_step_id:"POST_COUNTING"},{phase:"post_election",id:"POST_COUNTING",title:"Step 9: Votes Are Counted",description:"After polls close, a rigorous counting process begins under official supervision.",steps:["Ballot boxes are sealed, transported, and opened only at official counting centers","Votes are counted by electoral officials — candidates or their agents can observe","Results are verified, cross-checked, and disputed ballots reviewed by returning officers"],why_it_matters:"The counting process is transparent and tamper-proof. Understanding it builds confidence that your vote was counted correctly.",timeline_marker:"Election Night / Following Days",region_notes:{USA:"Counting timelines vary by state. Mail-in ballots may take days. Networks project winners, but official certification takes weeks.",UK:"Counting often begins immediately after polls close at 10pm. Most results announced overnight.",India:"Counting day is a separate official day, 1–2 weeks after the last polling phase. EVM results announced by Returning Officer."},keywords:["count","counting","tally","how are votes counted","ballot counting","when will we know"],next_step_id:"POST_RESULTS"},{phase:"post_election",id:"POST_RESULTS",title:"Step 10: Results Are Declared",description:"Official results are announced and a winner is formally declared.",steps:["The Returning Officer officially announces the winner in each constituency/race","Final results are certified and published on the official electoral authority website","The winning party or candidate begins forming a government or taking office"],why_it_matters:"Understanding how results are officially declared — versus projected by media — prevents misinformation. Official results are what legally matter.",timeline_marker:"Election Night to weeks after",region_notes:{USA:"States certify results within weeks. Electoral College meets in December. Media projections are NOT official results.",UK:"Most results declared overnight. Official gazette publication follows. PM appointed once majority is clear.",India:"ECI declares results on counting day. The President invites the largest party/coalition to form government."},keywords:["results","winner","declared","who won","outcome","official result","certification"],next_step_id:"POST_APPEALS"},{phase:"post_election",id:"POST_APPEALS",title:"Step 11: Disputes and Appeals",description:"If you believe there was an irregularity, there are official processes to raise concerns.",steps:["Contact your local electoral authority or returning officer to report a specific concern","Election petitions can be filed in court — strict deadlines apply (typically 21–45 days post-result)","Recounts can be requested if the margin is very narrow — the process is formal and supervised"],why_it_matters:"Democracy depends on trust in the process. Legitimate dispute channels exist for good reason. Always rely on official evidence.",timeline_marker:"Days to weeks after results",region_notes:{USA:"Recounts can be triggered automatically (narrow margins) or requested. Legal challenges go to state courts.",UK:"Election petitions must be filed within 21 days of the result, heard by an Election Court.",India:"Election petitions filed in High Court within 45 days. ECI can also countermand elections for serious malpractice."},keywords:["appeal","dispute","recount","challenge","fraud","irregularity","contest","petition"],next_step_id:"POST_CIVIC_ROLE"},{phase:"post_election",id:"POST_CIVIC_ROLE",title:"Step 12: Your Ongoing Civic Role",description:"Voting is the start of civic engagement, not the end of it.",steps:["Track the actions of your elected representative — hold them accountable","Engage with your local government: attend town halls, write to your representative","Prepare for the next election: keep your registration up to date when you move"],why_it_matters:"Democracy is not a one-day event. Between elections, engaged citizens drive accountability. Your voice matters beyond the ballot box.",timeline_marker:"Ongoing after election",region_notes:{USA:"Contact your Representatives and Senators via congress.gov. Local elections happen frequently.",UK:"Write to your MP via writetothem.com. Local council elections and by-elections occur regularly.",India:"Contact your MP via the Lok Sabha website. RTI (Right to Information) applications are a powerful civic tool."},keywords:["civic role","after election","what now","accountable","representative","engage","next steps"],next_step_id:null}],faqs:[{id:"FAQ_001",question:"Can I vote if I am not registered?",answer:"In most countries, no — you must be on the official electoral register before you can vote. Some places allow same-day registration, but this is the exception. Register early to be safe.",phase:"pre_election"},{id:"FAQ_002",question:"What if I spoil my ballot?",answer:"A spoiled ballot is generally not counted. In most systems, you can ask for a replacement ballot if you have not yet submitted it. Once submitted, it cannot be retrieved.",phase:"election_day"},{id:"FAQ_003",question:"Is my vote really secret?",answer:"Yes. Ballot papers and EVMs are designed to make your specific vote untraceable to you personally. The secret ballot is a cornerstone of free and fair elections.",phase:"election_day"},{id:"FAQ_004",question:"How long does counting take?",answer:"It depends on the country. UK results often come overnight. US results can take days due to mail-in ballots. Indian results are announced on a dedicated counting day, weeks after polling.",phase:"post_election"},{id:"FAQ_005",question:"What if I cannot get to the polling station?",answer:"Most systems offer alternatives: postal/absentee voting, proxy voting, or accessible voting facilities. Contact your electoral authority well in advance — deadlines apply.",phase:"pre_election"}]};
+
+const QUIZ=[{id:"Q001",phase:"pre_election",question:"What is the FIRST thing you should do before trying to register to vote?",options:["A) Find your polling station","B) Check your eligibility","C) Research candidates","D) Get a voter ID card"],correct:"B",explanation:"Checking eligibility (age, citizenship, residency) comes before registration. There is no point registering if you do not legally qualify.",difficulty:"easy"},{id:"Q002",phase:"pre_election",question:"Why is meeting the voter registration deadline critical?",options:["A) You get a fine if you miss it","B) Registration is just a formality","C) Missing the deadline usually means you cannot vote in that election","D) It only affects postal voting"],correct:"C",explanation:"In most jurisdictions, you must be registered before a specific deadline. Missing it typically means you cannot vote in that election cycle.",difficulty:"easy"},{id:"Q003",phase:"election_day",question:"You are in the queue when polls close. What should you do?",options:["A) Leave — you missed your chance","B) Stay — if you are in line before closing you have the right to vote","C) Try another polling station","D) Come back tomorrow"],correct:"B",explanation:"In most democracies, if you are in the queue before the official closing time, you retain the right to vote.",difficulty:"medium"},{id:"Q004",phase:"election_day",question:"What makes the secret ballot important?",options:["A) It speeds up counting","B) It allows people to vote without fear of punishment or coercion","C) It makes recounts easier","D) It prevents too many people from voting"],correct:"B",explanation:"The secret ballot means no one can trace your vote back to you. This freedom from coercion is fundamental to genuine democratic choice.",difficulty:"medium"},{id:"Q005",phase:"post_election",question:"What is the difference between a media projection and an official result?",options:["A) There is no difference","B) Media projections are estimates; official results are certified by electoral authorities","C) Official results are always announced first","D) Media projections are more accurate"],correct:"B",explanation:"Media projections are estimates based on exit polls and early counts. Official results are certified by the returning officer and are legally binding.",difficulty:"medium"},{id:"Q006",phase:"post_election",question:"What is the correct channel for disputing an election result?",options:["A) Social media campaigns","B) Approaching the winning candidate directly","C) Filing an official election petition through the courts within the legal deadline","D) Organising a re-vote independently"],correct:"C",explanation:"Election disputes must go through official legal channels — an election petition filed in court within a strict deadline. Unofficial methods have no legal standing.",difficulty:"hard"},{id:"Q007",phase:"pre_election",question:"In India, what body manages voter registration and conducts elections?",options:["A) The Parliament of India","B) The Supreme Court of India","C) The Election Commission of India (ECI)","D) State Governments"],correct:"C",explanation:"The Election Commission of India (ECI) is the independent constitutional authority responsible for administering elections.",difficulty:"easy"},{id:"Q008",phase:"election_day",question:"What does indelible ink on the finger signify in Indian elections?",options:["A) The voter has been identified as a suspect","B) The voter has already cast their vote","C) The voter's ballot was spoiled","D) The voter is a first-time voter"],correct:"B",explanation:"Indelible ink is applied after voting. It is an anti-fraud measure that prevents a person from voting more than once.",difficulty:"easy"},{id:"Q009",phase:"post_election",question:"After an election, what is the most important ongoing civic action?",options:["A) Wait for the next election","B) Celebrate or mourn and move on","C) Hold your elected representative accountable and stay engaged","D) Re-register for the next election immediately"],correct:"C",explanation:"Democracy requires continuous engagement. Tracking your representative's actions and contacting officials between elections is how citizens hold power accountable.",difficulty:"medium"},{id:"Q010",phase:"pre_election",question:"In the UK, what photo ID has been mandatory for voting in Great Britain since 2023?",options:["A) Only a passport","B) Only a driving licence","C) Various approved photo IDs including a free Voter Authority Certificate","D) A National Identity Card"],correct:"C",explanation:"The UK now requires photo ID. Accepted forms include passport, driving licence, and others. A free Voter Authority Certificate is available from your local council.",difficulty:"hard"}];
+
+// ── State ──────────────────────────────────────────────────────────────────
+let state={currentStepId:null,completedSteps:[],region:null,experienceLevel:null,mode:'chat',quizQuestions:[],quizIndex:0,quizAnswers:[],unknownCount:0,milestonesShown:[]};
+
+const PHASE_COLOR={pre_election:'blue',election_day:'green',post_election:'amber'};
+const PHASE_EMOJI={pre_election:'🔵',election_day:'🟢',post_election:'🟡'};
+const ALL_NODES=KB.nodes;
+
+function getNode(id){return ALL_NODES.find(n=>n.id===id);}
+function getStepNumber(id){return ALL_NODES.findIndex(n=>n.id===id)+1;}
+
+// ── Timeline strip ─────────────────────────────────────────────────────────
+function updateTimeline(stepId){
+  document.querySelectorAll('.tl-phase').forEach(el=>el.classList.remove('active'));
+  const node=getNode(stepId);
+  if(!node)return;
+  const map={pre_election:'tl-pre',election_day:'tl-ed',post_election:'tl-post'};
+  const el=document.getElementById(map[node.phase]);
+  if(el)el.classList.add('active');
+  const num=getStepNumber(stepId);
+  document.getElementById('step-num').textContent=num||'—';
+  const preComplete=ALL_NODES.filter(n=>n.phase==='pre_election').every(n=>state.completedSteps.includes(n.id));
+  if(preComplete)document.getElementById('tl-con1').classList.add('done');
+  const edComplete=ALL_NODES.filter(n=>n.phase==='election_day').every(n=>state.completedSteps.includes(n.id));
+  if(edComplete)document.getElementById('tl-con2').classList.add('done');
+}
+
+// ── Chat helpers ────────────────────────────────────────────────────────────
+function chat(){return document.getElementById('chat');}
+function scrollBottom(){const c=chat();c.scrollTop=c.scrollHeight;}
+
+// BCP-47 locale map for all supported languages
+const LANG_LOCALE = {
+  HI: 'hi-IN', BN: 'bn-IN', TE: 'te-IN', MR: 'mr-IN', TA: 'ta-IN',
+  GU: 'gu-IN', KN: 'kn-IN', ML: 'ml-IN', PA: 'pa-IN', OR: 'or-IN',
+  AS: 'as-IN', UR: 'ur-PK', MAI: 'mai-IN', SA: 'sa-IN', NE: 'ne-NP',
+  EN: 'en-US', ES: 'es-ES', ZH: 'zh-CN', AR: 'ar-SA', FR: 'fr-FR',
+  DE: 'de-DE', PT: 'pt-BR', RU: 'ru-RU', JA: 'ja-JP', KO: 'ko-KR',
+  IT: 'it-IT', TR: 'tr-TR', ID: 'id-ID', SW: 'sw-KE', FA: 'fa-IR'
+};
+
+// MyMemory API language codes (ISO 639-1)
+const LANG_ISO = {
+  HI: 'hi', BN: 'bn', TE: 'te', MR: 'mr', TA: 'ta',
+  GU: 'gu', KN: 'kn', ML: 'ml', PA: 'pa', OR: 'or',
+  AS: 'as', UR: 'ur', MAI: 'mai', SA: 'sa', NE: 'ne',
+  EN: 'en', ES: 'es', ZH: 'zh', AR: 'ar', FR: 'fr',
+  DE: 'de', PT: 'pt', RU: 'ru', JA: 'ja', KO: 'ko',
+  IT: 'it', TR: 'tr', ID: 'id', SW: 'sw', FA: 'fa'
+};
+
+// Translation cache so we don't re-translate the same text
+const _translateCache = {};
+
+async function translateText(text, targetLangCode) {
+  if (targetLangCode === 'EN' || !targetLangCode) return text;
+  const iso = LANG_ISO[targetLangCode];
+  if (!iso || iso === 'en') return text;
+  const cacheKey = targetLangCode + ':' + text.substring(0, 80);
+  if (_translateCache[cacheKey]) return _translateCache[cacheKey];
+  try {
+    const safeText = text.substring(0, 1000);
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${iso}&dt=t&q=${encodeURIComponent(safeText)}`;
+    // Abort if the API takes more than 4 seconds
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 4000);
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeout);
+    const data = await res.json();
+    if (data && data[0]) {
+      const translated = data[0].map(x => x[0]).join('');
+      _translateCache[cacheKey] = translated;
+      return translated;
+    }
+  } catch(e) {
+    // Timeout or network error — fall back silently to English
+    console.warn('[speakText] Translation failed, falling back to English:', e.message);
+  }
+  return text;
+}
+
+// Voice fallback groups — if exact voice not found, try these in order
+const VOICE_FALLBACK = {
+  // Indian languages fall back to each other, then en-IN
+  TE: ['te-IN','te','kn-IN','kn','ta-IN','ta','ml-IN','ml','hi-IN','hi','en-IN','en-US'],
+  HI: ['hi-IN','hi','mr-IN','mr','en-IN','en-US'],
+  BN: ['bn-IN','bn','hi-IN','hi','en-IN','en-US'],
+  MR: ['mr-IN','mr','hi-IN','hi','en-IN','en-US'],
+  TA: ['ta-IN','ta','te-IN','te','ml-IN','ml','hi-IN','hi','en-IN','en-US'],
+  KN: ['kn-IN','kn','te-IN','te','ta-IN','ta','hi-IN','hi','en-IN','en-US'],
+  ML: ['ml-IN','ml','ta-IN','ta','te-IN','te','hi-IN','hi','en-IN','en-US'],
+  GU: ['gu-IN','gu','hi-IN','hi','en-IN','en-US'],
+  PA: ['pa-IN','pa','hi-IN','hi','en-IN','en-US'],
+  OR: ['or-IN','or','hi-IN','hi','en-IN','en-US'],
+  AS: ['as-IN','as','bn-IN','bn','hi-IN','hi','en-IN','en-US'],
+  UR: ['ur-PK','ur','hi-IN','hi','en-IN','en-US'],
+};
+
+function _findBestVoice(langCode) {
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices.length) return null;
+  const chain = VOICE_FALLBACK[langCode] || [LANG_LOCALE[langCode] || 'en-US', 'en-US'];
+  for (const locale of chain) {
+    const v = voices.find(v => v.lang === locale) ||
+              voices.find(v => v.lang.startsWith(locale.split('-')[0]));
+    if (v) return v;
+  }
+  return voices[0]; // absolute fallback to first available voice
+}
+
+// Robust Speech Queue to prevent Chrome "interrupted" errors from rapid firing
+const _speechQueue = [];
+let _isSpeaking = false;
+let _lastSpeakRequestTime = 0;
+let _currentUtterance = null; // PREVENTS CHROME GARBAGE COLLECTION BUG!
+
+function _processSpeechQueue() {
+  if (_isSpeaking || _speechQueue.length === 0) return;
+  _isSpeaking = true;
+  
+  const { text, langCode, ttsBtn, origLabel } = _speechQueue.shift();
+  
+  _currentUtterance = new SpeechSynthesisUtterance(text);
+  _currentUtterance.lang = LANG_LOCALE[langCode] || 'en-US';
+  _currentUtterance.rate = 0.92;
+  _currentUtterance.pitch = 1.0;
+  
+  const voice = _findBestVoice(langCode);
+  if (voice) {
+    _currentUtterance.voice = voice;
+    // CRITICAL FOR CHROME: MUST match the fallback voice's official lang
+    _currentUtterance.lang = voice.lang; 
+    console.log(`[TTS] Speaking using voice: ${voice.name} (${voice.lang})`);
+  }
+  
+  _currentUtterance.onend = () => {
+    if (ttsBtn && _speechQueue.length === 0) ttsBtn.textContent = origLabel;
+    _isSpeaking = false;
+    _currentUtterance = null;
+    setTimeout(_processSpeechQueue, 300); // Wait 300ms between sentences
+  };
+  
+  _currentUtterance.onerror = (e) => {
+    console.warn('[TTS] Speech error:', e.error);
+    if (ttsBtn && _speechQueue.length === 0) ttsBtn.textContent = origLabel;
+    _isSpeaking = false;
+    _currentUtterance = null;
+    setTimeout(_processSpeechQueue, 100);
+  };
+  
+  if (ttsBtn) ttsBtn.textContent = '🔊 Speaking...';
+  
+  window.speechSynthesis.resume(); 
+  window.speechSynthesis.speak(_currentUtterance);
+}
+
+
+// ── Multilingual TTS via Google Translate Audio ──────────────────────────
+// Uses Google's TTS endpoint to speak in any language — no API key needed.
+// Falls back to Web Speech API only for English.
+
+const RV_VOICE_MAP = {
+  HI: 'Hindi Female', TE: 'Telugu Female', BN: 'Bengali Female',
+  TA: 'Tamil Female', KN: 'Kannada Female', ML: 'Malayalam Female',
+  MR: 'Marathi Female', GU: 'Gujarati Female', PA: 'Punjabi Female',
+  OR: 'Odia Female', UR: 'Urdu Female', NE: 'Nepali Female',
+  ES: 'Spanish Female', FR: 'French Female', DE: 'Deutsch Female',
+  IT: 'Italian Female', PT: 'Brazilian Portuguese Female', RU: 'Russian Female',
+  ZH: 'Chinese Female', JA: 'Japanese Female', KO: 'Korean Female',
+  AR: 'Arabic Female', TR: 'Turkish Female', ID: 'Indonesian Female',
+};
+
+// Hidden audio element for Google TTS playback
+let _ttsAudio = null;
+function _getTTSAudio() {
+  if (!_ttsAudio) {
+    _ttsAudio = document.createElement('audio');
+    _ttsAudio.style.display = 'none';
+    document.body.appendChild(_ttsAudio);
+  }
+  return _ttsAudio;
+}
+
+function _doSpeak(text, langCode, ttsBtn, origLabel) {
+  if (!text || !text.trim()) return;
+
+  const iso = LANG_ISO[langCode];
+
+  // ── Method 1: Try ResponsiveVoice (best for Indian languages) ──
+  const rvVoice = RV_VOICE_MAP[langCode];
+  if (langCode !== 'EN' && rvVoice && typeof responsiveVoice !== 'undefined') {
+    try {
+      responsiveVoice.cancel();
+      if (ttsBtn) ttsBtn.textContent = '🔊 Speaking...';
+      responsiveVoice.speak(text, rvVoice, {
+        rate: 0.9, pitch: 1,
+        onend: () => { if (ttsBtn) ttsBtn.textContent = origLabel; },
+        onerror: () => {
+          console.warn('[TTS] ResponsiveVoice failed, trying Google Audio...');
+          _doSpeakGoogleAudio(text, iso, ttsBtn, origLabel);
+        }
+      });
+      return;
+    } catch(e) {
+      console.warn('[TTS] ResponsiveVoice exception:', e);
+    }
+  }
+
+  // ── Method 2: Google Translate Audio (works for all languages) ──
+  if (langCode !== 'EN' && iso) {
+    _doSpeakGoogleAudio(text, iso, ttsBtn, origLabel);
+    return;
+  }
+
+  // ── Method 3: Native Web Speech API (English fallback) ──
+  _speechQueue.push({ text, langCode, ttsBtn, origLabel });
+  _processSpeechQueue();
+}
+
+function _doSpeakGoogleAudio(text, iso, ttsBtn, origLabel) {
+  // Split text into chunks ≤200 chars (Google TTS limit per request)
+  const words = text.split(' ');
+  const chunks = [];
+  let chunk = '';
+  for (const word of words) {
+    if ((chunk + ' ' + word).trim().length > 180) {
+      if (chunk) chunks.push(chunk.trim());
+      chunk = word;
+    } else {
+      chunk = (chunk + ' ' + word).trim();
+    }
+  }
+  if (chunk) chunks.push(chunk.trim());
+
+  const audio = _getTTSAudio();
+  let chunkIdx = 0;
+
+  function playChunk() {
+    if (chunkIdx >= chunks.length) {
+      if (ttsBtn) ttsBtn.textContent = origLabel;
+      return;
+    }
+    const c = chunks[chunkIdx++];
+    // Use Google Translate TTS endpoint
+    const url = `https://translate.googleapis.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(c)}&tl=${iso}&client=gtx&ttsspeed=0.9`;
+    audio.src = url;
+    audio.onended = playChunk;
+    audio.onerror = () => {
+      console.warn('[TTS] Google Audio failed for chunk, skipping.');
+      playChunk();
+    };
+    if (ttsBtn) ttsBtn.textContent = '🔊 Speaking...';
+    audio.play().catch(e => {
+      console.warn('[TTS] Audio play blocked:', e);
+      if (ttsBtn) ttsBtn.textContent = origLabel;
+    });
+  }
+
+  playChunk();
+}
+
+async function speakText(text) {
+  if (!ttsEnabled) return;
+  const cleanText = text.replace(/<[^>]*>?/gm, '').replace(/\s+/g, ' ').trim();
+  if (!cleanText) return;
+
+  // Cancel all current speech
+  try { if (typeof responsiveVoice !== 'undefined') responsiveVoice.cancel(); } catch(e){}
+  try { if (window.speechSynthesis) { window.speechSynthesis.cancel(); } } catch(e){}
+  try { const a = _getTTSAudio(); a.pause(); a.src = ''; } catch(e){}
+  _speechQueue.length = 0;
+  _isSpeaking = false;
+
+  const ttsBtn = document.getElementById('tts-btn');
+  const origLabel = ttsBtn ? ttsBtn.textContent : '🔊 Voice On';
+
+  if (currentLang === 'EN') {
+    _doSpeak(cleanText, 'EN', ttsBtn, origLabel);
+  } else {
+    if (ttsBtn) ttsBtn.textContent = '⏳ Translating...';
+    try {
+      const translated = await translateText(cleanText, currentLang);
+      _doSpeak(translated, currentLang, ttsBtn, origLabel);
+    } catch(e) {
+      if (ttsBtn) ttsBtn.textContent = origLabel;
+      _doSpeak(cleanText, 'EN', ttsBtn, origLabel);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+// Translates all key text elements inside a rendered card/bubble in-place
+async function liveTranslate(container, targetLang) {
+  if (targetLang === 'EN' || !container) return;
+  
+  // Selectors for elements that contain plain translatable text
+  const plainTextSelectors = [
+    '.step-card-title', '.step-card-desc', '.step-card-timeline',
+    '.why-text', '.why-label', '.caveat',
+    '.quiz-q', '.quiz-explanation',
+    '.faq-q', '.faq-a',
+    '.milestone-title', '.milestone-sub',
+    '.complete-card h3', '.complete-card p',
+    '.msg-bubble',
+  ];
+  
+  const promises = [];
+  
+  // Translate standard text elements
+  plainTextSelectors.forEach(sel => {
+    container.querySelectorAll(sel).forEach(el => {
+      const txt = el.innerText.trim();
+      if (!txt || txt.length < 2) return;
+      promises.push(
+        translateText(txt, targetLang).then(tr => {
+          if (tr && tr !== txt) el.textContent = tr;
+        }).catch(() => {})
+      );
+    });
+  });
+  
+  // Translate step list items (preserve the number badge)
+  container.querySelectorAll('.steps-list li').forEach(li => {
+    const divs = li.querySelectorAll('div');
+    const textDiv = divs[divs.length - 1]; // last div is the text
+    if (!textDiv) return;
+    const txt = textDiv.innerText.trim();
+    if (!txt) return;
+    promises.push(
+      translateText(txt, targetLang).then(tr => {
+        if (tr && tr !== txt) textDiv.textContent = tr;
+      }).catch(() => {})
+    );
+  });
+  
+  // Translate quiz options but preserve the letter prefix ("A) ", "B) ")
+  container.querySelectorAll('.quiz-opt').forEach(btn => {
+    const txt = btn.innerText.trim();
+    if (!txt || txt.length < 4) return;
+    // Try to detect "A) "-style prefix
+    const prefixMatch = txt.match(/^([A-D][)\.]\s*)/);
+    const prefix = prefixMatch ? prefixMatch[1] : '';
+    const content = txt.substring(prefix.length);
+    if (!content) return;
+    promises.push(
+      translateText(content, targetLang).then(tr => {
+        if (tr && tr !== content) btn.textContent = prefix + tr;
+      }).catch(() => {})
+    );
+  });
+  
+  // Translate the region note (keep the flag/label, translate the note text)
+  container.querySelectorAll('.region-box').forEach(el => {
+    // Only translate text nodes, skip <strong> label
+    const strong = el.querySelector('strong');
+    // Get the text after the <strong> tag
+    const fullText = el.innerText.trim();
+    const labelText = strong ? strong.innerText.trim() : '';
+    const noteText = fullText.replace(labelText, '').trim();
+    if (!noteText) return;
+    promises.push(
+      translateText(noteText, targetLang).then(tr => {
+        if (tr && tr !== noteText && strong) {
+          el.textContent = '';
+          el.appendChild(strong);
+          el.append(' ' + tr);
+        }
+      }).catch(() => {})
+    );
+  });
+  
+  await Promise.all(promises);
+}
+
+function addMsg(role, html, stream=false){
+  const wrap=document.createElement('div');
+  wrap.className=`msg ${role}`;
+  const avatar=document.createElement('div');
+  avatar.className='msg-avatar';
+  avatar.textContent=role==='bot'?'🗳️':'👤';
+  const bubble=document.createElement('div');
+  bubble.className='msg-bubble';
+  
+  if (role === 'bot' && stream && !html.includes('<') && currentLang === 'EN') {
+    // LLM-style text streaming — only for English (stream effect)
+    wrap.appendChild(avatar); wrap.appendChild(bubble);
+    chat().appendChild(wrap);
+    let i = 0;
+    function typeWriter() {
+      if (i < html.length) {
+        bubble.innerHTML += html.charAt(i);
+        i++;
+        scrollBottom();
+        setTimeout(typeWriter, 15);
+      }
+    }
+    typeWriter();
+  } else {
+    bubble.innerHTML = html;
+    wrap.appendChild(avatar); wrap.appendChild(bubble);
+    chat().appendChild(wrap);
+  }
+  
+  // Translate bot bubble text for display (non-English only)
+  if (role === 'bot' && currentLang !== 'EN') {
+    const cleanText = html.replace(/<[^>]*>?/gm, '').trim();
+    translateText(cleanText, currentLang).then(translated => {
+      if (translated && translated !== cleanText) {
+        bubble.textContent = translated;
+        scrollBottom();
+      }
+      // IMPORTANT: call speakText with the ORIGINAL English text.
+      // speakText handles its own translation via the shared cache.
+      // Passing already-translated text causes double-translation and broken audio.
+    }).catch(() => {});
+    // Always speak from the English source — speakText translates internally
+    speakText(html);
+  } else if (role === 'bot') {
+    speakText(html);
+  }
+  
+  scrollBottom();
+  return bubble;
+}
+
+function addElement(el){
+  const wrap=document.createElement('div');
+  wrap.className='msg bot';
+  const avatar=document.createElement('div');
+  avatar.className='msg-avatar';
+  avatar.textContent='🗳️';
+  wrap.appendChild(avatar);
+  wrap.appendChild(el);
+  chat().appendChild(wrap);
+  scrollBottom();
+}
+
+function showTyping(){
+  const t=document.createElement('div');
+  t.className='msg bot';t.id='typing-indicator';
+  t.innerHTML='<div class="msg-avatar">🗳️</div><div class="typing"><span></span><span></span><span></span></div>';
+  chat().appendChild(t);scrollBottom();
+  return t;
+}
+function hideTyping(){const t=document.getElementById('typing-indicator');if(t)t.remove();}
+
+function botReply(fn,delay=600){
+  const t=showTyping();
+  setTimeout(()=>{hideTyping();fn();},delay);
+}
+
+// ── Intent Router ──────────────────────────────────────────────────────────
+const ROUTES=[
+  {keys:['quiz','test me','quiz me','practice question','examine','exam mode']  ,type:'quiz'},
+  {keys:['timeline','full process','overview','all steps','complete guide','whole process','summarize','summary'],type:'overview'},
+  {keys:['restart','start over','beginning','confused','main menu','reset','go back']                        ,type:'restart'},
+  {keys:['eligible','eligibility','can i vote','qualify','am i eligible','age requirement','who can vote']   ,type:'step',id:'PRE_ELIGIBILITY'},
+  {keys:['register','registration','sign up','voter roll','electoral roll','how do i register','voter list'] ,type:'step',id:'PRE_REGISTRATION'},
+  {keys:['voter id','what to bring','what do i need','identification','polling card','what id','documents']  ,type:'step',id:'PRE_VOTER_ID'},
+  {keys:['polling station','where to vote','polling place','booth location','where do i go','find my booth'] ,type:'step',id:'PRE_POLLING_STATION'},
+  {keys:['ballot','candidates','who is running','parties','referendum','understand voting','what is on ballot'],type:'step',id:'PRE_UNDERSTAND_BALLOT'},
+  {keys:['election day','today','arrive','go to vote','voting day','polling day']                            ,type:'step',id:'ED_ARRIVE'},
+  {keys:['check in','sign in','polling officer','verify identity','mark register','when i get there']        ,type:'step',id:'ED_CHECK_IN'},
+  {keys:['cast vote','mark ballot','evm','ballot paper','voting booth','secret ballot','submit vote','press']  ,type:'step',id:'ED_CAST_VOTE'},
+  {keys:['count','counting','tally','how are votes counted','ballot counting']                               ,type:'step',id:'POST_COUNTING'},
+  {keys:['results','winner','who won','declared','outcome','official result','certified']                    ,type:'step',id:'POST_RESULTS'},
+  {keys:['appeal','dispute','recount','challenge','fraud','contest','petition','irregularity']               ,type:'step',id:'POST_APPEALS'},
+  {keys:['civic role','after election','what now','accountable','representative','engage','next steps']      ,type:'step',id:'POST_CIVIC_ROLE'},
+  {keys:['faq','what if','can i','is it','do i need']                                                       ,type:'faq'},
+];
+
+const REGION_SIGNALS={USA:['usa','america','united states','american','us election','electoral college','congress'],UK:['uk','britain','england','british','parliament','westminster','electoral commission','scotland'],India:['india','indian','lok sabha','eci','evm','vvpat','aadhaar','form 6']};
+
+function detectRegion(txt){
+  const t=txt.toLowerCase();
+  for(const[r,sigs]of Object.entries(REGION_SIGNALS))for(const s of sigs)if(t.includes(s))return r;
+  return null;
+}
+
+function routeIntent(msg){
+  const t=msg.toLowerCase().replace(/[^\w\s]/g,' ');
+  const r=detectRegion(t);
+  if(r&&!state.region){state.region=r;}
+  for(const route of ROUTES){
+    for(const k of route.keys){
+      if(t.includes(k))return{type:route.type,id:route.id||null};
+    }
+  }
+  // FAQ scan
+  for(const f of KB.faqs){
+    const words=f.question.toLowerCase().split(' ').filter(w=>w.length>3);
+    if(words.some(w=>t.includes(w)))return{type:'faq_match',faq:f};
+  }
+  return{type:'clarify'};
+}
+
+// ── Renderers ──────────────────────────────────────────────────────────────
+function renderStepCard(nodeId){
+  const node=getNode(nodeId);if(!node)return;
+  state.currentStepId=nodeId;
+  updateTimeline(nodeId);
+  const col=PHASE_COLOR[node.phase];
+  const em=PHASE_EMOJI[node.phase];
+  const stepNum=getStepNumber(nodeId);
+  const regionNote=state.region&&node.region_notes?node.region_notes[state.region]:null;
+  const stepsHtml=node.steps.map((s,i)=>`<li><div class="step-num ${col}">${i+1}</div><div>${s}</div></li>`).join('');
+  const regionHtml=regionNote?`<div class="region-box"><strong>📍 ${state.region} note:</strong> ${regionNote}</div>`:'';
+  const nextLabel=node.next_step_id?getNode(node.next_step_id)?.title:'Finish Guide 🎉';
+  const card=document.createElement('div');
+  card.className='step-card';
+  card.setAttribute('data-tilt', '');
+  card.setAttribute('data-tilt-max', '5');
+  card.setAttribute('data-tilt-speed', '400');
+  card.setAttribute('data-tilt-glare', '');
+  card.setAttribute('data-tilt-max-glare', '0.2');
+  card.innerHTML=`
+    <div class="step-card-header">
+      <div class="step-badge ${col}">${em} ${node.phase.replace('_',' ').toUpperCase()} · STEP ${stepNum}</div>
+      <div class="step-card-title">${node.title}</div>
+      <div class="step-card-timeline">📅 ${node.timeline_marker}</div>
+    </div>
+    <div class="step-card-body">
+      <div class="step-card-desc">${node.description}</div>
+      <ul class="steps-list">${stepsHtml}</ul>
+      <div class="why-box"><div class="why-label">💡 Why this matters</div><div class="why-text">${node.why_it_matters}</div></div>
+      ${regionHtml}
+      <div class="caveat">⚠️ Specific dates and deadlines vary by jurisdiction. Always verify with your local electoral authority.</div>
+    </div>
+    <div class="card-actions">
+      <button class="btn-next" onclick="handleNext('${node.next_step_id||''}')">
+        ${node.next_step_id?'Next: '+nextLabel+' →':'🎉 Complete! View Quiz'}
+      </button>
+      <button class="btn-ask" onclick="focusInput('Ask a question about this step...')">❓ Ask a question</button>
+      <button class="btn-ask" onclick="showTimeline()">🗺️ Full Timeline</button>
+    </div>`;
+  var _al=buildActionLink(nodeId);
+  if(_al){var _bd=card.querySelector('.step-card-body');if(_bd){var _ad=document.createElement('div');_ad.innerHTML=_al;_bd.appendChild(_ad);}}
+  card.innerHTML += buildPhaseDots(nodeId) + buildSuggestions(nodeId);
+  addElement(card);
+  // Live-translate all card text to selected language
+  liveTranslate(card, currentLang);
+  
+  const readableText = `Step ${stepNum}: ${node.title.replace(/^Step \d+: /, '')}. ${node.description}. ${node.steps.join('. ')}. Why this matters: ${node.why_it_matters}`;
+  speakText(readableText);
+  
+  if(!state.completedSteps.includes(nodeId)){state.completedSteps.push(nodeId);checkPhaseMilestone(nodeId);}saveProgress();
+}
+
+function renderOverview(){
+  const card=document.createElement('div');
+  card.className='overview-card';
+  card.setAttribute('data-tilt', '');
+  card.setAttribute('data-tilt-max', '3');
+  card.setAttribute('data-tilt-speed', '400');
+  card.setAttribute('data-tilt-glare', '');
+  card.setAttribute('data-tilt-max-glare', '0.1');
+  const phasesHtml=`
+    <div class="overview-phases">
+      <div class="ov-phase blue" onclick="jumpToPhase('pre_election')">
+        <span class="ov-phase-emoji">🔵</span>
+        <div class="ov-phase-label">Pre-Election</div>
+        <div class="ov-phase-steps">Steps 1–5</div>
+        <div class="ov-phase-summary">Eligibility, registration, ID, and ballot research</div>
+      </div>
+      <div class="ov-phase green" onclick="jumpToPhase('election_day')">
+        <span class="ov-phase-emoji">🟢</span>
+        <div class="ov-phase-label">Election Day</div>
+        <div class="ov-phase-steps">Steps 6–8</div>
+        <div class="ov-phase-summary">Arriving, checking in, and casting your vote</div>
+      </div>
+      <div class="ov-phase amber" onclick="jumpToPhase('post_election')">
+        <span class="ov-phase-emoji">🟡</span>
+        <div class="ov-phase-label">Post-Election</div>
+        <div class="ov-phase-steps">Steps 9–12</div>
+        <div class="ov-phase-summary">Counting, results, disputes, and civic role</div>
+      </div>
+    </div>
+    <div class="ov-step-list">
+      ${ALL_NODES.map((n,i)=>{
+        const c=PHASE_COLOR[n.phase];
+        const done=state.completedSteps.includes(n.id)?'✓ ':'';
+        return `<div class="ov-step-item" onclick="goToStep('${n.id}')">
+          <div class="ov-step-num ${c}">${i+1}</div>
+          <div class="ov-step-title">${done}${n.title.replace(/^Step \d+: /,'')}</div>
+          <div class="ov-step-time">${n.timeline_marker}</div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  card.innerHTML=phasesHtml;
+  addElement(card);
+  speakText("Here is your full election timeline overview. You can click on any step or phase to jump directly to it.");
+  addFloatingIcons(card);
+}
+
+function renderOptions(opts){
+  const row=document.createElement('div');
+  row.className='options-row';
+  opts.forEach(o=>{
+    const b=document.createElement('button');
+    b.className='opt-chip';
+    b.textContent=o.label;
+    b.onclick=()=>handleOptionClick(o);
+    row.appendChild(b);
+  });
+  addElement(row);
+}
+
+function renderQuizQuestion(){
+  const q=state.quizQuestions[state.quizIndex];if(!q)return endQuiz();
+  const pct=Math.round((state.quizIndex/state.quizQuestions.length)*100);
+  const card=document.createElement('div');
+  card.className='quiz-card';
+  card.setAttribute('data-tilt', '');
+  card.setAttribute('data-tilt-max', '5');
+  card.setAttribute('data-tilt-speed', '400');
+  card.setAttribute('data-tilt-glare', '');
+  card.setAttribute('data-tilt-max-glare', '0.2');
+  const optsHtml=q.options.map(o=>`<button class="quiz-opt" onclick="handleQuizAnswer(this,'${o[0]}','${q.id}')">${o}</button>`).join('');
+  card.innerHTML=`
+    <div class="quiz-header">
+      <span>🧠</span><span class="quiz-title">Election Quiz</span>
+      <span class="quiz-progress-text">Q${state.quizIndex+1} of ${state.quizQuestions.length}</span>
+    </div>
+    <div class="quiz-progress-bar-wrap"><div class="quiz-progress-bar" style="width:${pct}%"></div></div>
+    <div class="quiz-body">
+      <div class="quiz-diff ${q.difficulty}">${q.difficulty}</div>
+      <div class="quiz-q">${q.question}</div>
+      <div class="quiz-options">${optsHtml}</div>
+      <div class="quiz-explanation" id="quiz-exp-${q.id}">${q.explanation}</div>
+    </div>
+    <div class="quiz-footer" id="quiz-next-${q.id}" style="display:none">
+      <button class="btn-next" onclick="nextQuizQuestion()">${state.quizIndex+1<state.quizQuestions.length?'Next Question →':'See Results 🏆'}</button>
+    </div>`;
+  addElement(card);
+  addFloatingIcons(card);
+  liveTranslate(card, currentLang);
+  speakText(`Question ${state.quizIndex+1}. ${q.question} The options are: ${q.options.map(o => o.substring(3)).join(', ')}.`);
+}
+
+function handleQuizAnswer(btn,selected,qid){
+  const q=state.quizQuestions.find(x=>x.id===qid);if(!q)return;
+  const parent=btn.closest('.quiz-options');
+  parent.querySelectorAll('.quiz-opt').forEach(b=>{
+    b.disabled=true;
+    if(b.textContent.trim().startsWith(q.correct))b.classList.add('correct');
+    else if(b===btn&&selected!==q.correct)b.classList.add('wrong');
+  });
+  const correct=selected===q.correct;
+  state.quizAnswers.push({qid,correct});
+  const expEl=document.getElementById(`quiz-exp-${qid}`);
+  if(expEl)expEl.classList.add('show');
+  const nextBtn=document.getElementById(`quiz-next-${qid}`);
+  if(nextBtn)nextBtn.style.display='flex';
+  if(correct)addMsg('bot','🎉 Correct! Well done!');
+  else addMsg('bot',`❌ Not quite. The correct answer is <strong>${q.correct}</strong>. ${q.explanation}`);
+}
+
+function nextQuizQuestion(){
+  state.quizIndex++;
+  if(state.quizIndex>=state.quizQuestions.length)endQuiz();
+  else botReply(()=>renderQuizQuestion(),300);
+}
+
+function endQuiz(){
+  const correct=state.quizAnswers.filter(a=>a.correct).length;
+  const total=state.quizAnswers.length;
+  const pct=Math.round((correct/total)*100);
+  let grade,msg;
+  if(pct>=90){grade='🏆 Expert Voter';msg='Outstanding! You clearly understand the election process.';}
+  else if(pct>=70){grade='✅ Civic Citizen';msg='Great job! You have a solid understanding of how elections work.';}
+  else if(pct>=50){grade='📚 Learning Voter';msg="Good effort! There's more to learn — try reviewing the guide and quiz again.";}
+  else{grade='🌱 Keep Going!';msg='Keep going! Take your time with the guide — every voter starts somewhere. 💪';}
+  const card=document.createElement('div');
+  card.className='quiz-card';
+  card.innerHTML=`
+    <div class="quiz-header"><span>🏆</span><span class="quiz-title">Quiz Complete!</span></div>
+    <div class="quiz-result">
+      <div class="quiz-score">${correct}/${total}</div>
+      <div class="quiz-grade">${grade}</div>
+      <div class="quiz-msg">${msg}</div>
+      <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+        <button class="btn-next" onclick="startQuiz()">🔄 Retry Quiz</button>
+        <button class="btn-ask" onclick="restartGuide()">↺ Back to Guide</button>
+      </div>
+    </div>`;
+  addElement(card);
+  liveTranslate(card, currentLang);
+  speakText(`Quiz complete. You scored ${correct} out of ${total}. ${grade}. ${msg}`);
+  state.mode='chat';
+}
+
+// ── Action handlers ────────────────────────────────────────────────────────
+function handleNext(nextId){
+  if(!nextId){startQuiz();return;}
+  botReply(()=>renderStepCard(nextId),400);
+}
+
+function goToStep(id){botReply(()=>renderStepCard(id),300);}
+
+function jumpToPhase(phase){
+  const first=ALL_NODES.find(n=>n.phase===phase);
+  if(first)botReply(()=>renderStepCard(first.id),300);
+}
+
+function showTimeline(){
+  botReply(()=>{
+    addMsg('bot','<strong>🗺️ Complete Election Timeline</strong><br>Here is your full journey — click any step to jump to it:');
+    renderOverview();
+  },300);
+}
+
+function startQuiz(){
+  state.mode='quiz';
+  state.quizQuestions=[...QUIZ].sort(()=>Math.random()-.5).slice(0,5);
+  state.quizIndex=0;
+  state.quizAnswers=[];
+  botReply(()=>{
+    addMsg('bot','🧠 <strong>Election Knowledge Quiz</strong><br>5 questions to test your understanding. No pressure — this is all about learning!');
+    renderQuizQuestion();
+  },400);
+}
+
+function restartGuide(){
+  state={currentStepId:null,completedSteps:[],region:state.region,experienceLevel:null,milestonesShown:[],mode:'chat',quizQuestions:[],quizIndex:0,quizAnswers:[],unknownCount:0};
+  document.getElementById('step-num').textContent='—';
+  document.querySelectorAll('.tl-phase').forEach(el=>el.classList.remove('active'));
+  document.getElementById('tl-con1').classList.remove('done');
+  document.getElementById('tl-con2').classList.remove('done');
+  clearProgress();chat().innerHTML='';showWelcome();
+}
+
+function focusInput(placeholder){
+  const inp=document.getElementById('user-input');
+  inp.placeholder=placeholder;inp.focus();
+}
+
+function handleOptionClick(opt){
+  if(opt.action==='first_time'){state.experienceLevel='first_time';addMsg('user','🗳️ I\'m a first-time voter');botReply(()=>{addMsg('bot','Welcome! I\'m so glad you\'re here. Let\'s walk through everything step by step — no rush at all. 😊<br><br>We\'ll start right from the beginning:');renderStepCard('PRE_ELIGIBILITY');},500);}
+  else if(opt.action==='quick'){state.experienceLevel='returning';addMsg('user','⚡ Quick overview please');botReply(()=>{addMsg('bot','Got it! Here\'s your complete election roadmap at a glance:');renderOverview();},400);}
+  else if(opt.action==='quiz'){addMsg('user','🧠 Quiz me!');startQuiz();}
+  else if(opt.action==='region'){/* handled by select */}
+  else if(opt.step){addMsg('user',opt.label);botReply(()=>renderStepCard(opt.step),400);}
+  else if(opt.type==='overview'){addMsg('user',opt.label);botReply(()=>{addMsg('bot','Here\'s your complete election roadmap:');renderOverview();},400);}
+}
+
+// ── Welcome screen ─────────────────────────────────────────────────────────
+function showWelcome(){
+  const card=document.createElement('div');
+  card.className='welcome-card';
+  card.setAttribute('data-tilt', '');
+  card.setAttribute('data-tilt-max', '4');
+  card.setAttribute('data-tilt-speed', '400');
+  card.setAttribute('data-tilt-glare', '');
+  card.setAttribute('data-tilt-max-glare', '0.15');
+  card.innerHTML=`
+    <div class="welcome-icon">🗳️</div>
+    <h2>Your Election Guide</h2>
+    <p>I'll walk you through the complete election process — from checking your eligibility all the way to understanding results. Simple, clear, and step by step.</p>
+    <div class="entry-modes">
+      <button class="entry-btn" onclick="handleOptionClick({action:'first_time'})">
+        <span class="btn-icon">🌱</span>
+        <span class="btn-title">First-Time Voter</span>
+        <span class="btn-desc">Full guided walkthrough</span>
+      </button>
+      <button class="entry-btn" onclick="handleOptionClick({action:'quick'})">
+        <span class="btn-icon">⚡</span>
+        <span class="btn-title">Quick Overview</span>
+        <span class="btn-desc">See the full timeline</span>
+      </button>
+      <button class="entry-btn" onclick="handleOptionClick({action:'quiz'})">
+        <span class="btn-icon">🧠</span>
+        <span class="btn-title">Test My Knowledge</span>
+        <span class="btn-desc">5-question quiz</span>
+      </button>
+    </div>
+
+      <div class="region-select-row">
+        <span>🌍 Your region:</span>
+        <select class="region-picker" id="region-picker" onchange="setRegion(this.value)">
+          <option value="">General (all countries)</option>
+          <option value="USA">🇺🇸 United States</option>
+          <option value="UK">🇬🇧 United Kingdom</option>
+          <option value="India">🇮🇳 India</option>
+        </select>
+      </div>`;
+    addElement(card);
+    addFloatingIcons(card);
+    liveTranslate(card, currentLang);
+    
+    // Apply Magic Onboarding
+    const detected = autoDetectRegion();
+    if(detected) {
+        document.getElementById('region-picker').value = detected;
+        setRegion(detected);
+    }
+
+}
+
+function setRegion(val){state.region=val||null;}
+
+// ── Main send handler ──────────────────────────────────────────────────────
+
+const SUGGESTION_ANSWERS = {
+  // ── Pre-Election: Eligibility ──
+  "How do I register?": "You can register online via your national or state election portal, by mail, or in person at a local government office. You will typically need a proof of identity and your current address. In the <strong>USA</strong>, visit vote.gov. In the <strong>UK</strong>, visit gov.uk/register-to-vote. In <strong>India</strong>, register at voters.eci.gov.in.",
+  "What ID do I need?": "<strong>USA:</strong> Photo ID requirements vary by state — check your state's election website. <strong>UK:</strong> A passport, driving licence, or free Voter Authority Certificate is required. <strong>India:</strong> The EPIC (Voter ID Card) is the primary document; Aadhaar, PAN card, or passport are also accepted alternatives.",
+
+  // ── Pre-Election: Registration ──
+  "What if I miss the deadline?": "Missing the voter registration deadline typically means you cannot vote in that election cycle. The best step is to register immediately for the next election. Some states in the USA offer same-day registration at the polling booth — check your local rules at vote.gov.",
+  "Find my polling station": "To find your polling station, visit your local electoral authority's official website and enter your registered home address. In the <strong>USA</strong>: vote.gov/find-your-polling-place. In the <strong>UK</strong>: your polling station address is printed on your polling card. In <strong>India</strong>: check your Voter Information Slip or search at voters.eci.gov.in.",
+
+  // ── Pre-Election: Voter ID ──
+  "Understand my ballot": "Your ballot lists the candidates running in your constituency. Research them before Election Day using official campaign websites and your local election authority's voter guide. Understand your voting system: in the <strong>USA</strong> and <strong>India</strong> it is typically First-Past-The-Post; the <strong>UK</strong> uses the same for General Elections. In India, you will see party symbols next to candidate names on the EVM.",
+  "What to bring on Election Day?": "<strong>Must bring:</strong> A valid, accepted photo ID (rules vary by country). <strong>Recommended:</strong> Your voter registration card or polling card, as this speeds up the check-in process. <strong>Do not bring:</strong> Campaign materials — electioneering near polling stations is prohibited.",
+
+  // ── Pre-Election: Polling Station ──
+  "What happens on Election Day?": "On Election Day, you travel to your assigned polling station. Poll workers will verify your identity against the electoral register, mark that you have arrived, and issue you an official ballot. You then enter a private booth to cast your vote. The entire process typically takes under 10 minutes.",
+  "Can I vote early?": "<strong>USA:</strong> Most states offer early in-person voting 1–2 weeks before Election Day. Absentee and mail-in voting are also widely available. <strong>UK:</strong> Proxy voting and postal voting are available — apply to your local council. <strong>India:</strong> Postal ballots are available for specific categories (e.g. government employees on duty). Check with the ECI for eligibility.",
+
+  // ── Pre-Election: Understand Ballot ──
+  "What do I do at the polling station?": "1. Join the queue calmly. 2. Present your required ID at the check-in desk. 3. The poll worker will verify your registration and cross your name off the register. 4. You will receive your ballot paper or be directed to a voting machine. 5. Enter the private booth and mark your vote. 6. Submit your ballot in the box or confirm it on the machine. You are done!",
+
+  // ── Election Day: Arrive ──
+  "What happens when I check in?": "At the check-in desk, a poll worker will ask your name and may ask for your ID. They search the electoral register, confirm you are eligible, mark your attendance, and hand you your ballot paper or direct you to the next available voting machine or booth.",
+  "How do I actually vote?": "<strong>Paper ballot (UK/USA):</strong> Enter the private booth and mark your choice clearly — usually a single 'X' in the box next to your chosen candidate. Fold the paper and place it in the sealed ballot box. <strong>EVM (India):</strong> Press the blue button next to your chosen candidate's name. A short beep confirms your vote. The VVPAT machine will show a printed slip for 7 seconds as verification.",
+  "Is my vote secret?": "Yes — completely. The secret ballot is a cornerstone of democratic elections worldwide. Ballot papers do not contain your name. Once cast, no one — not poll workers, not candidates, not the government — can determine how you personally voted.",
+
+  // ── Election Day: Check In ──
+  "How do I cast my vote?": "In a private voting booth, mark your ballot clearly according to the on-screen or printed instructions. For paper ballots: fold and deposit in the sealed ballot box. For EVMs: press the button for your candidate and wait for the confirmation beep. Do not photograph your ballot — this is illegal in most countries.",
+  "What if I make a mistake on my ballot?": "<strong>Before submitting:</strong> If you mark the wrong candidate or make an error, immediately alert a poll worker. They will cancel ('spoil') your ballot and issue you a fresh one. <strong>After submitting:</strong> Once a paper ballot is in the box, or a vote is confirmed on an EVM, it cannot be retrieved or changed. Check carefully before submitting.",
+  "Is my vote really secret?": "Yes. The entire voting process is architecturally designed to separate your identity from your ballot choice. Each ballot has a unique serial number, but this is used only to detect irregularities in the batch — not to trace your individual vote. Your privacy is legally protected.",
+
+  // ── Election Day: Cast Vote ──
+  "How are votes counted?": "After polls close, all ballot boxes and EVM machines are sealed and transported to official counting centres under police escort. Counting happens in the presence of candidates' agents and independent observers. Every ballot is examined and recorded. Results are announced only after all counts are verified.",
+  "When will results be announced?": "<strong>UK:</strong> Most results are announced overnight, hours after polls close. <strong>USA:</strong> Preliminary results come election night, but certified results take days to weeks due to mail-in ballot processing. <strong>India:</strong> Counting happens on a dedicated counting day, typically 1–2 weeks after the last phase of polling.",
+  "What happens after I vote?": "Your civic duty is complete! Here's what happens next: polls close, ballot boxes are sealed and transported, votes are counted under official supervision, and results are announced. After results, the winning candidate takes office. Your participation made democracy work.",
+
+  // ── Post-Election: Counting ──
+  "When are results declared?": "Results are officially declared by the Returning Officer only after all valid votes are counted, invalid votes are set aside, and tallies are cross-checked and verified. In India, this is the Returning Officer's announcement on counting day. In the UK and USA, official certification follows the preliminary announcement.",
+  "What if there's a dispute?": "Any candidate or party can formally challenge results through legal channels. This typically involves filing an Election Petition in court within a strict deadline (usually 21–45 days of the result). Grounds for a challenge must be specific — such as proven ballot tampering, corruption, or procedural violations. Unsubstantiated claims are typically dismissed.",
+  "How can I verify my vote?": "While ballot secrecy prevents you from tracking your individual vote choice, many countries offer ways to verify participation: the <strong>USA</strong> allows tracking of mail-in/absentee ballot receipt and counting via state portals; <strong>India's</strong> VVPAT system lets you visually verify your EVM vote for 7 seconds; the <strong>UK</strong> has the unique ballot number system for investigations, though not personal voter lookup.",
+
+  // ── Post-Election: Results ──
+  "Can results be challenged?": "Yes. Legal challenges must be filed within strict deadlines (21 days in the UK, 45 days in India, varies by state in the USA). Courts require substantial evidence of fraud or procedural violations. Recounts may also be triggered automatically if margins are extremely narrow (e.g., within 0.5% in some US states).",
+  "What happens after the winner is announced?": "The election authority officially notifies the winner, who is then formally sworn into office. In <strong>India</strong>, the President invites the party leader to form a government. In the <strong>UK</strong>, the monarch asks the leader with a Commons majority to be Prime Minister. In the <strong>USA</strong>, Inauguration Day is January 20th following the November election.",
+
+  // ── Post-Election: Appeals ──
+  "What is my role after the election?": "Democracy doesn't end on Election Day! Your ongoing role includes: tracking whether your elected representative keeps their promises; attending local council or town hall meetings; using Right to Information (RTI) laws to request government transparency; participating in civic groups; and staying registered for the next election when you move home.",
+  "How do I contact my representative?": "<strong>India:</strong> Find your MP's contact via loksabha.nic.in. Use the RTI Act to formally request information. <strong>UK:</strong> Write to your MP via writetothem.com. Find local councillors via your council's website. <strong>USA:</strong> Contact your Senator or Representative via congress.gov. Phone, email, and letters are all effective."
+};
+
+function handleSend(){
+  const inp=document.getElementById('user-input');
+  const msg=inp.value.trim();if(!msg)return;
+  inp.value='';inp.style.height='auto';
+  addMsg('user',msg);
+  // Smart answer check first
+
+  // Handle action suggestion chips (they trigger features, not text answers)
+  const ACTION_CHIPS = {
+    'Quiz me': () => botReply(() => startQuiz(), 400),
+    'Take the quiz': () => botReply(() => startQuiz(), 400),
+    'Quick overview': () => botReply(() => { addMsg('bot', "Here's the complete election timeline:", true); renderOverview(); }, 400),
+    'Start the guide again': () => botReply(() => restartGuide(), 400),
+    'Download my checklist': () => botReply(() => showChecklist(), 400),
+  };
+  if (ACTION_CHIPS[msg]) { ACTION_CHIPS[msg](); return; }
+
+  // Check SUGGESTION_ANSWERS first (direct Q&A)
+  if (SUGGESTION_ANSWERS[msg]) {
+    botReply(()=>{
+      addMsg('bot', SUGGESTION_ANSWERS[msg], true);
+      saveProgress();
+    }, 400);
+    return;
+  }
+
+  const smart=smartAnswer(msg);
+if(smart){
+  botReply(()=>{
+    addMsg('bot',smart.answer.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>'), true);
+    if(smart.step){
+      const opts=document.createElement('div');
+      opts.className='options-row';
+      const b=document.createElement('button');
+      b.className='opt-chip';b.textContent='📖 Show me the full step →';
+      b.onclick=()=>{addMsg('user','Show me the full step');botReply(()=>renderStepCard(smart.step),300);};
+      opts.appendChild(b);addElement(opts);
+    }
+    saveProgress();
+  },500);
+  return;
+}
+const route=routeIntent(msg);
+  state.unknownCount=route.type==='clarify'?state.unknownCount+1:0;
+
+  botReply(()=>{
+    if(route.type==='step')renderStepCard(route.id);
+    else if(route.type==='overview'){addMsg('bot','Here\'s the complete election timeline:', true);renderOverview();}
+    else if(route.type==='quiz')startQuiz();
+    else if(route.type==='restart')restartGuide();
+    else if(route.type==='faq'||route.type==='faq_match'){
+      const f=route.faq||KB.faqs[0];
+      const card=document.createElement('div');
+      card.className='faq-card';
+      card.innerHTML=`<div class="faq-q">❓ ${f.question}</div><div class="faq-a">${f.answer}</div>`;
+      addElement(card);
+      liveTranslate(card, currentLang);
+      renderOptions([{label:'Continue the guide',step:state.currentStepId||'PRE_ELIGIBILITY'},{label:'🗺️ Full Timeline',type:'overview'},{label:'🧠 Quiz Me',action:'quiz'}]);
+    }
+    else{
+      // clarify
+      addMsg('bot',`I want to make sure I give you the right answer! What are you looking for?${state.unknownCount>=2?'<br><br>Or would you like to <strong>start over from the beginning?</strong>':''}`, true);
+      renderOptions([
+        {label:'📋 Registration',step:'PRE_REGISTRATION'},
+        {label:'🗳️ Voting Process',step:'ED_CAST_VOTE'},
+        {label:'📊 Results & Counting',step:'POST_COUNTING'},
+        {label:'🗺️ Full Timeline',type:'overview'},
+        {label:'🧠 Quiz Mode',action:'quiz'},
+        ...(state.unknownCount>=2?[{label:'↺ Start Over',action:'restart'}]:[])
+      ]);
+    }
+  },600);
+}
+
+// ── Input auto-resize ──────────────────────────────────────────────────────
+document.getElementById('user-input').addEventListener('input',function(){
+  this.style.height='auto';
+  this.style.height=Math.min(this.scrollHeight,120)+'px';
+});
+document.getElementById('user-input').addEventListener('keydown',function(e){
+  if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();handleSend();}
+});
+
+
+// ── UPGRADE PATCH: Enhanced JS Features ──────────────────────────────────────
+
+// ── Confetti Engine ────────────────────────────────────────────────────────
+function launchConfetti(duration=2500){
+  const canvas=document.getElementById('confetti-canvas');
+  canvas.style.display='block';
+  const ctx=canvas.getContext('2d');
+  canvas.width=window.innerWidth;canvas.height=window.innerHeight;
+  const colors=['#3b82f6','#10b981','#f59e0b','#6366f1','#ec4899','#34d399','#60a5fa'];
+  const pieces=[];
+  for(let i=0;i<120;i++){
+    pieces.push({
+      x:Math.random()*canvas.width,y:Math.random()*canvas.height-canvas.height,
+      r:Math.random()*6+3,color:colors[Math.floor(Math.random()*colors.length)],
+      vy:Math.random()*3+2,vx:(Math.random()-.5)*2,rot:Math.random()*360,rotV:(Math.random()-.5)*5
+    });
+  }
+  const start=Date.now();
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    pieces.forEach(p=>{
+      ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.rot*Math.PI/180);
+      ctx.fillStyle=p.color;ctx.fillRect(-p.r/2,-p.r/2,p.r,p.r*2);
+      ctx.restore();
+      p.y+=p.vy;p.x+=p.vx;p.rot+=p.rotV;
+      if(p.y>canvas.height){p.y=-10;p.x=Math.random()*canvas.width;}
+    });
+    if(Date.now()-start<duration)requestAnimationFrame(draw);
+    else{ctx.clearRect(0,0,canvas.width,canvas.height);canvas.style.display='none';}
+  }
+  draw();
+}
+
+// ── Phase Milestone Detection ───────────────────────────────────────────────
+const PHASE_LAST={pre_election:'PRE_UNDERSTAND_BALLOT',election_day:'ED_CAST_VOTE',post_election:'POST_CIVIC_ROLE'};
+const PHASE_LABELS={pre_election:'Pre-Election Complete!',election_day:'Election Day Done!',post_election:'Full Guide Complete!'};
+const PHASE_SUBS={pre_election:"You're fully prepared before Election Day. Next up: Election Day steps.",election_day:"You've cast your vote! Now let's understand what happens next.",post_election:"You've completed the entire election guide. You're a fully informed voter! 🗳️"};
+
+function checkPhaseMilestone(nodeId){
+  for(const[phase,lastId]of Object.entries(PHASE_LAST)){
+    if(nodeId===lastId&&!state.milestonesShown.includes(phase)){
+      state.milestonesShown.push(phase);
+      const isLast=phase==='post_election';
+      setTimeout(()=>{
+        if(isLast){launchConfetti(4000);renderCompleteCard();}
+        else{launchConfetti(2000);renderMilestoneCard(phase);}
+      },500);
+    }
+  }
+}
+
+function renderMilestoneCard(phase){
+  const card=document.createElement('div');
+  card.className='milestone-card';
+  const em=phase==='pre_election'?'🔵✅':'🟢✅';
+  card.innerHTML=`
+    <div class="milestone-emoji">${em}</div>
+    <div class="milestone-title">${PHASE_LABELS[phase]}</div>
+    <div class="milestone-sub">${PHASE_SUBS[phase]}</div>
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <button class="btn-next" onclick="jumpToPhase('${phase==='pre_election'?'election_day':'post_election'}')">
+        Continue to ${phase==='pre_election'?'🟢 Election Day':'🟡 Post-Election'} →
+      </button>
+      <button class="btn-ask" onclick="showChecklist()">📋 My Checklist</button>
+    </div>`;
+  addElement(card);
+  addFloatingIcons(card);
+  liveTranslate(card, currentLang);
+  speakText(`${PHASE_LABELS[phase]} ${PHASE_SUBS[phase]}`);
+}
+
+function renderCompleteCard(){
+  const total=ALL_NODES.length;
+  const card=document.createElement('div');
+  card.className='complete-card';
+  card.innerHTML=`
+    <div style="font-size:2.5rem;margin-bottom:10px">🎉🗳️🎉</div>
+    <h3>You've Completed the Full Election Guide!</h3>
+    <p>You now understand the complete election journey — from eligibility to your ongoing civic role. Democracy is stronger because of informed voters like you.</p>
+    <div class="complete-stats">
+      <div class="stat-box"><div class="stat-num">${total}</div><div class="stat-label">Steps Completed</div></div>
+      <div class="stat-box"><div class="stat-num">3</div><div class="stat-label">Phases Mastered</div></div>
+      <div class="stat-box"><div class="stat-num">🌍</div><div class="stat-label">Ready to Vote</div></div>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <button class="btn-next" onclick="startQuiz()">🧠 Test Your Knowledge</button>
+      <button class="btn-ask" onclick="showChecklist()">📋 Download Checklist</button>
+      <button class="btn-ask" onclick="restartGuide()">↺ Start Over</button>
+    </div>`;
+  addElement(card);
+  addFloatingIcons(card);
+  liveTranslate(card, currentLang);
+  speakText(`Congratulations! You have completed the full election guide. You've mastered 3 phases and ${total} steps.`);
+}
+
+// ── Phase Progress Dots ─────────────────────────────────────────────────────
+function buildPhaseDots(currentNodeId){
+  const node=getNode(currentNodeId);if(!node)return '';
+  const phaseNodes=ALL_NODES.filter(n=>n.phase===node.phase);
+  const dots=phaseNodes.map(n=>{
+    if(state.completedSteps.includes(n.id))return '<div class="prog-dot done"></div>';
+    if(n.id===currentNodeId)return '<div class="prog-dot current"></div>';
+    return '<div class="prog-dot"></div>';
+  }).join('');
+  const done=phaseNodes.filter(n=>state.completedSteps.includes(n.id)).length;
+  return `<div class="phase-progress"><span class="phase-prog-label">${done}/${phaseNodes.length} in this phase</span><div class="phase-prog-dots">${dots}</div></div>`;
+}
+
+// ── Contextual Suggestions Per Step ────────────────────────────────────────
+const STEP_SUGGESTIONS={
+  PRE_ELIGIBILITY:["How do I register?","What ID do I need?","Quick overview"],
+  PRE_REGISTRATION:["What ID do I need?","Find my polling station","What if I miss the deadline?"],
+  PRE_VOTER_ID:["Find my polling station","Understand my ballot","What to bring on Election Day?"],
+  PRE_POLLING_STATION:["Understand my ballot","What happens on Election Day?","Can I vote early?"],
+  PRE_UNDERSTAND_BALLOT:["What happens on Election Day?","What do I do at the polling station?","Quiz me"],
+  ED_ARRIVE:["What happens when I check in?","How do I actually vote?","Is my vote secret?"],
+  ED_CHECK_IN:["How do I cast my vote?","What if I make a mistake on my ballot?","Is my vote really secret?"],
+  ED_CAST_VOTE:["How are votes counted?","When will results be announced?","What happens after I vote?"],
+  POST_COUNTING:["When are results declared?","What if there's a dispute?","How can I verify my vote?"],
+  POST_RESULTS:["Can results be challenged?","What happens after the winner is announced?","Quiz me"],
+  POST_APPEALS:["What is my role after the election?","How do I contact my representative?","Quiz me"],
+  POST_CIVIC_ROLE:["Take the quiz","Start the guide again","Download my checklist"],
+};
+
+function buildSuggestions(nodeId){
+  const sugs=STEP_SUGGESTIONS[nodeId]||[];
+  if(!sugs.length)return '';
+  const chips=sugs.map(s=>`<button class="sug-chip" onclick="handleSuggestion('${s.replace(/'/g,"\\'")}')"> ${s}</button>`).join('');
+  return `<div class="suggestion-row"><div class="suggestion-label">💬 You might also want to know</div>${chips}</div>`;
+}
+
+function handleSuggestion(text){
+  document.getElementById('user-input').value=text;
+  handleSend();
+}
+
+// ── Checklist Modal ─────────────────────────────────────────────────────────
+function showChecklist(){
+  const modal=document.getElementById('checklist-modal');
+  const body=document.getElementById('checklist-body');
+  const phases=[
+    {phase:'pre_election',label:'🔵 Pre-Election',cls:'blue'},
+    {phase:'election_day',label:'🟢 Election Day',cls:'green'},
+    {phase:'post_election',label:'🟡 Post-Election',cls:'amber'},
+  ];
+  let html='';
+  phases.forEach(({phase,label,cls})=>{
+    const nodes=ALL_NODES.filter(n=>n.phase===phase);
+    const items=nodes.map(n=>{
+      const done=state.completedSteps.includes(n.id);
+      const checkHtml=done?'<div class="cl-check done">✓</div>':'<div class="cl-check"></div>';
+      return `<div class="cl-item">${checkHtml}<div>${n.title.replace(/^Step \d+: /,'')}</div></div>`;
+    }).join('');
+    html+=`<div class="cl-phase"><div class="cl-phase-title ${cls}">${label}</div>${items}</div>`;
+  });
+  body.innerHTML=html;
+  modal.classList.add('show');
+}
+
+function closeChecklist(){document.getElementById('checklist-modal').classList.remove('show');}
+
+function printChecklist(){
+  const body=document.getElementById('checklist-body').innerHTML;
+  const region=state.region?` — ${state.region}`:'';
+  const win=window.open('','_blank');
+  win.document.write(`<!DOCTYPE html><html><head><title>My Voter Checklist${region}</title>
+  <style>
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f8fafc;
+  --surface:#ffffff;
+  --surface2:#f1f5f9;
+  --border:#cbd5e1;
+  --border-strong:#94a3b8;
+  --navy:#0f172a;
+  --navy-light:#1e3a8a;
+  --red:#dc2626;
+  --red-light:#ef4444;
+  --red-bg:rgba(220,38,38,.08);
+  --blue:#2563eb;
+  --blue-light:#3b82f6;
+  --blue-bg:rgba(37,99,235,.08);
+  --green:#059669;
+  --green-light:#10b981;
+  --green-bg:rgba(5,150,105,.08);
+  --amber:#d97706;
+  --amber-light:#f59e0b;
+  --amber-bg:rgba(217,119,6,.08);
+  --text:#0f172a;
+  --text2:#334155;
+  --text3:#64748b;
+  --radius:6px;
+  --radius-sm:4px;
+  --shadow:4px 4px 0px rgba(15,23,42,0.08);
+}
+html,body{height:100%;font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+body{display:flex;flex-direction:column;min-height:100vh;overflow-x:hidden; background: transparent; color:var(--text);line-height:1.6}
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: -1;
+  background: linear-gradient(-45deg, #e0c3fc, #8ec5fc, #fdfbfb, #e0c3fc);
+  background-size: 400% 400%; animation: glassBG 15s ease infinite;
+}
+@keyframes glassBG { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+
+
+h1, h2, h3, .step-card-title, .welcome-card h2, .logo { font-family: 'Merriweather', serif; }
+
+/* ── HEADER ── */
+header{
+  background:rgba(15,23,42,0.9);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(255,255,255,0.1);
+  padding:0 20px;
+  position:sticky;top:0;z-index:100;
+  box-shadow:0 8px 32px rgba(0,0,0,0.2);
+}
+.header-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-size:1.4rem;font-weight:900;color:#fff;letter-spacing:-.5px}
+.logo-icon{width:36px;height:36px;background:var(--red);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-size:1.2rem;border:2px solid #fff}
+.logo span{color:#fff}
+.logo em{color:#94a3b8;font-style:italic;font-weight:400;font-size:.9rem;margin-left:8px;font-family:'Inter',sans-serif}
+.header-actions{display:flex;gap:8px}
+.btn-ghost{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:7px 14px;border-radius:var(--radius-sm);font-size:.8rem;cursor:pointer;transition:all .2s;font-family:inherit;font-weight:500}
+.btn-ghost:hover{background:rgba(255,255,255,0.2);border-color:#fff;}
+.btn-restart{background:var(--red);border:1px solid #b91c1c;color:#fff;padding:7px 16px;border-radius:var(--radius-sm);font-size:.82rem;cursor:pointer;transition:all .2s;font-family:inherit;font-weight:600;box-shadow:2px 2px 0px rgba(0,0,0,0.2)}
+.btn-restart:hover{transform:translate(1px,1px);box-shadow:1px 1px 0px rgba(0,0,0,0.2)}
+
+/* ── TIMELINE STRIP ── */
+#timeline-strip{background:rgba(255,255,255,0.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,0.5);padding:12px 20px;box-shadow:0 4px 12px rgba(0,0,0,0.05)}
+.tl-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:0}
+.tl-phase{display:flex;align-items:center;gap:8px;flex:1;cursor:pointer;padding:8px 12px;border-radius:var(--radius-sm);transition:background .2s;border:1px solid transparent}
+.tl-phase:hover{background:var(--surface2);border-color:var(--border)}
+.tl-dot{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;border:2px solid var(--border-strong);transition:all .3s;flex-shrink:0;background:#fff;color:var(--text3);font-weight:bold}
+.tl-phase.active .tl-dot{transform:scale(1.15);border-color:var(--navy);color:var(--navy)}
+.tl-phase.active.blue .tl-dot{background:var(--blue);border-color:var(--blue);color:#fff;}
+.tl-phase.active.green .tl-dot{background:var(--green);border-color:var(--green);color:#fff;}
+.tl-phase.active.amber .tl-dot{background:var(--amber);border-color:var(--amber);color:#fff;}
+.tl-info{min-width:0}
+.tl-label{font-size:.78rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--text2)}
+.tl-phase.active .tl-label{color:var(--navy)}
+.tl-sub{font-size:.7rem;color:var(--text3)}
+.tl-connector{flex:0 0 40px;height:2px;background:var(--border);position:relative}
+.tl-connector.done{background:var(--navy-light)}
+.step-counter{margin-left:auto;font-size:.78rem;color:var(--text3);white-space:nowrap;padding-left:12px;font-family:'Merriweather',serif}
+.step-counter strong{color:var(--navy);font-weight:900}
+
+/* ── MAIN LAYOUT ── */
+main{flex:1;display:flex;flex-direction:column;max-width:900px;width:100%;margin:0 auto;padding:20px}
+#chat{flex:1;display:flex;flex-direction:column;gap:16px;overflow-y:auto;padding-bottom:8px;min-height:300px}
+@keyframes slideIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.msg{display:flex;gap:10px;animation:slideIn .3s ease}
+.msg.user{flex-direction:row-reverse}
+.msg-avatar{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0;margin-top:2px;border:2px solid var(--border-strong)}
+.msg.bot .msg-avatar{background:var(--navy);color:#fff;border-color:var(--navy)}
+.msg.user .msg-avatar{background:#fff;color:var(--navy)}
+.msg-bubble{max-width:78%;background:rgba(255,255,255,0.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.6);border-radius:12px;border-bottom-left-radius:2px;padding:14px 16px;font-size:.9rem;line-height:1.65;box-shadow:0 4px 12px rgba(0,0,0,0.05)}
+.msg.user .msg-bubble{background:rgba(37,99,235,0.1);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(37,99,235,0.2);border-radius:12px;border-bottom-right-radius:2px;box-shadow:0 4px 12px rgba(37,99,235,0.1)}
+.msg-bubble p+p{margin-top:8px}
+
+/* ── STEP CARD (Ballot Style) ── */
+.step-card{background:rgba(255,255,255,0.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.6);border-radius:var(--radius);overflow:hidden;max-width:78%;box-shadow:0 8px 32px 0 rgba(31,38,135,0.15);position:relative;transition:transform 0.3s ease}
+.step-card-header{padding:16px 20px 12px;border-bottom:1px solid rgba(255,255,255,0.3);background:transparent}
+.step-badge{display:inline-flex;align-items:center;gap:5px;font-size:.7rem;font-weight:800;letter-spacing:.5px;text-transform:uppercase;padding:4px 10px;border-radius:4px;margin-bottom:10px;border:1px solid}
+.step-badge.blue{background:var(--blue-bg);color:var(--blue);border-color:var(--blue)}
+.step-badge.green{background:var(--green-bg);color:var(--green);border-color:var(--green)}
+.step-badge.amber{background:var(--amber-bg);color:var(--amber);border-color:var(--amber)}
+.step-card-title{font-size:1.15rem;font-weight:900;color:var(--navy)}
+.step-card-timeline{font-size:.75rem;color:var(--text3);margin-top:4px;font-weight:600}
+.step-card-body{padding:16px 20px;background:transparent}
+.step-card-desc{font-size:.9rem;color:var(--text2);margin-bottom:14px;font-weight:500}
+.steps-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:16px}
+.steps-list li{display:flex;gap:12px;align-items:flex-start;font-size:.88rem;color:var(--navy);font-weight:500}
+.step-num{width:26px;height:26px;border-radius:50%;background:#fff;border:2px solid var(--navy);color:var(--navy);font-size:.8rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:0}
+.why-box{background:var(--surface2);border-left:4px solid var(--navy-light);padding:12px 14px;margin-bottom:14px}
+.why-label{font-size:.7rem;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--navy-light);margin-bottom:4px}
+.why-text{font-size:.85rem;color:var(--text2);line-height:1.55}
+.region-box{background:#fff;border:1px solid var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;margin-bottom:14px;font-size:.8rem;color:var(--navy);box-shadow:2px 2px 0px rgba(0,0,0,0.05)}
+.region-box strong{color:var(--navy-light)}
+.caveat{font-size:.75rem;color:var(--red);background:var(--red-bg);border:1px solid var(--red);border-radius:var(--radius-sm);padding:8px 12px;margin-bottom:14px;font-weight:600}
+.card-actions{display:flex;flex-wrap:wrap;gap:10px;padding:14px 20px;border-top:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.3)}
+.btn-next{background:linear-gradient(135deg, #ef4444, #dc2626);color:#fff;border:none;padding:10px 20px;border-radius:20px;font-size:.85rem;font-weight:700;cursor:pointer;transition:all .3s ease;font-family:inherit;box-shadow:0 4px 14px rgba(220,38,38,0.4)}
+.btn-next:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 6px 20px rgba(220,38,38,0.6)}
+.btn-ask{background:rgba(255,255,255,0.8);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:1px solid rgba(15,23,42,0.2);color:var(--navy);padding:10px 16px;border-radius:20px;font-size:.85rem;font-weight:700;cursor:pointer;transition:all .3s ease;font-family:inherit;box-shadow:0 4px 14px rgba(15,23,42,0.1)}
+.btn-ask:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(15,23,42,0.15);border-color:rgba(15,23,42,0.4)}
+
+/* ── WELCOME CARD (Official Guide Style) ── */
+.welcome-card{background:rgba(255,255,255,0.8);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.8);border-radius:12px;padding:32px;text-align:center;max-width:560px;margin:0 auto;box-shadow:0 12px 40px rgba(0,0,0,0.12);position:relative;overflow:hidden}
+.welcome-card::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(15,23,42,0.02) 10px,rgba(15,23,42,0.02) 20px);z-index:0}
+.welcome-card>*{position:relative;z-index:1}
+.welcome-icon{font-size:3.5rem;margin-bottom:16px;text-shadow:2px 2px 0px rgba(0,0,0,0.1)}
+.welcome-card h2{font-size:1.8rem;font-weight:900;color:var(--navy);margin-bottom:10px;letter-spacing:-0.5px}
+.welcome-card p{color:var(--text2);font-size:.95rem;margin-bottom:24px;line-height:1.6;font-weight:500}
+.entry-modes{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
+.entry-btn{background:rgba(255,255,255,0.6);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.8);color:var(--navy);padding:14px 20px;border-radius:12px;cursor:pointer;transition:all .3s ease;font-family:inherit;font-size:.85rem;font-weight:600;text-align:center;min-width:160px;box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+.entry-btn:hover{background:rgba(255,255,255,0.9);transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,0.12)}
+.entry-btn .btn-icon{font-size:1.6rem;display:block;margin-bottom:8px}
+.entry-btn .btn-title{font-weight:800;display:block;margin-bottom:4px;font-size:.95rem}
+.entry-btn .btn-desc{font-size:.75rem;color:var(--text3);display:block;font-weight:500}
+.region-select-row{display:flex;align-items:center;gap:10px;justify-content:center;margin-top:8px;font-size:.85rem;color:var(--navy);font-weight:600}
+select.region-picker{background:#fff;border:2px solid var(--border-strong);color:var(--navy);padding:8px 14px;border-radius:var(--radius-sm);font-family:inherit;font-size:.85rem;font-weight:600;cursor:pointer;box-shadow:2px 2px 0px var(--border-strong)}
+select.region-picker:focus{outline:none;border-color:var(--navy)}
+
+/* ── OVERVIEW CARD ── */
+.overview-card{background:rgba(255,255,255,0.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.6);border-radius:12px;overflow:hidden;max-width:78%;box-shadow:0 8px 32px 0 rgba(31,38,135,0.15)}
+.overview-phases{display:flex;border-bottom:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.4)}
+.ov-phase{flex:1;padding:16px;text-align:center;border-right:1px solid rgba(255,255,255,0.3);cursor:pointer;transition:background .3s ease}
+.ov-phase:last-child{border-right:none}
+.ov-phase:hover{background:rgba(255,255,255,0.7)}
+.ov-phase-emoji{font-size:1.5rem;display:block;margin-bottom:6px}
+.ov-phase-label{font-size:.75rem;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--navy)}
+.ov-phase-steps{font-size:.7rem;color:var(--text3);margin-top:4px;font-weight:600}
+.ov-phase-summary{font-size:.78rem;color:var(--text2);margin-top:6px;line-height:1.4}
+.ov-step-list{padding:16px 20px;display:flex;flex-direction:column;gap:8px;max-height:280px;overflow-y:auto}
+.ov-step-item{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:var(--radius-sm);cursor:pointer;transition:background .15s;font-size:.88rem;border:1px solid transparent}
+.ov-step-item:hover{background:var(--surface2);border-color:var(--border)}
+.ov-step-num{width:24px;height:24px;border-radius:50%;font-size:.7rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;border:2px solid}
+.ov-step-num.blue{color:var(--blue);border-color:var(--blue)}
+.ov-step-num.green{color:var(--green);border-color:var(--green)}
+.ov-step-num.amber{color:var(--amber);border-color:var(--amber)}
+.ov-step-title{color:var(--navy);flex:1;font-weight:600}
+.ov-step-time{font-size:.75rem;color:var(--text3);font-weight:500}
+
+/* ── QUIZ CARD ── */
+.quiz-card{background:rgba(255,255,255,0.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.6);border-radius:12px;overflow:hidden;max-width:78%;box-shadow:0 8px 32px 0 rgba(31,38,135,0.15)}
+.quiz-header{padding:16px 20px;border-bottom:1px solid rgba(255,255,255,0.3);display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.4)}
+.quiz-title{font-weight:800;font-size:1.05rem;color:var(--navy);font-family:'Merriweather',serif}
+.quiz-progress-text{font-size:.8rem;color:var(--navy);margin-left:auto;font-weight:700}
+.quiz-progress-bar-wrap{height:6px;background:var(--border);margin:0;border-bottom:2px solid var(--border-strong)}
+.quiz-progress-bar{height:100%;background:var(--red);transition:width .4s}
+.quiz-body{padding:20px}
+.quiz-q{font-size:.95rem;font-weight:700;color:var(--navy);margin-bottom:16px;line-height:1.55}
+.quiz-diff{display:inline-block;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.5px;padding:4px 10px;border-radius:4px;margin-bottom:12px;border:1px solid}
+.quiz-diff.easy{background:var(--green-bg);color:var(--green);border-color:var(--green)}
+.quiz-diff.medium{background:var(--blue-bg);color:var(--blue);border-color:var(--blue)}
+.quiz-diff.hard{background:var(--amber-bg);color:var(--amber);border-color:var(--amber)}
+.quiz-options{display:flex;flex-direction:column;gap:10px}
+.quiz-opt{background:#fff;border:2px solid var(--border-strong);color:var(--navy);padding:12px 16px;border-radius:var(--radius-sm);cursor:pointer;transition:all .1s;font-family:inherit;font-size:.9rem;text-align:left;line-height:1.4;font-weight:600;box-shadow:3px 3px 0px var(--border-strong)}
+.quiz-opt:hover:not(:disabled){border-color:var(--navy);box-shadow:1px 1px 0px var(--navy);transform:translate(2px,2px)}
+.quiz-opt.correct{border-color:var(--green);background:var(--green-bg);color:var(--green)}
+.quiz-opt.wrong{border-color:var(--red);background:var(--red-bg);color:var(--red)}
+.quiz-opt:disabled{cursor:default;opacity:.8}
+.quiz-explanation{margin-top:16px;padding:12px 16px;background:var(--blue-bg);border-left:4px solid var(--blue);font-size:.85rem;color:var(--navy);line-height:1.55;display:none;font-weight:500}
+.quiz-explanation.show{display:block}
+.quiz-footer{padding:16px 20px;border-top:1px solid rgba(255,255,255,0.3);display:flex;justify-content:flex-end;background:rgba(255,255,255,0.4)}
+.quiz-result{padding:30px 20px;text-align:center}
+.quiz-score{font-size:2.5rem;font-weight:900;margin-bottom:8px;color:var(--navy);font-family:'Merriweather',serif}
+.quiz-grade{font-size:1.1rem;color:var(--text2);margin-bottom:12px;font-weight:700}
+.quiz-msg{font-size:.9rem;color:var(--text2);line-height:1.55;max-width:320px;margin:0 auto 20px;font-weight:500}
+
+/* ── FAQ & CHIPS ── */
+.faq-card{background:rgba(255,255,255,0.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.6);border-radius:12px;padding:20px;max-width:78%;box-shadow:0 8px 32px 0 rgba(31,38,135,0.15)}
+.faq-q{font-size:.95rem;font-weight:800;color:var(--navy);margin-bottom:10px}
+.faq-a{font-size:.88rem;color:var(--text2);line-height:1.6;font-weight:500}
+.options-row{display:flex;flex-wrap:wrap;gap:10px;max-width:78%}
+.opt-chip{background:#fff;border:2px solid var(--border-strong);color:var(--navy);padding:8px 16px;border-radius:20px;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .1s;font-family:inherit;box-shadow:2px 2px 0px var(--border-strong)}
+.opt-chip:hover{border-color:var(--navy);background:var(--surface2);transform:translate(1px,1px);box-shadow:1px 1px 0px var(--navy)}
+
+/* ── INPUT AREA ── */
+.input-area{background:rgba(255,255,255,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.8);border-radius:24px;padding:14px 16px;display:flex;gap:12px;align-items:center;margin-top:16px;box-shadow:0 12px 40px rgba(0,0,0,0.1);position:sticky;bottom:20px;z-index:90}
+textarea#user-input{flex:1;background:transparent;border:none;color:var(--navy);font-family:inherit;font-size:.95rem;resize:none;outline:none;max-height:120px;min-height:24px;line-height:1.5;font-weight:500}
+textarea#user-input::placeholder{color:var(--text3);font-weight:400}
+.send-btn{background:linear-gradient(135deg, #ef4444, #dc2626);border:none;color:#fff;width:42px;height:42px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .3s ease;flex-shrink:0;box-shadow:0 4px 14px rgba(220,38,38,0.4)}
+.send-btn:hover{transform:translateY(-2px) scale(1.05);box-shadow:0 6px 20px rgba(220,38,38,0.6)}
+.send-btn svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.voice-btn{background:rgba(255,255,255,0.6);border:1px solid rgba(15,23,42,0.1);color:var(--navy);width:42px;height:42px;border-radius:50%;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center;transition:all .3s ease;flex-shrink:0;box-shadow:0 4px 14px rgba(0,0,0,0.05)}
+.voice-btn:hover{background:rgba(255,255,255,0.9);transform:translateY(-2px) scale(1.05);box-shadow:0 6px 20px rgba(0,0,0,0.1)}
+
+/* ── TYPING INDICATOR ── */
+.typing{display:flex;gap:4px;align-items:center;padding:16px 18px;background:#fff;border:2px solid var(--border-strong);border-radius:var(--radius);width:fit-content;box-shadow:4px 4px 0px var(--border-strong)}
+.typing span{width:8px;height:8px;border-radius:50%;background:var(--navy);animation:bounce .8s infinite}
+.typing span:nth-child(2){animation-delay:.15s}
+.typing span:nth-child(3){animation-delay:.3s}
+@keyframes bounce{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
+
+/* ── SCROLLBAR ── */
+#chat::-webkit-scrollbar{width:8px}
+#chat::-webkit-scrollbar-track{background:transparent}
+#chat::-webkit-scrollbar-thumb{background:var(--border-strong);border-radius:4px}
+
+/* ── MILESTONES & MODALS ── */
+.milestone-card{background:rgba(255,255,255,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:2px solid rgba(16,185,129,0.5);border-radius:12px;padding:24px;text-align:center;max-width:78%;box-shadow:0 12px 40px rgba(16,185,129,0.2);animation:milestoneIn .5s cubic-bezier(.34,1.56,.64,1)}
+@keyframes milestoneIn{from{transform:scale(.9);opacity:0}to{transform:scale(1);opacity:1}}
+.milestone-emoji{font-size:3rem;margin-bottom:10px;text-shadow:2px 2px 0px rgba(0,0,0,0.1)}
+.milestone-title{font-size:1.3rem;font-weight:900;color:var(--green);margin-bottom:6px;font-family:'Merriweather',serif}
+.milestone-sub{font-size:.9rem;color:var(--text2);margin-bottom:16px;font-weight:500}
+.milestone-card .btn-next{background:var(--green);border-color:#065f46;box-shadow:3px 3px 0px #065f46; color:#fff;}
+.milestone-card .btn-next:hover{box-shadow:1px 1px 0px #065f46}
+
+.complete-card{background:rgba(255,255,255,0.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.8);border-radius:12px;padding:30px;text-align:center;max-width:78%;box-shadow:0 12px 40px rgba(0,0,0,0.12)}
+.complete-card h3{font-size:1.5rem;font-weight:900;color:var(--navy);margin-bottom:10px;font-family:'Merriweather',serif}
+.complete-card p{font-size:.9rem;color:var(--text2);margin-bottom:20px;line-height:1.6;font-weight:500}
+.complete-stats{display:flex;gap:12px;justify-content:center;margin-bottom:20px}
+.stat-box{background:var(--surface2);border:2px solid var(--border-strong);border-radius:var(--radius-sm);padding:12px 20px;text-align:center}
+.stat-num{font-size:1.6rem;font-weight:900;color:var(--navy)}
+.stat-label{font-size:.75rem;color:var(--text3);margin-top:2px;font-weight:700;text-transform:uppercase}
+
+#checklist-modal{position:fixed;inset:0;background:rgba(15,23,42,.8);backdrop-filter:blur(4px);z-index:1000;display:none;align-items:center;justify-content:center;padding:20px}
+#checklist-modal.show{display:flex}
+.checklist-box{background:rgba(255,255,255,0.9);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,0.8);border-radius:12px;max-width:560px;width:100%;max-height:80vh;overflow-y:auto;box-shadow:0 20px 50px rgba(0,0,0,0.3)}
+.checklist-header{padding:20px 24px;border-bottom:2px dashed var(--border-strong);display:flex;align-items:center;justify-content:space-between;background:var(--surface2)}
+.checklist-header h3{font-size:1.2rem;font-weight:900;color:var(--navy);font-family:'Merriweather',serif}
+.checklist-close{background:transparent;border:none;color:var(--text3);font-size:1.5rem;cursor:pointer;padding:4px 8px;font-weight:bold}
+.checklist-body{padding:24px}
+.cl-phase{margin-bottom:20px}
+.cl-phase-title{font-size:.85rem;font-weight:800;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid var(--border-strong)}
+.cl-phase-title.blue{color:var(--blue)}
+.cl-phase-title.green{color:var(--green)}
+.cl-phase-title.amber{color:var(--amber)}
+.cl-item{display:flex;align-items:flex-start;gap:12px;padding:8px 0;font-size:.9rem;color:var(--navy);font-weight:500}
+.cl-check{width:20px;height:20px;border:2px solid var(--border-strong);border-radius:4px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:bold}
+.cl-check.done{background:var(--green);border-color:var(--green);color:#fff}
+.checklist-footer{padding:16px 24px;border-top:2px solid var(--navy);display:flex;gap:10px;justify-content:flex-end;background:var(--surface2)}
+
+/* ── PROGRESS & SUGGESTIONS ── */
+.phase-progress{padding:14px 20px 0;display:flex;align-items:center;gap:10px}
+.phase-prog-label{font-size:.75rem;color:var(--text3);white-space:nowrap;font-weight:600}
+.phase-prog-dots{display:flex;gap:6px;align-items:center}
+.prog-dot{width:10px;height:10px;border-radius:50%;background:var(--border);border:1px solid var(--border-strong)}
+.prog-dot.done{background:var(--green);border-color:var(--green)}
+.prog-dot.current{background:var(--navy);width:24px;border-radius:5px;border-color:var(--navy)}
+
+.suggestion-row{padding:12px 20px 16px;display:flex;flex-wrap:wrap;gap:8px;border-top:2px dashed var(--border-strong)}
+.suggestion-label{width:100%;font-size:.7rem;color:var(--text3);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;font-weight:700}
+.sug-chip{background:var(--surface2);border:2px solid var(--border-strong);color:var(--navy);padding:6px 14px;border-radius:20px;font-size:.8rem;cursor:pointer;transition:all .1s;font-family:inherit;font-weight:600}
+.sug-chip:hover{border-color:var(--navy);background:#fff;transform:translate(-1px,-1px);box-shadow:2px 2px 0px var(--navy)}
+
+.action-link{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg, #1e3a8a, #0f172a);border:none;color:#fff;padding:10px 16px;border-radius:20px;font-size:.85rem;text-decoration:none;margin-top:12px;transition:all .3s ease;font-weight:700;box-shadow:0 4px 14px rgba(15,23,42,0.4)}
+.action-link:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 6px 20px rgba(15,23,42,0.6)}
+
+.resume-card{background:#fff;border:2px solid var(--blue);border-radius:var(--radius);padding:20px;display:flex;align-items:center;gap:16px;max-width:78%;box-shadow:6px 6px 0px var(--blue);animation:slideIn .3s ease}
+.resume-icon{font-size:2.5rem;flex-shrink:0}
+.resume-text{flex:1;min-width:0}
+.resume-title{font-weight:900;font-size:1.05rem;color:var(--navy);font-family:'Merriweather',serif}
+.resume-sub{font-size:.85rem;color:var(--text2);margin-top:4px;font-weight:500}
+.resume-actions{display:flex;gap:10px;flex-shrink:0;flex-wrap:wrap}
+
+/* ── RESPONSIVE ── */
+
+@media(max-width:520px){
+  .btn-ghost{padding:5px 8px;font-size:.72rem;}
+  .btn-restart{padding:5px 9px;font-size:.72rem;}
+  .logo em{display:none;}
+  .header-inner{height:52px;}
+}
+
+@media(max-width:600px){
+  .tl-info{display:none}
+  .entry-modes{flex-direction:column}
+  .entry-btn{min-width:unset}
+  .step-card,.quiz-card,.faq-card,.overview-card,.options-row,.resume-card,.complete-card,.milestone-card{max-width:100%}
+  .msg-bubble{max-width:90%}
+  .overview-phases{flex-direction:column}
+  .ov-phase{border-right:none;border-bottom:2px solid var(--navy)}
+}
+
+
+/* Emergency Button */
+.emergency-btn {
+  position: fixed; bottom: 60px; right: 20px; background: var(--red); color: white; border: 2px solid #991b1b; border-radius: 50px; padding: 14px 24px; font-weight: 800; font-family:'Inter',sans-serif; box-shadow: 4px 4px 0px #991b1b; cursor: pointer; z-index: 1000; transition: transform 0.1s; display: flex; align-items: center; justify-content: center; gap: 8px; line-height: 1;
+}
+.emergency-btn:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0px #991b1b; }
+#cert-canvas { display: none; }
+
+
+/* ── ADVANCED UI: Ticker, Signature, Sticker ── */
+.news-ticker-wrap {
+  position: fixed; bottom: 0; left: 0; width: 100%;
+  background: var(--navy); color: #fff; height: 36px;
+  display: flex; align-items: center; overflow: hidden;
+  z-index: 1000; font-size: 0.85rem; font-weight: 600;
+  border-top: 2px solid var(--red); box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+.ticker-label {
+  background: var(--red); padding: 0 16px; height: 100%;
+  display: flex; align-items: center; justify-content: center; z-index: 2; position: relative;
+  text-transform: uppercase; letter-spacing: 1px; font-weight: 900;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2); font-family: 'Merriweather', serif;
+  white-space: nowrap !important; line-height: 1; flex-shrink: 0; min-width: 160px;
+}
+.ticker-content {
+  display: flex; white-space: nowrap;
+  animation: tickerScroll 25s linear infinite;
+  padding-left: 100%;
+}
+@keyframes tickerScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.voted-sticker {
+  position: absolute; top: -200px; right: 10%;
+  width: 140px; height: 140px;
+  background: radial-gradient(circle, #fff 40%, var(--red) 41%, var(--red) 45%, #fff 46%, #fff 50%, var(--navy) 51%);
+  border-radius: 50%; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Inter', sans-serif; font-weight: 900; font-size: 1.4rem;
+  text-transform: uppercase; letter-spacing: -0.5px;
+  text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  z-index: 100; transform: rotate(15deg); opacity: 0;
+  border: 4px solid #fff; pointer-events: none;
+}
+.voted-sticker::before {
+  content: 'I VOTED'; background: var(--navy); padding: 10px;
+  border-radius: 50%; width: 100px; height: 100px;
+  display: flex; align-items: center; justify-content: center;
+  border: 2px dashed #fff;
+}
+@keyframes stickerDrop {
+  0% { top: -200px; opacity: 1; transform: rotate(0deg) scale(1.5); }
+  60% { top: 60px; transform: rotate(20deg) scale(1); }
+  80% { top: 30px; transform: rotate(10deg) scale(1.1); }
+  100% { top: 40px; opacity: 1; transform: rotate(15deg) scale(1); }
+}
+.drop-sticker { animation: stickerDrop 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
+
+
+/* ── HACKATHON ENHANCEMENTS ── */
+
+/* Premium Dark Mode */
+body.dark-mode, html:has(body.dark-mode) {
+  background-color: #0b0f19 !important;
+  color: #e2e8f0 !important;
+}
+body.dark-mode::before {
+  background: linear-gradient(-45deg, #1e1b4b, #312e81, #0f172a, #1e1b4b);
+  opacity: 0.8;
+}
+body.dark-mode {
+  --bg: #0b0f19; --surface: rgba(15,23,42,0.8); --surface2: #1e293b;
+  --border: #334155; --border-strong: #475569;
+  --navy: #f8fafc; --navy-light: #94a3b8;
+  --text: #e2e8f0; --text2: #cbd5e1; --text3: #94a3b8;
+  --shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+body.dark-mode .step-card, body.dark-mode .welcome-card, body.dark-mode .quiz-card, body.dark-mode .faq-card, body.dark-mode .overview-card, body.dark-mode .resume-card, body.dark-mode .milestone-card, body.dark-mode .complete-card {
+  background: rgba(30,41,59,0.7) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5) !important;
+}
+body.dark-mode header, body.dark-mode #timeline-strip {
+  background: rgba(15,23,42,0.9) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+body.dark-mode .msg-bubble { background: rgba(30,41,59,0.8) !important; border: 1px solid rgba(255,255,255,0.1) !important; color: #f8fafc !important; }
+body.dark-mode .msg.user .msg-bubble { background: rgba(37,99,235,0.2) !important; border-color: rgba(37,99,235,0.3) !important; }
+body.dark-mode .input-area { background: rgba(15,23,42,0.85) !important; border-color: rgba(255,255,255,0.1) !important; }
+body.dark-mode textarea { color: #f8fafc !important; }
+
+/* EVM Simulator */
+.evm-container { background: #1e293b; border-radius: 12px; padding: 20px; border: 4px solid #334155; margin-top: 15px; box-shadow: inset 0 0 20px rgba(0,0,0,0.5); }
+.evm-row { display: flex; align-items: center; justify-content: space-between; background: #cbd5e1; padding: 10px 15px; border-radius: 6px; margin-bottom: 10px; border: 2px solid #94a3b8; }
+.evm-cand { font-weight: 800; color: #0f172a; font-size: 1.1rem; flex: 1; display: flex; align-items: center; gap: 10px; }
+.evm-symbol { font-size: 1.5rem; background: #fff; border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; box-shadow: 1px 1px 3px rgba(0,0,0,0.2); }
+.evm-btn-wrap { display: flex; align-items: center; gap: 15px; }
+.evm-light { width: 14px; height: 14px; border-radius: 50%; background: #475569; border: 2px solid #334155; transition: background 0.1s; }
+.evm-light.on { background: #ef4444; box-shadow: 0 0 10px #ef4444; border-color: #b91c1c; }
+.evm-btn { width: 40px; height: 30px; border-radius: 4px; background: #3b82f6; border: none; cursor: pointer; box-shadow: 0 4px 0 #1d4ed8; transition: all 0.1s; }
+.evm-btn:active { transform: translateY(4px); box-shadow: 0 0 0 #1d4ed8; }
+
+.vvpat-box { background: #0f172a; border: 4px solid #334155; border-radius: 8px; height: 120px; margin-top: 20px; position: relative; overflow: hidden; display: flex; align-items: flex-end; justify-content: center; }
+.vvpat-slip { background: #f8fafc; color: #0f172a; width: 140px; padding: 10px; font-family: monospace; font-weight: bold; text-align: center; border: 1px solid #cbd5e1; transform: translateY(100%); transition: transform 2s ease-out; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+.vvpat-slip.print { transform: translateY(0); }
+
+/* Civic IQ Gamification */
+.civic-iq-badge { background: linear-gradient(135deg, #f59e0b, #d97706); color: #fff; padding: 6px 12px; border-radius: 20px; font-weight: 800; font-size: 0.85rem; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 8px rgba(217,119,6,0.4); cursor: pointer; border: 2px solid #fff; transition: transform 0.2s; }
+.civic-iq-badge:hover { transform: scale(1.05); }
+.iq-score { background: #fff; color: #d97706; padding: 2px 6px; border-radius: 10px; font-weight: 900; }
+.float-point { position: fixed; font-weight: 900; font-size: 1.5rem; color: #10b981; text-shadow: 0 2px 4px rgba(0,0,0,0.2); pointer-events: none; z-index: 9999; animation: floatUp 1.5s ease-out forwards; }
+@keyframes floatUp { 0% { opacity: 1; transform: translateY(0) scale(1); } 100% { opacity: 0; transform: translateY(-50px) scale(1.5); } }
+
+/* Wait Time Widget */
+.wait-time-widget { background: rgba(255,255,255,0.5); border-radius: 8px; border: 2px solid var(--border-strong); padding: 15px; margin-top: 15px; box-shadow: 2px 2px 0px rgba(0,0,0,0.05); }
+body.dark-mode .wait-time-widget { background: rgba(0,0,0,0.2); }
+.wt-title { font-weight: 800; color: var(--navy); margin-bottom: 10px; font-size: 0.9rem; display: flex; align-items: center; gap: 5px; }
+.wt-bars { display: flex; align-items: flex-end; gap: 8px; height: 80px; }
+.wt-bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.wt-bar { width: 100%; background: var(--blue-light); border-radius: 4px 4px 0 0; transition: height 1s ease-out; }
+.wt-bar.high { background: var(--red-light); }
+.wt-bar.low { background: var(--green-light); }
+.wt-time { font-size: 0.65rem; color: var(--text3); font-weight: 700; }
+
+
+/* ── Countdown Timer ── */
+.countdown-banner { background: linear-gradient(135deg, #1e1b4b, #312e81); color: #fff; border-radius: 12px; padding: 14px 20px; margin: 16px 0; display: flex; align-items: center; justify-content: center; gap: 20px; box-shadow: 0 8px 24px rgba(99,102,241,0.3); flex-wrap: wrap; }
+.cd-label { font-size: .8rem; font-weight: 700; letter-spacing: 1px; color: #a5b4fc; text-transform: uppercase; }
+.cd-units { display: flex; gap: 12px; }
+.cd-unit { text-align: center; background: rgba(255,255,255,.1); border-radius: 8px; padding: 6px 12px; min-width: 54px; }
+.cd-num { font-size: 1.6rem; font-weight: 900; color: #fff; display: block; line-height: 1; font-family: 'Merriweather', serif; }
+.cd-sub { font-size: .6rem; color: #a5b4fc; font-weight: 700; text-transform: uppercase; }
+
+/* ── Confetti canvas ── */
+#confetti-canvas { position: fixed; inset: 0; pointer-events: none; z-index: 9000; width: 100%; height: 100%; }
+
+/* ── Celebration overlay ── */
+.celebration-overlay { position: fixed; inset: 0; background: rgba(15,23,42,.85); backdrop-filter: blur(8px); z-index: 9500; display: flex; align-items: center; justify-content: center; padding: 20px; animation: fadeInCel .4s ease; }
+@keyframes fadeInCel { from { opacity: 0; } to { opacity: 1; } }
+.celebration-card { background: linear-gradient(135deg, #1e1b4b, #0f172a); border: 2px solid rgba(165,180,252,.3); border-radius: 20px; padding: 40px; text-align: center; max-width: 440px; width: 100%; box-shadow: 0 32px 80px rgba(0,0,0,.6); animation: popIn .5s cubic-bezier(.175,.885,.32,1.275); }
+@keyframes popIn { from { transform: scale(.7); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.cel-emoji { font-size: 4rem; display: block; margin-bottom: 16px; }
+.cel-title { font-family: 'Merriweather', serif; font-size: 1.8rem; font-weight: 900; color: #f8fafc; margin-bottom: 8px; }
+.cel-sub { color: #94a3b8; font-size: .95rem; margin-bottom: 20px; }
+.cel-score { font-size: 3rem; font-weight: 900; color: #f59e0b; margin: 10px 0; font-family: 'Merriweather', serif; }
+.cel-score-label { color: #fbbf24; font-size: .85rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.cel-btn { background: linear-gradient(135deg, #6366f1, #8b5cf6); color: #fff; border: none; border-radius: 50px; padding: 14px 32px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 20px; transition: transform .2s; }
+.cel-btn:hover { transform: scale(1.05); }
+.cel-share-btn { background: linear-gradient(135deg, #059669, #10b981); color: #fff; border: none; border-radius: 50px; padding: 14px 32px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 10px; transition: transform .2s; }
+.cel-share-btn:hover { transform: scale(1.05); }
+
+
+
+/* ── Smarter bot fallback styling ── */
+.bot-structured { line-height: 1.7; }
+.bot-structured ul { padding-left: 18px; margin: 8px 0; }
+.bot-structured li { margin: 4px 0; }
+
+/* ── Share card canvas ── */
+#share-canvas { display: none; }
+
+/* ── Region Info Card ── */
+.region-info-banner { background: linear-gradient(135deg,rgba(37,99,235,.1),rgba(5,150,105,.1)); border: 1px solid rgba(37,99,235,.2); border-radius: 10px; padding: 12px 16px; margin-top: 12px; font-size: .82rem; color: var(--text2); line-height: 1.6; }
+.region-info-banner strong { color: var(--navy); }
+
+</style>
+<link rel="manifest" href='data:application/manifest+json;utf8,{"name":"ElectIQ","short_name":"ElectIQ","display":"standalone","background_color":"#0a0e1a","theme_color":"#6366f1","icons":[{"src":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48dGV4dCB5PSI4MCIgZm9udC1zaXplPSI4MCI+8J+Xsw==</text></svg>","sizes":"192x192","type":"image/svg+xml"}]}'>
+</head>
+
+  <body><h1>🗳️ My Voter Checklist${region}</h1>${body}
+  <p style="margin-top:20px;font-size:.75rem;color:#666">Generated by ElectIQ Election Guide. Always verify deadlines with your local electoral authority.</p>
+  <button onclick="window.print()" style="margin-top:10px;padding:8px 16px;cursor:pointer">🖨️ Print</button>
+  
+<div class="news-ticker-wrap">
+  <div class="ticker-label">CIVIC ALERT</div>
+  <div class="ticker-content">
+    <span style="display:flex;gap:40px;">
+      <span>🔴 BREAKING: Record voter turnout expected this year.</span>
+      <span>🔴 REMINDER: Mail-in ballots must be postmarked by Tuesday.</span>
+      <span>🔴 ALERT: Bring valid Photo ID to your polling station.</span>
+      <span>🔴 UPDATE: Polls close at 8:00 PM local time. If you are in line, STAY IN LINE!</span>
+    </span>
+  </div>
+</div>
+
+<div id="sig-modal" style="position:fixed;inset:0;background:rgba(15,23,42,.8);backdrop-filter:blur(4px);z-index:2000;display:none;align-items:center;justify-content:center;padding:20px;">
+  <div style="background:#fff;border:3px solid var(--navy);border-radius:var(--radius);padding:24px;max-width:400px;width:100%;text-align:center;box-shadow:8px 8px 0px var(--navy);">
+    <h3 style="font-family:'Merriweather',serif;color:var(--navy);margin-bottom:10px;">Pledge to Vote</h3>
+    <p style="font-size:0.85rem;color:var(--text2);margin-bottom:16px;">Sign below to pledge your vote and unlock your official certificate.</p>
+    <canvas id="sig-canvas" width="300" height="150" style="border:2px dashed var(--border-strong);background:#f8fafc;border-radius:4px;cursor:crosshair;touch-action:none;margin:0 auto;display:block;"></canvas>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:center;">
+      <button onclick="clearSig()" class="btn-ghost" style="color:var(--text2);border-color:var(--border-strong);">Clear</button>
+      <button onclick="saveSigAndDownload()" class="btn-next">Sign & Download</button>
+    </div>
+  </div>
+</div>
+
+
+</body></html>`);
+  win.document.close();
+}
+
+// ── Floating Icons (injected into welcome card) ─────────────────────────────
+function addFloatingIcons(card){
+  const iconsDiv=document.createElement('div');
+  iconsDiv.className='float-icons';
+  const icons=['🗳️','📋','🏛️','✅','📊','🌍','⚖️','🤝'];
+  icons.forEach((ic,i)=>{
+    const span=document.createElement('span');
+    span.className='float-icon';
+    span.textContent=ic;
+    span.style.cssText=`left:${10+i*12}%;animation-duration:${6+i*1.5}s;animation-delay:${i*.8}s`;
+    iconsDiv.appendChild(span);
+  });
+  card.insertBefore(iconsDiv,card.firstChild);
+}
+
+// ── FAQ Tiles Renderer ──────────────────────────────────────────────────────
+function renderFAQTiles(){
+  const grid=document.createElement('div');
+  grid.className='faq-grid';
+  KB.faqs.forEach(f=>{
+    const tile=document.createElement('div');
+    tile.className='faq-tile';
+    const phaseLabel={pre_election:'Pre-Election',election_day:'Election Day',post_election:'Post-Election'}[f.phase]||'General';
+    tile.innerHTML=`<div class="faq-tile-q">${f.question}</div><div class="faq-tile-tag">${phaseLabel}</div>`;
+    tile.onclick=()=>{
+      addMsg('user',f.question);
+      botReply(()=>{
+        const card=document.createElement('div');card.className='faq-card';
+        card.innerHTML=`<div class="faq-q">❓ ${f.question}</div><div class="faq-a">${f.answer}</div>`;
+        addElement(card);
+        liveTranslate(card, currentLang);
+      },400);
+    };
+    grid.appendChild(tile);
+  });
+  addElement(grid);
+}
+
+// ── MOVE 1: Voice Input (Web Speech API) ──────────────────────────────────
+var _vsr=null,_vlis=false;
+function handleVoiceClick(){
+  var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  var btn=document.getElementById('voice-btn');
+  if(!SR){
+    addMsg('bot','🎤 Voice input is not supported in this browser. Please use Chrome and try again.');
+    return;
+  }
+  if(_vlis){
+    if(_vsr)_vsr.stop();
+    return;
+  }
+  _vsr=new SR();
+  // Listen in the user's selected language so they can speak in their native tongue
+  _vsr.lang = LANG_LOCALE[currentLang] || 'en-US';
+  _vsr.interimResults=false;_vsr.maxAlternatives=1;
+  _vsr.onstart=function(){
+    _vlis=true;
+    btn.innerHTML='🔴';btn.title='Listening… click to stop';
+    btn.style.cssText='background:rgba(239,68,68,.15);border-color:#ef4444;';
+    addMsg('bot','<em>🎤 Listening… speak your question now.</em>');
+  };
+  _vsr.onresult=function(e){
+    var txt=e.results[0][0].transcript;
+    document.getElementById('user-input').value=txt;
+    handleSend();
+  };
+  _vsr.onerror=function(e){
+    _vlis=false;
+    btn.innerHTML='🎤';btn.style.cssText='';
+    var msg=e.error==='not-allowed'
+      ?'🎤 Microphone access denied. Please allow microphone access in your browser and try again.'
+      :'🎤 Could not hear clearly. Please try again or type your question.';
+    addMsg('bot',msg);
+  };
+  _vsr.onend=function(){
+    _vlis=false;
+    btn.innerHTML='🎤';btn.style.cssText='';
+  };
+  try{_vsr.start();}catch(err){addMsg('bot','🎤 Could not start voice recognition. Please try again.');}
+}
+
+// ── MOVE 2: Smart Inline Answers ───────────────────────────────────────────
+const SMART_PATTERNS=[
+  {
+    pattern:/\b1[0-7]\b|i('m| am) (1[0-7]|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten)/i,
+    answer:"Great question! In most countries, the voting age is **18**. If you are 17 now, you will likely be eligible to vote in the next election after your 18th birthday — but this depends on your specific election date and jurisdiction. Some places allow 16 or 17 year olds to vote in certain local elections. Check with your local electoral authority for the exact rules!",
+    step:'PRE_ELIGIBILITY'
+  },
+  {
+    pattern:/moved|new address|change.*address|address.*change|just moved|relocated/i,
+    answer:"If you have recently moved, your voter registration is usually tied to your **old address** and may no longer be valid. You should **update your registration** with your new address as soon as possible. In most countries, you can do this online through your electoral authority's website. Do this well before any election — deadlines apply!",
+    step:'PRE_REGISTRATION'
+  },
+  {
+    pattern:/too late|missed (the )?deadline|deadline passed|registration (is |)closed/i,
+    answer:"It depends! Some jurisdictions allow **same-day registration** at the polling station. Others have the registration close weeks before election day. Check your local electoral authority's website immediately — there may still be options like provisional ballots or emergency registration in some areas. Don't give up without checking!",
+    step:'PRE_REGISTRATION'
+  },
+  {
+    pattern:/postal|mail.*vote|vote by mail|absentee|proxy vote|can't (go|make it|attend)/i,
+    answer:"If you cannot get to a polling station, most countries offer **alternatives**: 📮 Postal/absentee voting — request a ballot to be sent to you by post. 👥 Proxy voting — appoint someone you trust to vote on your behalf. ♿ Accessible voting — adapted facilities for voters with disabilities. Contact your electoral authority well in advance as each option has its own deadlines!",
+    step:'PRE_VOTER_ID'
+  },
+  {
+    pattern:/spoil|ruined|mistake.*ballot|wrong.*ballot|ballot.*wrong|crossed.*wrong/i,
+    answer:"If you haven't submitted your ballot yet, you can usually ask the polling officer for a **replacement ballot**. Once submitted to the ballot box or EVM, it generally cannot be retrieved. If you accidentally spoil a paper ballot before submitting it, raise your hand and ask quietly — polling officers are trained to handle this without revealing your vote.",
+    step:'ED_CAST_VOTE'
+  },
+  {
+    pattern:/how long|queue|line|wait|busy|crowded/i,
+    answer:"Polling station queues vary greatly — early morning and after work hours (5–7pm) tend to be busiest. Mid-morning and early afternoon are often quieter. The most important thing: **if you are in the queue before the official closing time, you legally have the right to vote**. Do not leave the queue even if the clock ticks past closing.",
+    step:'ED_ARRIVE'
+  },
+  {
+    pattern:/first time|never voted|new voter|beginner/i,
+    answer:"Welcome! Voting for the first time is exciting. Here's the short version: ✅ Check you're eligible → 📝 Register → 🪪 Get your ID ready → 📍 Find your polling station → 🗳️ Show up and vote! Want me to walk you through each step in detail?",
+    step:'PRE_ELIGIBILITY'
+  },
+  {
+    pattern:/secret|anonymous|private|who (can |will |)see|someone.*see.*vote|track.*vote/i,
+    answer:"Your vote is completely **secret**. The ballot system is specifically designed so your individual vote cannot be traced back to you — not by the government, not by candidates, not by anyone. This is called the 'secret ballot' and is a cornerstone of free and fair democracy. Vote with complete confidence.",
+    step:'ED_CAST_VOTE'
+  },
+];
+
+function smartAnswer(msg){
+  for(const p of SMART_PATTERNS){
+    if(p.pattern.test(msg)){
+      return{answer:p.answer,step:p.step};
+    }
+  }
+  return null;
+}
+
+// ── MOVE 3: Real Action Links Per Step ────────────────────────────────────
+const ACTION_LINKS={
+  PRE_ELIGIBILITY:{
+    USA:{label:'Check Eligibility on USA.gov',url:'https://www.usa.gov/voter-registration-card'},
+    UK:{label:'Check Eligibility — Electoral Commission',url:'https://www.electoralcommission.org.uk/i-am-a/voter/registering-vote'},
+    India:{label:'Check Eligibility — ECI',url:'https://voters.eci.gov.in/'},
+    default:{label:'Learn About Voter Eligibility',url:'https://www.aceproject.org/ace-en/topics/vo/voter-registration/voter-eligibility'}
+  },
+  PRE_REGISTRATION:{
+    USA:{label:'Register to Vote — vote.gov',url:'https://vote.gov/'},
+    UK:{label:'Register to Vote — gov.uk',url:'https://www.gov.uk/register-to-vote'},
+    India:{label:'Register — voters.eci.gov.in',url:'https://voters.eci.gov.in/'},
+    default:{label:'Find Your Country\'s Registration Portal',url:'https://www.idea.int/data-tools/country-view/country-information'}
+  },
+  PRE_VOTER_ID:{
+    USA:{label:'Check Your State\'s ID Requirements',url:'https://www.ncsl.org/elections-and-campaigns/voter-id'},
+    UK:{label:'Get a Free Voter Authority Certificate',url:'https://www.gov.uk/apply-for-photo-id-voter-authority-certificate'},
+    India:{label:'Apply for Voter ID (EPIC) — ECI',url:'https://voters.eci.gov.in/'},
+    default:{label:'Learn About Voter ID Requirements',url:'https://aceproject.org'}
+  },
+  PRE_POLLING_STATION:{
+    USA:{label:'Find Your Polling Place — vote.gov',url:'https://vote.gov/'},
+    UK:{label:'Find Your Polling Station',url:'https://www.gov.uk/contact-electoral-registration-office'},
+    India:{label:'Find Your Booth — voters.eci.gov.in',url:'https://voters.eci.gov.in/'},
+    default:{label:'Contact Your Electoral Authority',url:'https://aceproject.org'}
+  },
+  POST_APPEALS:{
+    USA:{label:'File an Election Complaint',url:'https://www.eac.gov/voters/file-election-complaint'},
+    UK:{label:'Report an Election Problem',url:'https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/contact-us'},
+    India:{label:'Lodge a Complaint with ECI',url:'https://eci.gov.in/complaints/'},
+    default:{label:'Find Your Electoral Authority',url:'https://aceproject.org'}
+  }
+};
+
+function buildActionLink(nodeId){
+  const links=ACTION_LINKS[nodeId];
+  if(!links)return '';
+  const link=state.region?links[state.region]||links.default:links.default;
+  if(!link)return '';
+  return `<a href="${link.url}" target="_blank" rel="noopener" class="action-link">🔗 ${link.label} ↗</a>`;
+}
+
+// ── MOVE 4: Progress Persistence (localStorage) ────────────────────────────
+const SAVE_KEY='electiq_progress_v1';
+
+function saveProgress(){
+  try{
+    localStorage.setItem(SAVE_KEY,JSON.stringify({
+      currentStepId:state.currentStepId,
+      completedSteps:state.completedSteps,
+      region:state.region,
+      experienceLevel:state.experienceLevel,
+      milestonesShown:state.milestonesShown||[],
+      savedAt:Date.now()
+    }));
+  }catch(e){}
+}
+
+function loadProgress(){
+  try{
+    const raw=localStorage.getItem(SAVE_KEY);
+    if(!raw)return null;
+    const saved=JSON.parse(raw);
+    // Expire after 7 days
+    if(Date.now()-saved.savedAt>7*24*60*60*1000){
+      localStorage.removeItem(SAVE_KEY);return null;
+    }
+    return saved;
+  }catch(e){return null;}
+}
+
+function clearProgress(){localStorage.removeItem(SAVE_KEY);}
+
+function offerResume(saved){
+  const node=getNode(saved.currentStepId);
+  if(!node)return;
+  const card=document.createElement('div');
+  card.className='resume-card';
+  const regionLabel=saved.region?` · ${saved.region}`:'';
+  card.innerHTML=`
+    <div class="resume-icon">🔖</div>
+    <div class="resume-text">
+      <div class="resume-title">Welcome back!</div>
+      <div class="resume-sub">You were on <strong>${node.title}</strong>${regionLabel}</div>
+    </div>
+    <div class="resume-actions">
+      <button class="btn-next" onclick="resumeSession()" id="resume-yes-btn">Continue →</button>
+      <button class="btn-ask" onclick="freshStart()">Start Fresh</button>
+    </div>`;
+  addElement(card);
+}
+
+function resumeSession(){
+  const saved=loadProgress();
+  if(!saved)return;
+  state.completedSteps=saved.completedSteps||[];
+  state.region=saved.region;
+  state.experienceLevel=saved.experienceLevel;
+  state.milestonesShown=saved.milestonesShown||[];
+  const regionLabel=saved.region?`Region set to ${saved.region}. `:'';
+  addMsg('bot',`✅ ${regionLabel}Resuming from where you left off:`);
+  botReply(()=>renderStepCard(saved.currentStepId),400);
+}
+
+function freshStart(){clearProgress();restartGuide();}
+
+
+// --- Inclusivity & PWA ---
+let isHighContrast = false;
+function toggleHighContrast() {
+  isHighContrast = !isHighContrast;
+  document.body.classList.toggle('dark-mode', isHighContrast);
+  const btn = document.getElementById('contrast-btn');
+  if(btn) btn.textContent = isHighContrast ? '☀️ Light Mode' : '🌙 Dark Mode';
+  btn.style.background = isHighContrast ? '#1e293b' : '';
+  btn.style.color = isHighContrast ? '#fff' : '';
+  btn.style.borderColor = isHighContrast ? '#fff' : '';
+}
+
+let ttsEnabled = false;
+function toggleTTS() {
+  ttsEnabled = !ttsEnabled;
+  document.getElementById('tts-btn').textContent = ttsEnabled ? '🔊 Voice On' : '🔇 Voice Off';
+  
+  if(!ttsEnabled) {
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    if (typeof responsiveVoice !== 'undefined') responsiveVoice.cancel();
+    try { if (_ttsAudio) { _ttsAudio.pause(); _ttsAudio.src = ''; } } catch(e){}
+  } else {
+    // ── UNLOCK BROWSER AUTOPLAY POLICY ──
+    // Because translation takes time, the browser will block audio playing later.
+    // We must "unlock" the audio element NOW during this direct user click event.
+    try {
+      const audio = _getTTSAudio();
+      audio.src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA='; // 1ms silent wav
+      audio.play().catch(()=>{});
+    } catch(e){}
+    
+    // Also unlock ResponsiveVoice
+    if (typeof responsiveVoice !== 'undefined') {
+      responsiveVoice.speak('', 'UK English Female', {volume: 0});
+      responsiveVoice.cancel();
+    }
+  }
+}
+
+// Preload voices as soon as they are available (browsers load asynchronously)
+if(window.speechSynthesis) {
+  window.speechSynthesis.onvoiceschanged = function() {
+    window.speechSynthesis.getVoices(); // populate the voices list
+  };
+}
+
+
+// Emergency Mode
+function showEmergency() {
+  addMsg('user', '🚨 I am at the polling station and need help!');
+  botReply(() => {
+    addMsg('bot', '<strong>🚨 EMERGENCY PROTOCOL ACTIVE</strong><br><br>1. <strong>STAY IN LINE.</strong> If you are in line before polls close, you legally have the right to vote.<br>2. <strong>Ask for a Provisional Ballot.</strong> If they say you aren\'t registered, demand a provisional ballot.<br>3. <strong>Report Intimidation.</strong> No one can force you to vote a certain way.<br>4. Call the Election Protection Hotline (US): 866-OUR-VOTE (866-687-8683).');
+  }, 300);
+}
+
+// Certificate Generator
+function generateCertificate() {
+  const canvas = document.getElementById('cert-canvas');
+  const ctx = canvas.getContext('2d');
+  
+  // Background
+  const grad = ctx.createLinearGradient(0, 0, 800, 600);
+  grad.addColorStop(0, '#0f172a'); grad.addColorStop(1, '#1e1b4b');
+  ctx.fillStyle = grad; ctx.fillRect(0, 0, 800, 600);
+  
+  // Border
+  ctx.strokeStyle = '#6366f1'; ctx.lineWidth = 10; ctx.strokeRect(20, 20, 760, 560);
+  
+  // Text
+  ctx.fillStyle = '#f1f5f9'; ctx.textAlign = 'center';
+  ctx.font = 'bold 50px Inter, sans-serif';
+  ctx.fillText('🏆 Voter Readiness Certificate', 400, 150);
+  
+  ctx.font = '30px Inter, sans-serif';
+  ctx.fillStyle = '#60a5fa';
+  ctx.fillText('This certifies that you have completed', 400, 280);
+  ctx.fillText('the ElectIQ Interactive Election Guide', 400, 330);
+  
+  ctx.fillStyle = '#34d399';
+  ctx.font = 'bold 40px Inter, sans-serif';
+  ctx.fillText('You are 100% Ready to Vote!', 400, 450);
+  
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '20px Inter, sans-serif';
+  ctx.fillText('Date: ' + new Date().toLocaleDateString(), 400, 520);
+  
+  const link = document.createElement('a');
+  link.download = 'voter-certificate.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+// Override renderCompleteCard to show cert button
+const originalRenderCompleteCard = renderCompleteCard;
+renderCompleteCard = function() {
+  originalRenderCompleteCard();
+  setTimeout(() => {
+    const card = document.createElement('div');
+    card.className = 'complete-card';
+    card.style.marginTop = '16px';
+    card.innerHTML = `<h3 style="color:#fbbf24">🏆 Claim Your Certificate!</h3><p>You've earned an official Voter Readiness Certificate. Download it to share with friends!</p><button class="btn-next" style="background:var(--amber)" onclick="generateCertificate()">📥 Download Certificate</button>`;
+    addElement(card);
+  }, 1000);
+};
+
+// PWA Service Worker Inline
+if ('serviceWorker' in navigator) {
+  const swCode = `
+    const CACHE_NAME = 'electiq-v2';
+    self.addEventListener('install', e => e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(['/']))));
+    self.addEventListener('fetch', e => e.respondWith(caches.match(e.request).then(r => r || fetch(e.request))));
+  `;
+  const blob = new Blob([swCode], {type: 'application/javascript'});
+  navigator.serviceWorker.register(URL.createObjectURL(blob)).catch(console.error);
+}
+
+// Magic Onboarding
+function autoDetectRegion() {
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  if(tz.includes('Europe/London') || tz.includes('Europe/Belfast')) return 'UK';
+  if(tz.includes('Asia/Calcutta') || tz.includes('Asia/Kolkata')) return 'India';
+  if(tz.includes('America/')) return 'USA';
+  return '';
+}
+
+
+// ── FINAL POLISH: Countdown, i18n, Calendar ──
+
+// 1. Live Countdown
+function updateCountdown() {
+  const target = new Date("November 5, 2026 00:00:00").getTime();
+  const now = new Date().getTime();
+  const distance = target - now;
+  if(distance < 0) {
+    document.getElementById("cd-timer").textContent = "ELECTION DAY!";
+    return;
+  }
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("cd-timer").textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+}
+setInterval(updateCountdown, 1000);
+updateCountdown();
+
+// 2. Add to Calendar (.ics Generator)
+function generateICS() {
+  const icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//ElectIQ//Election Guide//EN\nBEGIN:VEVENT\nUID:${Date.now()}@electiq.app\nDTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').split('.')[0]}Z\nDTSTART:20261105T080000Z\nDTEND:20261105T090000Z\nSUMMARY:🗳️ VOTE TODAY!\nDESCRIPTION:This is a reminder to go vote. Bring your required ID and check your polling station location!\nEND:VEVENT\nEND:VCALENDAR`;
+  const blob = new Blob([icsContent], { type: 'text/calendar' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'Election_Day_Reminder.ics';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// 3. Multi-Language i18n — All Indian Languages + Global
+const I18N = {
+  // ── INDIAN LANGUAGES (22 Scheduled) ──
+  HI:  { name:'Hindi / हिन्दी',     flag:'🇮🇳', rtl:false, welcome:'आपकी चुनाव मार्गदर्शिका',    desc:'मैं आपको पूरी चुनाव प्रक्रिया के माध्यम से मार्गदर्शन करूंगा।', firstTime:'पहली बार के मतदाता', firstTimeDesc:'पूर्ण निर्देशित वॉकथ्रू', quick:'त्वरित अवलोकन', quickDesc:'पूरी समयरेखा देखें', test:'ज्ञान परीक्षण', testDesc:'5-प्रश्न प्रश्नोत्तरी', region:'🌍 आपका क्षेत्र:' },
+  BN:  { name:'Bengali / বাংলা',    flag:'🇮🇳', rtl:false, welcome:'আপনার নির্বাচনী গাইড',        desc:'আমি আপনাকে সম্পূর্ণ নির্বাচন প্রক্রিয়ার মাধ্যমে গাইড করব।',  firstTime:'প্রথমবার ভোটার',    firstTimeDesc:'সম্পূর্ণ গাইড', quick:'দ্রুত ওভারভিউ', quickDesc:'টাইমলাইন দেখুন', test:'জ্ঞান পরীক্ষা', testDesc:'৫-প্রশ্ন কুইজ', region:'🌍 আপনার অঞ্চল:' },
+  TE:  { name:'Telugu / తెలుగు',    flag:'🇮🇳', rtl:false, welcome:'మీ ఎన్నికల గైడ్',              desc:'అర్హత తనిఖీ నుండి ఫలితాల అవగాహన వరకు నేను మీకు మార్గనిర్దేశం చేస్తాను.',  firstTime:'మొదటిసారి ఓటరు',   firstTimeDesc:'పూర్తి గైడ్', quick:'శీఘ్ర అవలోకనం', quickDesc:'టైమ్‌లైన్ చూడండి', test:'జ్ఞాన పరీక్ష', testDesc:'5 ప్రశ్నల క్విజ్', region:'🌍 మీ ప్రాంతం:' },
+  MR:  { name:'Marathi / मराठी',    flag:'🇮🇳', rtl:false, welcome:'तुमचा निवडणूक मार्गदर्शक',   desc:'पात्रता तपासणीपासून निकाल समजून घेण्यापर्यंत मी तुम्हाला मार्गदर्शन करतो.', firstTime:'प्रथमच मतदार',    firstTimeDesc:'संपूर्ण मार्गदर्शन', quick:'जलद आढावा', quickDesc:'संपूर्ण टाइमलाइन', test:'ज्ञान चाचणी', testDesc:'५ प्रश्न क्विझ', region:'🌍 तुमचा प्रदेश:' },
+  TA:  { name:'Tamil / தமிழ்',      flag:'🇮🇳', rtl:false, welcome:'உங்கள் தேர்தல் வழிகாட்டி',   desc:'தகுதி சரிபார்ப்பு முதல் முடிவுகளை புரிந்துகொள்வது வரை வழிகாட்டுகிறேன்.', firstTime:'முதல்முறை வாக்காளர்', firstTimeDesc:'முழு வழிகாட்டல்', quick:'விரைவு கண்ணோட்டம்', quickDesc:'காலவரிசை காண்க', test:'அறிவு சோதனை', testDesc:'5 கேள்வி வினாடி வினா', region:'🌍 உங்கள் பகுதி:' },
+  GU:  { name:'Gujarati / ગુજરાતી', flag:'🇮🇳', rtl:false, welcome:'તમારી ચૂંટણી માર્ગદર્શિકા',  desc:'પાત્રતા ચકાસણીથી પરિણામો સમજવા સુધી હું તમને માર્ગદર્શન આપીશ.',         firstTime:'પ્રથમ વખત મતદાર',  firstTimeDesc:'સંપૂર્ણ માર્ગદર્શન', quick:'ઝડપી ઝlance', quickDesc:'ટાઇમલાઇન જુઓ', test:'જ્ઞાન કસોટી', testDesc:'5 પ્રશ્ન ક્વિઝ', region:'🌍 તમારો પ્રદેશ:' },
+  KN:  { name:'Kannada / ಕನ್ನಡ',    flag:'🇮🇳', rtl:false, welcome:'ನಿಮ್ಮ ಚುನಾವಣಾ ಮಾರ್ಗದರ್ಶಿ',   desc:'ಅರ್ಹತೆ ಪರಿಶೀಲನೆಯಿಂದ ಫಲಿತಾಂಶ ತಿಳಿದುಕೊಳ್ಳುವವರೆಗೆ ಮಾರ್ಗದರ್ಶನ ಮಾಡುತ್ತೇನೆ.', firstTime:'ಮೊದಲ ಬಾರಿ ಮತದಾರ',  firstTimeDesc:'ಸಂಪೂರ್ಣ ಮಾರ್ಗದರ್ಶನ', quick:'ತ್ವರಿತ ಅವಲೋಕನ', quickDesc:'ಟೈಮ್‌ಲೈನ್ ನೋಡಿ', test:'ಜ್ಞಾನ ಪರೀಕ್ಷೆ', testDesc:'5 ಪ್ರಶ್ನೆ ಕ್ವಿಜ್', region:'🌍 ನಿಮ್ಮ ಪ್ರದೇಶ:' },
+  ML:  { name:'Malayalam / മലയാളം', flag:'🇮🇳', rtl:false, welcome:'നിങ്ങളുടെ തിരഞ്ഞെടുപ്പ് ഗൈഡ്', desc:'യോഗ്യത പരിശോധനയിൽ നിന്ന് ഫലങ്ങൾ മനസ്സിലാക്കുന്നത് വരെ ഞാൻ നിർദ്ദേശം നൽകും.', firstTime:'ആദ്യ വോട്ടർ',   firstTimeDesc:'പൂർണ്ണ ഗൈഡ്', quick:'ദ്രുത അവലോകനം', quickDesc:'ടൈംലൈൻ കാണുക', test:'അറിവ് പരീക്ഷ', testDesc:'5 ചോദ്യ ക്വിസ്', region:'🌍 നിങ്ങളുടെ പ്രദേശം:' },
+  PA:  { name:'Punjabi / ਪੰਜਾਬੀ',   flag:'🇮🇳', rtl:false, welcome:'ਤੁਹਾਡੀ ਚੋਣ ਮਾਰਗਦਰਸ਼ਕ',          desc:'ਯੋਗਤਾ ਜਾਂਚ ਤੋਂ ਲੈ ਕੇ ਨਤੀਜੇ ਸਮਝਣ ਤੱਕ ਮੈਂ ਤੁਹਾਡੀ ਅਗਵਾਈ ਕਰਾਂਗਾ।',         firstTime:'ਪਹਿਲੀ ਵਾਰ ਵੋਟਰ',  firstTimeDesc:'ਪੂਰਾ ਮਾਰਗਦਰਸ਼ਨ', quick:'ਤੇਜ਼ ਝਲਕ', quickDesc:'ਟਾਈਮਲਾਈਨ ਦੇਖੋ', test:'ਗਿਆਨ ਪਰੀਖਿਆ', testDesc:'5 ਸਵਾਲ ਕੁਇਜ਼', region:'🌍 ਤੁਹਾਡਾ ਖੇਤਰ:' },
+  OR:  { name:'Odia / ଓଡ଼ିଆ',        flag:'🇮🇳', rtl:false, welcome:'ଆପଣଙ୍କ ନିର୍ବାଚନ ଗାଇଡ',          desc:'ଯୋଗ୍ୟତା ଯାଞ୍ଚ ଠାରୁ ଫଳାଫଳ ବୁଝିବା ପର୍ଯ୍ୟନ୍ତ ମୁଁ ଆପଣଙ୍କୁ ମାର୍ଗଦର୍ଶନ କରିବି।',        firstTime:'ପ୍ରଥମ ଭୋଟର',    firstTimeDesc:'ସମ୍ପୂର୍ଣ ଗାଇଡ', quick:'ଦ୍ରୁତ ସମୀକ୍ଷା', quickDesc:'ସମୟରେଖା ଦେଖନ୍ତୁ', test:'ଜ୍ଞାନ ପରୀକ୍ଷା', testDesc:'5 ପ୍ରଶ୍ନ କ୍ୱିଜ', region:'🌍 ଆପଣଙ୍କ ଅଞ୍ଚଳ:' },
+  AS:  { name:'Assamese / অসমীয়া',  flag:'🇮🇳', rtl:false, welcome:'আপোনাৰ নিৰ্বাচন গাইড',         desc:'যোগ্যতা পৰীক্ষাৰ পৰা ফলাফল বুজালৈকে মই আপোনাক পথ প্ৰদৰ্শন কৰিম।',        firstTime:'প্ৰথমবাৰ ভোটদাতা', firstTimeDesc:'সম্পূৰ্ণ গাইড', quick:'দ্ৰুত আভাস', quickDesc:'সময়ৰেখা চাওক', test:'জ্ঞান পৰীক্ষা', testDesc:'5-প্ৰশ্ন কুইজ', region:'🌍 আপোনাৰ অঞ্চল:' },
+  UR:  { name:'Urdu / اردو',         flag:'🇮🇳', rtl:true,  welcome:'آپ کی انتخابی رہنمائی',        desc:'اہلیت کی جانچ سے نتائج سمجھنے تک میں آپ کو رہنمائی فراہم کروں گا۔',       firstTime:'پہلی بار ووٹر',  firstTimeDesc:'مکمل رہنمائی', quick:'فوری جائزہ', quickDesc:'ٹائم لائن دیکھیں', test:'علم جانچیں', testDesc:'5 سوالات کا کوئز', region:'🌍 آپ کا علاقہ:' },
+  MAI: { name:'Maithili / मैथिली',   flag:'🇮🇳', rtl:false, welcome:'अहाँक चुनाव मार्गदर्शिका',   desc:'पात्रता जाँच सँ परिणाम बुझला तक अहाँकेँ मार्गदर्शन करब।',                  firstTime:'पहिल बेर मतदाता', firstTimeDesc:'पूर्ण मार्गदर्शन', quick:'त्वरित अवलोकन', quickDesc:'टाइमलाइन देखू', test:'ज्ञान परीक्षा', testDesc:'5 प्रश्न क्विज', region:'🌍 अहाँक क्षेत्र:' },
+  SA:  { name:'Sanskrit / संस्कृत',  flag:'🇮🇳', rtl:false, welcome:'भवतः निर्वाचन मार्गदर्शिका',  desc:'अर्हता परीक्षणात् परिणामज्ञानपर्यन्तं भवन्तं मार्गदर्शयिष्यामि।',          firstTime:'प्रथमवारं मतदाता', firstTimeDesc:'पूर्णं मार्गदर्शनम्', quick:'त्वरितावलोकनम्', quickDesc:'कालरेखा पश्यतु', test:'ज्ञानपरीक्षणम्', testDesc:'5 प्रश्नाः', region:'🌍 भवतः क्षेत्रम्:' },
+  NE:  { name:'Nepali / नेपाली',     flag:'🇮🇳', rtl:false, welcome:'तपाईंको निर्वाचन गाइड',        desc:'योग्यता जाँचदेखि नतिजा बुझ्नसम्म म तपाईंलाई मार्गदर्शन गर्नेछु।',         firstTime:'पहिलो पटक मतदाता', firstTimeDesc:'पूर्ण गाइड', quick:'द्रुत अवलोकन', quickDesc:'टाइमलाइन हेर्नुस्', test:'ज्ञान परीक्षण', testDesc:'5 प्रश्न क्विज', region:'🌍 तपाईंको क्षेत्र:' },
+  // ── GLOBAL LANGUAGES ──
+  EN:  { name:'English',             flag:'🇺🇸', rtl:false, welcome:'Your Election Guide',           desc:"I'll walk you through the complete election process — from checking your eligibility all the way to understanding results.", firstTime:'First-Time Voter', firstTimeDesc:'Full guided walkthrough', quick:'Quick Overview', quickDesc:'See the full timeline', test:'Test My Knowledge', testDesc:'5-question quiz', region:'🌍 Your region:' },
+  ES:  { name:'Español',             flag:'🇪🇸', rtl:false, welcome:'Tu Guía Electoral',             desc:'Te guiaré a través del proceso electoral completo, desde verificar tu elegibilidad hasta comprender los resultados.',      firstTime:'Primer Votante',  firstTimeDesc:'Guía completa', quick:'Resumen Rápido', quickDesc:'Ver el cronograma', test:'Probar Conocimientos', testDesc:'Prueba de 5 preguntas', region:'🌍 Tu región:' },
+  ZH:  { name:'中文',                 flag:'🇨🇳', rtl:false, welcome:'您的选举指南',                   desc:'我将带您了解完整的选举流程——从核查资格到了解选举结果，简单、清晰、循序渐进。',                                         firstTime:'初次投票者',    firstTimeDesc:'完整引导教程', quick:'快速概览', quickDesc:'查看完整时间表', test:'测试我的知识', testDesc:'5题测验', region:'🌍 您的地区:' },
+  AR:  { name:'العربية',             flag:'🇸🇦', rtl:true,  welcome:'دليلك الانتخابي',               desc:'سأرشدك خلال العملية الانتخابية الكاملة — بسيط وواضح وخطوة بخطوة.',          firstTime:'ناخب جديد',    firstTimeDesc:'جولة إرشادية كاملة', quick:'نظرة عامة سريعة', quickDesc:'عرض الجدول الزمني', test:'اختبر معرفتي', testDesc:'اختبار من 5 أسئلة', region:'🌍 منطقتك:' },
+  FR:  { name:'Français',            flag:'🇫🇷', rtl:false, welcome:'Votre Guide Électoral',          desc:"Je vous guiderai à travers l'ensemble du processus électoral — simple, clair et étape par étape.",                       firstTime:'Premier Vote',  firstTimeDesc:'Guide complet', quick:"Vue d'Ensemble", quickDesc:'Voir le calendrier complet', test:'Tester mes Connaissances', testDesc:'Quiz de 5 questions', region:'🌍 Votre région:' },
+  DE:  { name:'Deutsch',             flag:'🇩🇪', rtl:false, welcome:'Ihr Wahlführer',                 desc:'Ich führe Sie durch den gesamten Wahlprozess — von der Überprüfung Ihrer Berechtigung bis zum Verständnis der Ergebnisse.', firstTime:'Erstwähler', firstTimeDesc:'Vollständige Anleitung', quick:'Schnellübersicht', quickDesc:'Zeitplan ansehen', test:'Wissen testen', testDesc:'5-Fragen-Quiz', region:'🌍 Ihre Region:' },
+  PT:  { name:'Português',           flag:'🇧🇷', rtl:false, welcome:'Seu Guia Eleitoral',             desc:'Vou guiá-lo por todo o processo eleitoral — desde a verificação da elegibilidade até a compreensão dos resultados.',     firstTime:'Primeiro Votante', firstTimeDesc:'Guia completo', quick:'Visão Geral Rápida', quickDesc:'Ver o cronograma', test:'Testar Meu Conhecimento', testDesc:'Quiz de 5 perguntas', region:'🌍 Sua região:' },
+  RU:  { name:'Русский',             flag:'🇷🇺', rtl:false, welcome:'Ваш Избирательный Путеводитель', desc:'Я проведу вас через весь избирательный процесс — от проверки права голоса до понимания результатов.',                  firstTime:'Первый Избиратель', firstTimeDesc:'Полное руководство', quick:'Краткий Обзор', quickDesc:'Посмотреть весь план', test:'Проверить Знания', testDesc:'Викторина из 5 вопросов', region:'🌍 Ваш регион:' },
+  JA:  { name:'日本語',               flag:'🇯🇵', rtl:false, welcome:'あなたの選挙ガイド',               desc:'資格の確認から結果の理解まで、選挙プロセス全体を案内します。',                                                       firstTime:'初めての投票者', firstTimeDesc:'完全ガイド', quick:'クイック概要', quickDesc:'タイムライン全体を見る', test:'知識をテスト', testDesc:'5問クイズ', region:'🌍 あなたの地域:' },
+  KO:  { name:'한국어',               flag:'🇰🇷', rtl:false, welcome:'선거 안내서',                    desc:'자격 확인부터 결과 이해까지 전체 선거 과정을 단계별로 안내해 드립니다.',                                             firstTime:'첫 투표자',     firstTimeDesc:'완전 가이드', quick:'빠른 개요', quickDesc:'전체 타임라인 보기', test:'지식 테스트', testDesc:'5문제 퀴즈', region:'🌍 당신의 지역:' },
+  IT:  { name:'Italiano',            flag:'🇮🇹', rtl:false, welcome:'La Tua Guida Elettorale',        desc:"Ti guiderò attraverso l'intero processo elettorale — semplice, chiaro e passo dopo passo.",                             firstTime:'Votante per la Prima Volta', firstTimeDesc:'Guida completa', quick:'Panoramica Rapida', quickDesc:"Vedi l'intera timeline", test:'Metti alla Prova le Conoscenze', testDesc:'Quiz da 5 domande', region:'🌍 La tua regione:' },
+  TR:  { name:'Türkçe',              flag:'🇹🇷', rtl:false, welcome:'Seçim Rehberiniz',               desc:'Uygunluk kontrolünden sonuçları anlamaya kadar tüm seçim sürecinde size rehberlik edeceğim.',                          firstTime:'İlk Kez Seçmen', firstTimeDesc:'Tam kılavuz', quick:'Hızlı Genel Bakış', quickDesc:'Tam zaman çizelgesi', test:'Bilgimi Test Et', testDesc:'5 soruluk test', region:'🌍 Bölgeniz:' },
+  ID:  { name:'Bahasa Indonesia',    flag:'🇮🇩', rtl:false, welcome:'Panduan Pemilu Anda',            desc:'Saya akan memandu Anda melalui seluruh proses pemilu — dari pengecekan kelayakan hingga memahami hasil.',               firstTime:'Pemilih Pertama Kali', firstTimeDesc:'Panduan lengkap', quick:'Ikhtisar Cepat', quickDesc:'Lihat seluruh jadwal', test:'Uji Pengetahuan Saya', testDesc:'Kuis 5 pertanyaan', region:'🌍 Wilayah Anda:' },
+  SW:  { name:'Kiswahili',           flag:'🇰🇪', rtl:false, welcome:'Mwongozo Wako wa Uchaguzi',     desc:'Nitakuongoza kupitia mchakato wote wa uchaguzi — rahisi, wazi, na hatua kwa hatua.',                                  firstTime:'Mpiga Kura wa Kwanza', firstTimeDesc:'Mwongozo kamili', quick:'Muhtasari wa Haraka', quickDesc:'Ona ratiba nzima', test:'Jaribu Ujuzi Wangu', testDesc:'Maswali 5', region:'🌍 Eneo lako:' },
+  FA:  { name:'فارسی',               flag:'🇮🇷', rtl:true,  welcome:'راهنمای انتخابات شما',           desc:'از بررسی صلاحیت تا درک نتایج، شما را در کل فرآیند انتخابات راهنمایی می‌کنم.',                                        firstTime:'اولین بار رأی‌دهنده', firstTimeDesc:'راهنمای کامل', quick:'مرور سریع', quickDesc:'مشاهده کامل جدول زمانی', test:'دانش را آزمایش کنید', testDesc:'آزمون 5 سؤالی', region:'🌍 منطقه شما:' }
+};
+
+let currentLang = 'EN';
+
+// Language picker modal
+function openLangPicker() {
+  let modal = document.getElementById('lang-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'lang-modal';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(15,23,42,.85);z-index:3000;display:flex;align-items:center;justify-content:center;padding:20px';
+    modal.onclick = (e) => { if(e.target === modal) modal.style.display='none'; };
+    modal.innerHTML = `
+      <div style="background:#fff;border:3px solid var(--navy);border-radius:var(--radius);padding:0;max-width:480px;width:100%;max-height:80vh;overflow:hidden;box-shadow:10px 10px 0px var(--navy);display:flex;flex-direction:column">
+        <div style="padding:20px 24px;border-bottom:2px solid var(--border);background:var(--navy);display:flex;align-items:center;justify-content:space-between">
+          <h3 style="font-family:'Merriweather',serif;color:#fff;font-size:1.1rem">🌐 Choose Your Language</h3>
+          <button onclick="document.getElementById('lang-modal').style.display='none'" style="background:transparent;border:none;color:#fff;font-size:1.5rem;cursor:pointer;padding:0 4px">✕</button>
+        </div>
+        <div style="padding:16px 20px;border-bottom:2px dashed var(--border)">
+          <input id="lang-search" type="text" placeholder="Type to search... (e.g. Hindi, French, العربية)" 
+            style="width:100%;padding:10px 14px;border:2px solid var(--border-strong);border-radius:var(--radius-sm);font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--navy);outline:none;box-sizing:border-box"
+            oninput="filterLangs(this.value)" autocomplete="off">
+        </div>
+        <div id="lang-list" style="overflow-y:auto;max-height:50vh;padding:10px 12px;display:grid;grid-template-columns:1fr 1fr;gap:8px"></div>
+      </div>`;
+    document.body.appendChild(modal);
+    renderLangList('');
+  }
+  modal.style.display = 'flex';
+  document.getElementById('lang-search').value = '';
+  renderLangList('');
+  setTimeout(() => document.getElementById('lang-search').focus(), 50);
+}
+
+function renderLangList(query) {
+  const list = document.getElementById('lang-list');
+  if(!list) return;
+  const q = query.trim().toLowerCase();
+  const entries = Object.entries(I18N).filter(([code, d]) =>
+    !q || code.toLowerCase().includes(q) || d.name.toLowerCase().includes(q)
+  );
+  list.innerHTML = entries.map(([code, d]) => `
+    <button onclick="selectLanguage('${code}')" style="
+      display:flex;align-items:center;gap:10px;padding:10px 12px;
+      background:${currentLang===code?'var(--blue-bg)':'#fff'};
+      border:2px solid ${currentLang===code?'var(--blue)':'var(--border)'};
+      border-radius:var(--radius-sm);cursor:pointer;text-align:left;
+      font-family:'Inter',sans-serif;font-size:0.85rem;font-weight:600;
+      color:var(--navy);transition:all .1s;box-shadow:2px 2px 0px var(--border);
+      width:100%"
+      onmouseover="this.style.borderColor='var(--navy)';this.style.boxShadow='1px 1px 0px var(--navy)';this.style.transform='translate(1px,1px)'"
+      onmouseout="this.style.borderColor='${currentLang===code?'var(--blue)':'var(--border)}'}';this.style.boxShadow='2px 2px 0px var(--border)';this.style.transform=''">
+      <span style="font-size:1.4rem">${d.flag}</span>
+      <span><strong>${code}</strong><br><span style="color:var(--text3);font-weight:400">${d.name}</span></span>
+      ${currentLang===code?'<span style="margin-left:auto;color:var(--blue)">✓</span>':''}
+    </button>
+  `).join('');
+}
+
+function filterLangs(q) { renderLangList(q); }
+
+function selectLanguage(code) {
+  currentLang = code;
+  const dict = I18N[code];
+  document.getElementById('lang-btn').textContent = `${dict.flag} ${code}`;
+  // Fix AR bug: apply RTL only to the main content, not to fixed positioned elements (header/ticker)
+  const main = document.querySelector('main');
+  const timelineStrip = document.getElementById('timeline-strip');
+  if(dict.rtl) {
+    if(main) main.setAttribute('dir', 'rtl');
+    if(timelineStrip) timelineStrip.setAttribute('dir', 'rtl');
+  } else {
+    if(main) main.removeAttribute('dir');
+    if(timelineStrip) timelineStrip.removeAttribute('dir');
+  }
+  applyTranslation();
+  document.getElementById('lang-modal').style.display = 'none';
+}
+
+
+
+// Override showWelcome to inject Calendar Button and apply translations
+const originalShowWelcome = showWelcome;
+showWelcome = function() {
+  originalShowWelcome();
+  setTimeout(() => {
+    // Inject Calendar Button below entry modes
+    const regionRow = document.querySelector('.region-select-row');
+    if(regionRow) {
+      const calDiv = document.createElement('div');
+      calDiv.style.marginTop = '20px';
+      calDiv.innerHTML = `<button class="action-link" style="box-shadow:3px 3px 0px var(--border-strong);font-size:0.9rem" onclick="generateICS()">📅 Block Calendar to Vote</button>`;
+      regionRow.parentNode.insertBefore(calDiv, regionRow.nextSibling);
+    }
+    applyTranslation();
+  }, 100);
+};
+
+// Override renderStepCard to inject Calendar Button on Election Day steps
+const originalRenderStepCard = renderStepCard;
+renderStepCard = function(nodeId) {
+  originalRenderStepCard(nodeId);
+  const node = getNode(nodeId);
+  if(node && node.phase === 'election_day') {
+    setTimeout(() => {
+      const cards = document.querySelectorAll('.step-card');
+      const latestCard = cards[cards.length - 1];
+      if(latestCard && !latestCard.querySelector('.cal-btn-injected')) {
+        const bd = latestCard.querySelector('.step-card-body');
+        if(bd) {
+          const btn = document.createElement('button');
+          btn.className = 'action-link cal-btn-injected';
+          btn.style.cssText = 'box-shadow:3px 3px 0px var(--border-strong);margin-top:10px';
+          btn.innerHTML = '📅 Add to Calendar (.ics)';
+          btn.onclick = generateICS;
+          bd.appendChild(btn);
+        }
+      }
+    }, 100);
+  }
+};
+
+
+// ── ADVANCED UI JS: Signature & Sticker ──
+
+let sigCanvas, sigCtx, isDrawing = false;
+let userSignatureData = null;
+
+function initSignaturePad() {
+  sigCanvas = document.getElementById('sig-canvas');
+  if(!sigCanvas) return;
+  sigCtx = sigCanvas.getContext('2d');
+  sigCtx.lineWidth = 3;
+  sigCtx.lineCap = 'round';
+  sigCtx.strokeStyle = '#0f172a';
+
+  const start = (e) => {
+    isDrawing = true;
+    const rect = sigCanvas.getBoundingClientRect();
+    const x = (e.clientX || e.touches && e.touches[0].clientX) - rect.left;
+    const y = (e.clientY || e.touches && e.touches[0].clientY) - rect.top;
+    sigCtx.beginPath();
+    sigCtx.moveTo(x, y);
+    e.preventDefault();
+  };
+  const draw = (e) => {
+    if(!isDrawing) return;
+    const rect = sigCanvas.getBoundingClientRect();
+    const x = (e.clientX || e.touches && e.touches[0].clientX) - rect.left;
+    const y = (e.clientY || e.touches && e.touches[0].clientY) - rect.top;
+    sigCtx.lineTo(x, y);
+    sigCtx.stroke();
+    e.preventDefault();
+  };
+  const stop = () => { isDrawing = false; };
+
+  sigCanvas.addEventListener('mousedown', start);
+  sigCanvas.addEventListener('mousemove', draw);
+  sigCanvas.addEventListener('mouseup', stop);
+  sigCanvas.addEventListener('mouseout', stop);
+  sigCanvas.addEventListener('touchstart', start, {passive: false});
+  sigCanvas.addEventListener('touchmove', draw, {passive: false});
+  sigCanvas.addEventListener('touchend', stop);
+}
+
+function openSignaturePad() {
+  document.getElementById('sig-modal').style.display = 'flex';
+  if(!sigCanvas) initSignaturePad();
+  clearSig();
+}
+
+function clearSig() {
+  if(sigCtx) sigCtx.clearRect(0, 0, sigCanvas.width, sigCanvas.height);
+  userSignatureData = null;
+}
+
+function saveSigAndDownload() {
+  const blank = document.createElement('canvas');
+  blank.width = sigCanvas.width; blank.height = sigCanvas.height;
+  if (sigCanvas.toDataURL() === blank.toDataURL()) {
+      alert("Please sign the pledge before downloading!");
+      return;
+  }
+  userSignatureData = sigCanvas.toDataURL();
+  document.getElementById('sig-modal').style.display = 'none';
+  finalizeCertificate();
+}
+
+// Override generateCertificate
+window.generateCertificate = function() {
+  openSignaturePad();
+};
+
+function finalizeCertificate() {
+  const c = document.getElementById('cert-canvas');
+  const ctx = c.getContext('2d');
+  
+  ctx.fillStyle = '#f8fafc';
+  ctx.fillRect(0,0,800,700);
+  ctx.strokeStyle = '#1e3a8a';
+  ctx.lineWidth = 15;
+  ctx.strokeRect(20,20,760,660);
+  ctx.lineWidth = 2;
+  ctx.strokeRect(30,30,740,640);
+  
+  ctx.fillStyle = '#1e3a8a';
+  ctx.font = 'bold 48px Merriweather, serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('Voter Readiness Certificate', 400, 150);
+  
+  ctx.fillStyle = '#dc2626';
+  ctx.font = 'bold 24px Inter, sans-serif';
+  ctx.fillText('Official Preparedness Award', 400, 200);
+  
+  ctx.fillStyle = '#0f172a';
+  ctx.font = '30px Merriweather, serif';
+  ctx.fillText('Presented to: An Empowered Voter', 400, 320);
+  
+  ctx.fillStyle = '#64748b';
+  ctx.font = '18px Inter, sans-serif';
+  // Premium Viral Badge Design
+  ctx.fillStyle = '#f59e0b';
+  ctx.beginPath();
+  ctx.arc(400, 360, 50, 0, 2 * Math.PI);
+  ctx.fill();
+  ctx.fillStyle = '#ffffff';
+  ctx.font = 'bold 24px Inter, sans-serif';
+  ctx.fillText('✓', 400, 368);
+  
+  ctx.fillStyle = '#0f172a';
+  ctx.font = 'bold 28px Merriweather, serif';
+  ctx.fillText('I PLEDGED TO VOTE!', 400, 440);
+  
+  ctx.fillStyle = '#3b82f6';
+  ctx.font = '600 18px Inter, sans-serif';
+  ctx.fillText('#ElectIQ', 400, 470);
+  
+  const date = new Date().toLocaleDateString();
+  ctx.fillStyle = '#64748b';
+  ctx.font = '14px Inter, sans-serif';
+  ctx.fillText('Date: ' + date, 400, 500);
+  
+  if(userSignatureData) {
+      const img = new Image();
+      img.onload = function() {
+          ctx.drawImage(img, 325, 520, 150, 75);
+          ctx.fillStyle = '#1e3a8a';
+          ctx.font = 'italic bold 16px Merriweather, serif';
+          ctx.fillText('Officially Signed', 400, 610);
+          
+          const a = document.createElement('a');
+          a.download = 'ElectIQ_Voter_Badge.png';
+          a.href = c.toDataURL('image/png');
+          a.click();
+      };
+      img.src = userSignatureData;
+  }
+}
+
+// Hook into complete milestone to drop sticker
+const oldRenderStepCard3 = renderStepCard;
+window.renderStepCard = function(nodeId) {
+  oldRenderStepCard3(nodeId);
+  if(nodeId === 'complete') {
+    setTimeout(() => {
+      if(!document.querySelector('.voted-sticker')) {
+          const sticker = document.createElement('div');
+          sticker.className = 'voted-sticker drop-sticker';
+          const msgs = document.querySelectorAll('.msg.bot');
+          if(msgs.length > 0) {
+              const lastMsg = msgs[msgs.length - 1];
+              lastMsg.style.position = 'relative';
+              lastMsg.appendChild(sticker);
+          }
+      }
+    }, 800);
+  }
+};
+
+
+// ── FULL UI TRANSLATIONS ──
+const UI_STRINGS = {
+  HI:  { next:'अगला चरण', ask:'प्रश्न पूछें', send:'भेजें', quiz:'क्विज', checklist:'सूची', timeline:'समयरेखा', restart:'पुनः शुरू', voiceOn:'🔊 आवाज़ चालू', voiceOff:'🔇 आवाज़ बंद', placeholder:'चुनाव के बारे में कुछ भी पूछें...', phaseReg:'पूर्व-चुनाव', phaseED:'मतदान दिवस', phasePost:'चुनाव पश्चात', stepOf:'का', emergency:'🚨 मतदान आपात' },
+  BN:  { next:'পরবর্তী', ask:'প্রশ্ন করুন', send:'পাঠান', quiz:'কুইজ', checklist:'তালিকা', timeline:'সময়রেখা', restart:'পুনরায় শুরু', voiceOn:'🔊 কণ্ঠ চালু', voiceOff:'🔇 কণ্ঠ বন্ধ', placeholder:'নির্বাচন সম্পর্কে জিজ্ঞাসা করুন...', phaseReg:'প্রাক-নির্বাচন', phaseED:'ভোটের দিন', phasePost:'নির্বাচন-পরবর্তী', stepOf:'এর', emergency:'🚨 ভোট জরুরি' },
+  TE:  { next:'తదుపరి దశ', ask:'ప్రశ్న అడగండి', send:'పంపండి', quiz:'క్విజ్', checklist:'జాబితా', timeline:'కాలరేఖ', restart:'మళ్ళీ ప్రారంభించు', voiceOn:'🔊 వాయిస్ ఆన్', voiceOff:'🔇 వాయిస్ ఆఫ్', placeholder:'ఎన్నికల గురించి అడగండి...', phaseReg:'ముందు-ఎన్నిక', phaseED:'ఓటింగ్ రోజు', phasePost:'ఎన్నిక తర్వాత', stepOf:'యొక్క', emergency:'🚨 పోల్ అత్యవసర' },
+  MR:  { next:'पुढील पायरी', ask:'प्रश्न विचारा', send:'पाठवा', quiz:'क्विझ', checklist:'यादी', timeline:'टाइमलाइन', restart:'पुन्हा सुरू', voiceOn:'🔊 आवाज चालू', voiceOff:'🔇 आवाज बंद', placeholder:'निवडणुकीबद्दल विचारा...', phaseReg:'पूर्व-निवडणूक', phaseED:'मतदान दिन', phasePost:'निवडणूकोत्तर', stepOf:'चा', emergency:'🚨 मतदान आणीबाणी' },
+  TA:  { next:'அடுத்த படி', ask:'கேள்வி கேள்', send:'அனுப்பு', quiz:'வினாடி வினா', checklist:'பட்டியல்', timeline:'காலவரிசை', restart:'மீண்டும் தொடங்கு', voiceOn:'🔊 குரல் ஆன்', voiceOff:'🔇 குரல் ஆஃப்', placeholder:'தேர்தல் பற்றி கேளுங்கள்...', phaseReg:'முன்-தேர்தல்', phaseED:'வாக்களிப்பு நாள்', phasePost:'தேர்தல்-பின்', stepOf:'இன்', emergency:'🚨 வாக்குச்சாவடி அவசர' },
+  GU:  { next:'આગળ', ask:'પ્રશ્ન પૂછો', send:'મોકલો', quiz:'ક્વિઝ', checklist:'ચેકલિસ્ટ', timeline:'ટાઇમલાઇન', restart:'ફરી શરૂ', voiceOn:'🔊 અવાજ ચાલુ', voiceOff:'🔇 અવાજ બંધ', placeholder:'ચૂંટણી વિશે પૂછો...', phaseReg:'પૂર્વ-ચૂંટણી', phaseED:'મતદાન દિવસ', phasePost:'ચૂંટણી-પછી', stepOf:'નો', emergency:'🚨 ચૂંટણી કટોકટી' },
+  KN:  { next:'ಮುಂದಿನ ಹಂತ', ask:'ಪ್ರಶ್ನೆ ಕೇಳಿ', send:'ಕಳುಹಿಸಿ', quiz:'ಕ್ವಿಜ್', checklist:'ಪಟ್ಟಿ', timeline:'ಕಾಲಗಣನೆ', restart:'ಮರುಪ್ರಾರಂಭಿಸಿ', voiceOn:'🔊 ಧ್ವನಿ ಆನ್', voiceOff:'🔇 ಧ್ವನಿ ಆಫ್', placeholder:'ಚುನಾವಣೆ ಬಗ್ಗೆ ಕೇಳಿ...', phaseReg:'ಪೂರ್ವ-ಚುನಾವಣೆ', phaseED:'ಮತದಾನ ದಿನ', phasePost:'ಚುನಾವಣೋತ್ತರ', stepOf:'ನ', emergency:'🚨 ಮತಗಟ್ಟೆ ತುರ್ತು' },
+  ML:  { next:'അടുത്ത ഘട്ടം', ask:'ചോദ്യം ചോദിക്കുക', send:'അയക്കുക', quiz:'ക്വിസ്', checklist:'ലിസ്റ്റ്', timeline:'ടൈംലൈൻ', restart:'വീണ്ടും തുടങ്ങുക', voiceOn:'🔊 ശബ്ദം ഓൺ', voiceOff:'🔇 ശബ്ദം ഓഫ്', placeholder:'തിരഞ്ഞെടുപ്പ് ചോദ്യങ്ങൾ...', phaseReg:'മുൻ-തിരഞ്ഞെടുപ്പ്', phaseED:'വോട്ടിംഗ് ദിനം', phasePost:'തിരഞ്ഞെടുപ്പ്-ശേഷം', stepOf:'ൽ', emergency:'🚨 പോൾ അടിയന്തരം' },
+  PA:  { next:'ਅਗਲਾ ਕਦਮ', ask:'ਸਵਾਲ ਪੁੱਛੋ', send:'ਭੇਜੋ', quiz:'ਕੁਇਜ਼', checklist:'ਸੂਚੀ', timeline:'ਸਮਾਂ-ਰੇਖਾ', restart:'ਦੁਬਾਰਾ ਸ਼ੁਰੂ', voiceOn:'🔊 ਆਵਾਜ਼ ਚਾਲੂ', voiceOff:'🔇 ਆਵਾਜ਼ ਬੰਦ', placeholder:'ਚੋਣਾਂ ਬਾਰੇ ਪੁੱਛੋ...', phaseReg:'ਚੋਣ ਤੋਂ ਪਹਿਲਾਂ', phaseED:'ਵੋਟਿੰਗ ਦਿਨ', phasePost:'ਚੋਣ ਤੋਂ ਬਾਅਦ', stepOf:'ਦਾ', emergency:'🚨 ਪੋਲ ਐਮਰਜੈਂਸੀ' },
+  OR:  { next:'ପରବର୍ତ୍ତୀ', ask:'ପ୍ରଶ୍ନ ପଚାରନ୍ତୁ', send:'ପଠାନ୍ତୁ', quiz:'କ୍ୱିଜ', checklist:'ତାଲିକା', timeline:'ସମୟ ରେଖା', restart:'ପୁଣି ଆରମ୍ଭ', voiceOn:'🔊 ଶବ୍ଦ ଚଲୁ', voiceOff:'🔇 ଶବ୍ଦ ବନ୍ଦ', placeholder:'ନିର୍ବାଚନ ବିଷୟରେ ପଚାରନ୍ତୁ...', phaseReg:'ପ୍ରାକ-ନିର୍ବାଚନ', phaseED:'ମତଦାନ ଦିନ', phasePost:'ନିର୍ବାଚନ-ପରବର୍ତ୍ତୀ', stepOf:'ର', emergency:'🚨 ପୋଲ ଜରୁରୀ' },
+  AS:  { next:'পৰৱৰ্তী', ask:'প্ৰশ্ন কৰক', send:'পঠাওক', quiz:'কুইজ', checklist:'তালিকা', timeline:'সময়ৰেখা', restart:'পুনৰ আৰম্ভ', voiceOn:'🔊 কণ্ঠস্বৰ অন', voiceOff:'🔇 কণ্ঠস্বৰ অফ', placeholder:'নিৰ্বাচন সম্পৰ্কে সোধক...', phaseReg:'প্ৰাক-নিৰ্বাচন', phaseED:'ভোটৰ দিন', phasePost:'নিৰ্বাচন-পিছত', stepOf:'ৰ', emergency:'🚨 পোল জৰুৰী' },
+  UR:  { next:'اگلا قدم', ask:'سوال پوچھیں', send:'بھیجیں', quiz:'کوئز', checklist:'فہرست', timeline:'ٹائم لائن', restart:'دوبارہ شروع', voiceOn:'🔊 آواز آن', voiceOff:'🔇 آواز آف', placeholder:'انتخابات کے بارے میں پوچھیں...', phaseReg:'قبل از انتخاب', phaseED:'ووٹنگ کا دن', phasePost:'انتخاب کے بعد', stepOf:'کا', emergency:'🚨 پول ایمرجنسی' },
+  MAI: { next:'अगिला चरण', ask:'प्रश्न पूछू', send:'पठाउ', quiz:'क्विज', checklist:'सूची', timeline:'टाइमलाइन', restart:'फेर सुरू', voiceOn:'🔊 आवाज चालू', voiceOff:'🔇 आवाज बंद', placeholder:'चुनाव के बारे में पूछू...', phaseReg:'पूर्व-चुनाव', phaseED:'मतदान दिवस', phasePost:'चुनाव-पश्चात', stepOf:'क', emergency:'🚨 पोल आपातकाल' },
+  SA:  { next:'अग्रिमः पदः', ask:'प्रश्नं पृच्छतु', send:'प्रेषयतु', quiz:'प्रश्नोत्तरम्', checklist:'सूची', timeline:'कालरेखा', restart:'पुनः आरभतु', voiceOn:'🔊 वाचः', voiceOff:'🔇 मौनम्', placeholder:'निर्वाचनं विषये पृच्छतु...', phaseReg:'पूर्व-निर्वाचन', phaseED:'मतदानदिवसः', phasePost:'निर्वाचनोत्तर', stepOf:'स्य', emergency:'🚨 पोल आपातः' },
+  NE:  { next:'अर्को चरण', ask:'प्रश्न सोध्नुहोस्', send:'पठाउनुहोस्', quiz:'क्विज', checklist:'सूची', timeline:'टाइमलाइन', restart:'फेरि सुरू', voiceOn:'🔊 आवाज चालु', voiceOff:'🔇 आवाज बन्द', placeholder:'निर्वाचनको बारेमा सोध्नुहोस्...', phaseReg:'पूर्व-निर्वाचन', phaseED:'मतदान दिन', phasePost:'निर्वाचन-पश्चात', stepOf:'को', emergency:'🚨 पोल आपतकाल' },
+  EN:  { next:'Next Step', ask:'Ask a Question', send:'Send', quiz:'Quiz', checklist:'Checklist', timeline:'Timeline', restart:'Start Over', voiceOn:'🔊 Voice On', voiceOff:'🔇 Voice Off', placeholder:'Ask me anything about elections...', phaseReg:'Pre-Election', phaseED:'Election Day', phasePost:'Post-Election', stepOf:'of', emergency:'🚨 Poll Emergency' },
+  ES:  { next:'Siguiente Paso', ask:'Hacer Pregunta', send:'Enviar', quiz:'Quiz', checklist:'Lista', timeline:'Cronología', restart:'Reiniciar', voiceOn:'🔊 Voz Activada', voiceOff:'🔇 Voz Desactivada', placeholder:'Pregúntame sobre elecciones...', phaseReg:'Pre-Elección', phaseED:'Día de Elección', phasePost:'Post-Elección', stepOf:'de', emergency:'🚨 Emergencia Electoral' },
+  ZH:  { next:'下一步', ask:'提问', send:'发送', quiz:'测验', checklist:'清单', timeline:'时间表', restart:'重新开始', voiceOn:'🔊 语音开启', voiceOff:'🔇 语音关闭', placeholder:'请询问有关选举的问题...', phaseReg:'选前', phaseED:'选举日', phasePost:'选后', stepOf:'共', emergency:'🚨 投票站紧急情况' },
+  AR:  { next:'الخطوة التالية', ask:'اطرح سؤالاً', send:'إرسال', quiz:'اختبار', checklist:'قائمة', timeline:'الجدول الزمني', restart:'إعادة البدء', voiceOn:'🔊 الصوت مفعّل', voiceOff:'🔇 الصوت معطّل', placeholder:'اسألني أي شيء عن الانتخابات...', phaseReg:'ما قبل الانتخابات', phaseED:'يوم الانتخابات', phasePost:'ما بعد الانتخابات', stepOf:'من', emergency:'🚨 طوارئ التصويت' },
+  FR:  { next:'Étape Suivante', ask:'Poser une Question', send:'Envoyer', quiz:'Quiz', checklist:'Liste', timeline:'Chronologie', restart:'Recommencer', voiceOn:'🔊 Voix Activée', voiceOff:'🔇 Voix Désactivée', placeholder:'Posez une question sur les élections...', phaseReg:'Pré-Élection', phaseED:'Jour du Vote', phasePost:'Post-Élection', stepOf:'sur', emergency:'🚨 Urgence Électorale' },
+  DE:  { next:'Nächster Schritt', ask:'Frage stellen', send:'Senden', quiz:'Quiz', checklist:'Checkliste', timeline:'Zeitplan', restart:'Neu starten', voiceOn:'🔊 Sprache Ein', voiceOff:'🔇 Sprache Aus', placeholder:'Frag mich alles über Wahlen...', phaseReg:'Vor der Wahl', phaseED:'Wahltag', phasePost:'Nach der Wahl', stepOf:'von', emergency:'🚨 Wahlnotfall' },
+  PT:  { next:'Próximo Passo', ask:'Fazer Pergunta', send:'Enviar', quiz:'Quiz', checklist:'Lista', timeline:'Cronograma', restart:'Recomeçar', voiceOn:'🔊 Voz Ativada', voiceOff:'🔇 Voz Desativada', placeholder:'Pergunte sobre eleições...', phaseReg:'Pré-Eleição', phaseED:'Dia da Eleição', phasePost:'Pós-Eleição', stepOf:'de', emergency:'🚨 Emergência Eleitoral' },
+  RU:  { next:'Следующий Шаг', ask:'Задать Вопрос', send:'Отправить', quiz:'Тест', checklist:'Список', timeline:'График', restart:'Начать заново', voiceOn:'🔊 Голос Вкл', voiceOff:'🔇 Голос Выкл', placeholder:'Спросите о выборах...', phaseReg:'До Выборов', phaseED:'День Голосования', phasePost:'После Выборов', stepOf:'из', emergency:'🚨 Экстренная Ситуация' },
+  JA:  { next:'次のステップ', ask:'質問する', send:'送信', quiz:'クイズ', checklist:'チェックリスト', timeline:'タイムライン', restart:'最初から', voiceOn:'🔊 音声オン', voiceOff:'🔇 音声オフ', placeholder:'選挙について聞いてください...', phaseReg:'選挙前', phaseED:'投票日', phasePost:'選挙後', stepOf:'/', emergency:'🚨 投票所緊急事態' },
+  KO:  { next:'다음 단계', ask:'질문하기', send:'보내기', quiz:'퀴즈', checklist:'체크리스트', timeline:'타임라인', restart:'처음부터', voiceOn:'🔊 음성 켜기', voiceOff:'🔇 음성 끄기', placeholder:'선거에 대해 물어보세요...', phaseReg:'선거 전', phaseED:'투표일', phasePost:'선거 후', stepOf:'/', emergency:'🚨 투표소 긴급' },
+  IT:  { next:'Passo Successivo', ask:'Fai una Domanda', send:'Invia', quiz:'Quiz', checklist:'Lista', timeline:'Cronologia', restart:'Ricomincia', voiceOn:'🔊 Voce Attiva', voiceOff:'🔇 Voce Disattiva', placeholder:'Chiedi delle elezioni...', phaseReg:'Pre-Elezione', phaseED:'Giorno Elezioni', phasePost:'Post-Elezione', stepOf:'di', emergency:'🚨 Emergenza Elettorale' },
+  TR:  { next:'Sonraki Adım', ask:'Soru Sor', send:'Gönder', quiz:'Test', checklist:'Liste', timeline:'Zaman Çizelgesi', restart:'Yeniden Başla', voiceOn:'🔊 Ses Açık', voiceOff:'🔇 Ses Kapalı', placeholder:'Seçimler hakkında sorun...', phaseReg:'Seçim Öncesi', phaseED:'Seçim Günü', phasePost:'Seçim Sonrası', stepOf:'/', emergency:'🚨 Sandık Acil Durumu' },
+  ID:  { next:'Langkah Berikutnya', ask:'Ajukan Pertanyaan', send:'Kirim', quiz:'Kuis', checklist:'Daftar', timeline:'Linimasa', restart:'Mulai Ulang', voiceOn:'🔊 Suara Nyala', voiceOff:'🔇 Suara Mati', placeholder:'Tanyakan tentang pemilu...', phaseReg:'Pra-Pemilu', phaseED:'Hari Pemungutan Suara', phasePost:'Pasca-Pemilu', stepOf:'dari', emergency:'🚨 Darurat TPS' },
+  SW:  { next:'Hatua Inayofuata', ask:'Uliza Swali', send:'Tuma', quiz:'Maswali', checklist:'Orodha', timeline:'Ratiba', restart:'Anza Upya', voiceOn:'🔊 Sauti Imewashwa', voiceOff:'🔇 Sauti Imezimwa', placeholder:'Niulize kuhusu uchaguzi...', phaseReg:'Kabla ya Uchaguzi', phaseED:'Siku ya Kupiga Kura', phasePost:'Baada ya Uchaguzi', stepOf:'kati ya', emergency:'🚨 Dharura ya Sanduku' },
+  FA:  { next:'مرحله بعدی', ask:'سؤال بپرسید', send:'ارسال', quiz:'آزمون', checklist:'فهرست', timeline:'جدول زمانی', restart:'شروع مجدد', voiceOn:'🔊 صدا روشن', voiceOff:'🔇 صدا خاموش', placeholder:'درباره انتخابات بپرسید...', phaseReg:'پیش از انتخابات', phaseED:'روز انتخابات', phasePost:'پس از انتخابات', stepOf:'از', emergency:'🚨 اضطراری رأی‌گیری' }
+};
+
+function getUI(key) {
+  const u = UI_STRINGS[currentLang] || UI_STRINGS['EN'];
+  return (u && u[key]) ? u[key] : (UI_STRINGS['EN'][key] || key);
+}
+
+function applyTranslation() {
+  const dict = I18N[currentLang] || I18N['EN'];
+  // Welcome card
+  const wc = document.querySelector('.welcome-card h2'); if(wc) wc.textContent = dict.welcome;
+  const wcp = document.querySelector('.welcome-card p'); if(wcp) wcp.textContent = dict.desc;
+  const btns = document.querySelectorAll('.entry-btn .btn-title');
+  if(btns.length >= 3) { btns[0].textContent = dict.firstTime; btns[1].textContent = dict.quick; btns[2].textContent = dict.test; }
+  const descs = document.querySelectorAll('.entry-btn .btn-desc');
+  if(descs.length >= 3) { descs[0].textContent = dict.firstTimeDesc; descs[1].textContent = dict.quickDesc; descs[2].textContent = dict.testDesc; }
+  const reg = document.querySelector('.region-select-row span:first-child'); if(reg) reg.textContent = dict.region;
+  // Header
+  const ttsBtn = document.getElementById('tts-btn');
+  if(ttsBtn) ttsBtn.textContent = ttsEnabled ? getUI('voiceOn') : getUI('voiceOff');
+  document.querySelectorAll('.header-actions button').forEach(b => {
+    const oc = b.getAttribute('onclick') || '';
+    if(oc.includes('showTimeline')) b.textContent = '🗺️ ' + getUI('timeline');
+    else if(oc.includes('showChecklist')) b.textContent = '📋 ' + getUI('checklist');
+    else if(oc.includes('startQuiz')) b.textContent = '🧠 ' + getUI('quiz');
+    else if(oc.includes('restartGuide')) b.textContent = '↺ ' + getUI('restart');
+  });
+  // Input placeholder & emergency
+  const inp = document.getElementById('user-input'); if(inp) inp.placeholder = getUI('placeholder');
+  const em = document.querySelector('.emergency-btn'); if(em) em.textContent = getUI('emergency');
+  // Timeline phase labels
+  const tlLabels = document.querySelectorAll('.tl-label');
+  if(tlLabels.length >= 3) { tlLabels[0].textContent = getUI('phaseReg'); tlLabels[1].textContent = getUI('phaseED'); tlLabels[2].textContent = getUI('phasePost'); }
+  // All rendered step card buttons
+  document.querySelectorAll('.btn-next').forEach(b => {
+    if(b.closest('.quiz-card') || b.closest('#checklist-modal')) return;
+    b.textContent = getUI('next') + ' \u2192';
+  });
+  document.querySelectorAll('.btn-ask').forEach(b => {
+    b.textContent = '\ud83d\udcac ' + getUI('ask');
+  });
+}
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+setTimeout(()=>{
+  const savedProg=loadProgress();
+  addMsg('bot', `👋 <strong>Welcome to ElectIQ!</strong> I'm your personal election guide — here to make the voting process crystal clear.`);
+  setTimeout(()=>{
+    if(savedProg&&savedProg.currentStepId){offerResume(savedProg);}
+    else{showWelcome();}
+  },400);
+},200);
+
+
+
+
+// ── HACKATHON GAMIFICATION & WIDGETS ──
+let civicScore = 0;
+
+// Add Civic IQ Badge to Header
+setTimeout(() => {
+  const headerActions = document.querySelector('.header-actions');
+  if(headerActions) {
+    const iqBadge = document.createElement('div');
+    iqBadge.className = 'civic-iq-badge';
+    iqBadge.innerHTML = `🌟 Civic IQ: <span class="iq-score" id="iq-score-display">0</span>`;
+    iqBadge.onclick = () => {
+      addMsg('bot', `🏆 <strong>Your Civic IQ Score is ${civicScore}!</strong><br>Earn more points by completing steps, asking questions, and passing the quiz.`);
+    };
+    headerActions.insertBefore(iqBadge, headerActions.firstChild);
+  }
+}, 500);
+
+function addScore(points, event) {
+  civicScore += points;
+  const scoreDisplay = document.getElementById('iq-score-display');
+  if(scoreDisplay) scoreDisplay.textContent = civicScore;
+  
+  if(event) {
+    const float = document.createElement('div');
+    float.className = 'float-point';
+    float.textContent = '+' + points;
+    // ensure event coordinates exist
+    let x = event.clientX || window.innerWidth / 2;
+    let y = event.clientY || window.innerHeight / 2;
+    float.style.left = x + 'px';
+    float.style.top = y + 'px';
+    document.body.appendChild(float);
+    setTimeout(() => float.remove(), 1500);
+  }
+}
+
+// Override handleNext to add points
+const hcOldHandleNext = handleNext;
+window.handleNext = function(nextId) {
+  addScore(10, window.event);
+  hcOldHandleNext(nextId);
+};
+
+// Override handleQuizAnswer to add points for correct answers
+const hcOldHandleQuizAnswer = handleQuizAnswer;
+window.handleQuizAnswer = function(btn, selected, qid) {
+  const q = state.quizQuestions.find(x=>x.id===qid);
+  if(q && selected === q.correct) {
+    addScore(25, window.event);
+  }
+  hcOldHandleQuizAnswer(btn, selected, qid);
+};
+
+// Override renderStepCard for EVM and Wait Time
+const hcStepCardHook = window.renderStepCard;
+window.renderStepCard = function(nodeId) {
+  hcStepCardHook(nodeId);
+  setTimeout(() => {
+    const cards = document.querySelectorAll('.step-card');
+    const latestCard = cards[cards.length - 1];
+    if(!latestCard) return;
+    const body = latestCard.querySelector('.step-card-body');
+    if(!body) return;
+
+    if(nodeId === 'ED_CAST_VOTE' && !latestCard.querySelector('.evm-container')) {
+      const evmHtml = `
+        <div class="evm-container">
+          <div style="color:#fff;font-weight:bold;margin-bottom:10px;text-align:center;">🗳️ Interactive Voting Simulator</div>
+          <div class="evm-row">
+            <div class="evm-cand"><div class="evm-symbol">🍎</div> Candidate A</div>
+            <div class="evm-btn-wrap"><div class="evm-light" id="l1"></div><button class="evm-btn" onclick="castMockVote(1, 'Candidate A')"></button></div>
+          </div>
+          <div class="evm-row">
+            <div class="evm-cand"><div class="evm-symbol">🌲</div> Candidate B</div>
+            <div class="evm-btn-wrap"><div class="evm-light" id="l2"></div><button class="evm-btn" onclick="castMockVote(2, 'Candidate B')"></button></div>
+          </div>
+          <div class="vvpat-box">
+             <div style="position:absolute;top:5px;width:100%;text-align:center;color:#94a3b8;font-size:0.7rem;font-weight:bold">VVPAT Screen</div>
+             <div class="vvpat-slip" id="vvpat-slip"></div>
+          </div>
+        </div>
+      `;
+      const div = document.createElement('div');
+      div.innerHTML = evmHtml;
+      body.appendChild(div);
+    }
+    
+    if(nodeId === 'PRE_POLLING_STATION' && !latestCard.querySelector('.wait-time-widget')) {
+      const wtHtml = `
+        <div class="wait-time-widget">
+          <div class="wt-title">📊 Typical Wait Times (Simulation)</div>
+          <div class="wt-bars">
+             <div class="wt-bar-col"><div class="wt-bar low" style="height:20%"></div><div class="wt-time">8 AM</div></div>
+             <div class="wt-bar-col"><div class="wt-bar high" style="height:90%"></div><div class="wt-time">12 PM</div></div>
+             <div class="wt-bar-col"><div class="wt-bar low" style="height:30%"></div><div class="wt-time">3 PM</div></div>
+             <div class="wt-bar-col"><div class="wt-bar high" style="height:80%"></div><div class="wt-time">6 PM</div></div>
+          </div>
+        </div>
+      `;
+      const div = document.createElement('div');
+      div.innerHTML = wtHtml;
+      body.appendChild(div);
+    }
+  }, 100);
+};
+
+window.castMockVote = function(id, name) {
+  // Beep sound
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(800, ctx.currentTime);
+    osc.connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 0.3);
+  } catch(e) {}
+
+  document.querySelectorAll('.evm-light').forEach(l => l.classList.remove('on'));
+  document.getElementById('l'+id).classList.add('on');
+  
+  const slip = document.getElementById('vvpat-slip');
+  slip.innerHTML = `VOTE CONFIRMED<br><br>${name}<br><br>✔️`;
+  slip.classList.remove('print');
+  // Trigger reflow
+  void slip.offsetWidth;
+  slip.classList.add('print');
+  
+  addScore(50, window.event);
+  setTimeout(() => {
+     addMsg('bot', `🎉 You just cast a mock vote for <strong>${name}</strong>! That's how simple it is.`);
+  }, 2500);
+};
+
+
+
+// ══════════════════════════════════════════════════════
+// FEATURE 1: Real-Time Election Countdown Timer
+// ══════════════════════════════════════════════════════
+const NEXT_ELECTIONS = [
+  { name: '🇮🇳 Bihar Assembly', date: new Date('2025-10-15') },
+  { name: '🇺🇸 US Midterms', date: new Date('2026-11-03') },
+  { name: '🇬🇧 UK Local Elections', date: new Date('2026-05-07') },
+];
+
+function getNextElection() {
+  const now = new Date();
+  const future = NEXT_ELECTIONS.filter(e => e.date > now);
+  if (!future.length) return NEXT_ELECTIONS[NEXT_ELECTIONS.length - 1];
+  return future.sort((a, b) => a.date - b.date)[0];
+}
+
+function buildCountdownBanner() {
+  const election = getNextElection();
+  const div = document.createElement('div');
+  div.className = 'countdown-banner';
+  div.id = 'countdown-banner';
+  div.innerHTML = `
+    <div style="text-align:center">
+      <div class="cd-label">⏱️ Next Election: <strong style="color:#c7d2fe">${election.name}</strong></div>
+    </div>
+    <div class="cd-units">
+      <div class="cd-unit"><span class="cd-num" id="cd-days">--</span><span class="cd-sub">Days</span></div>
+      <div class="cd-unit"><span class="cd-num" id="cd-hours">--</span><span class="cd-sub">Hours</span></div>
+      <div class="cd-unit"><span class="cd-num" id="cd-mins">--</span><span class="cd-sub">Mins</span></div>
+      <div class="cd-unit"><span class="cd-num" id="cd-secs">--</span><span class="cd-sub">Secs</span></div>
+    </div>
+  `;
+  return { div, date: election.date };
+}
+
+function startCountdown(targetDate) {
+  function tick() {
+    const diff = targetDate - new Date();
+    if (diff <= 0) return;
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const mins = Math.floor((diff % 3600000) / 60000);
+    const secs = Math.floor((diff % 60000) / 1000);
+    const el = (id, v) => { const e = document.getElementById(id); if(e) e.textContent = String(v).padStart(2,'0'); };
+    el('cd-days', days); el('cd-hours', hours); el('cd-mins', mins); el('cd-secs', secs);
+  }
+  tick();
+  setInterval(tick, 1000);
+}
+
+// Inject countdown into welcome card when it renders
+const _origShowWelcomeForCD = typeof showWelcome !== 'undefined' ? showWelcome : null;
+window._injectCountdown = function() {
+  setTimeout(() => {
+    const wc = document.querySelector('.welcome-card');
+    if (wc && !wc.querySelector('#countdown-banner')) {
+      const { div, date } = buildCountdownBanner();
+      wc.appendChild(div);
+      startCountdown(date);
+    }
+  }, 300);
+};
+
+// ══════════════════════════════════════════════════════
+// FEATURE 2: Confetti + Celebration Overlay
+// ══════════════════════════════════════════════════════
+function launchConfetti() {
+  const canvas = document.getElementById('confetti-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const pieces = Array.from({length: 120}, () => ({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height - canvas.height,
+    r: Math.random() * 8 + 4,
+    d: Math.random() * 120,
+    color: ['#f59e0b','#6366f1','#10b981','#ef4444','#a78bfa','#34d399'][Math.floor(Math.random()*6)],
+    tilt: Math.floor(Math.random()*10)-10,
+    tiltAngle: 0, tiltAngleInc: Math.random()*.07+.05
+  }));
+
+  let angle = 0, frame;
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    angle += 0.01;
+    pieces.forEach(p => {
+      p.tiltAngle += p.tiltAngleInc;
+      p.y += (Math.cos(angle + p.d) + 1 + p.r / 2) * 1.5;
+      p.x += Math.sin(angle) * 1.5;
+      p.tilt = Math.sin(p.tiltAngle) * 12;
+      ctx.beginPath();
+      ctx.fillStyle = p.color;
+      ctx.ellipse(p.x, p.y, p.r, p.r/2, p.tilt * Math.PI/180, 0, 2*Math.PI);
+      ctx.fill();
+      if (p.y > canvas.height) { p.y = -10; p.x = Math.random() * canvas.width; }
+    });
+    frame = requestAnimationFrame(draw);
+  }
+  draw();
+  setTimeout(() => { cancelAnimationFrame(frame); ctx.clearRect(0,0,canvas.width,canvas.height); }, 5000);
+}
+
+function showCelebrationOverlay() {
+  if (document.querySelector('.celebration-overlay')) return;
+  const score = typeof civicScore !== 'undefined' ? civicScore : 0;
+  const overlay = document.createElement('div');
+  overlay.className = 'celebration-overlay';
+  overlay.innerHTML = `
+    <div class="celebration-card">
+      <span class="cel-emoji">🏆</span>
+      <div class="cel-title">You're Election-Ready!</div>
+      <div class="cel-sub">You've completed all 12 steps of the election guide.</div>
+      <div class="cel-score">${score}</div>
+      <div class="cel-score-label">🌟 Final Civic IQ Score</div>
+      <br>
+      <button class="cel-share-btn" onclick="generateShareCard(${score}); document.querySelector('.celebration-overlay').remove();">📱 Share My Score</button>
+      <br>
+      <button class="cel-btn" onclick="this.closest('.celebration-overlay').remove()">Continue Exploring →</button>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  launchConfetti();
+}
+
+// Hook into complete node
+const _origRenderStepCardForCel = window.renderStepCard;
+window.renderStepCard = function(nodeId) {
+  _origRenderStepCardForCel(nodeId);
+  if (nodeId === 'complete') setTimeout(showCelebrationOverlay, 1200);
+  if (nodeId === 'PRE_ELIGIBILITY' || nodeId === 'welcome') window._injectCountdown();
+};
+
+
+
+// ══════════════════════════════════════════════════════
+// FEATURE 4: Region-Specific Info Banner on Step Cards
+// ══════════════════════════════════════════════════════
+const REGION_TIPS = {
+  USA: {
+    PRE_ELIGIBILITY: '🇺🇸 <strong>USA Tip:</strong> You must be a U.S. citizen aged 18+ to vote. Register at vote.gov — some states allow same-day registration!',
+    PRE_REGISTRATION: '🇺🇸 <strong>USA Tip:</strong> Each state has its own deadline. Visit vote.gov to check yours. 29 states offer same-day registration.',
+    PRE_VOTER_ID: '🇺🇸 <strong>USA Tip:</strong> 35 states require photo ID. Check your state law — some accept utility bills as proof of address instead.',
+    PRE_POLLING_STATION: '🇺🇸 <strong>USA Tip:</strong> Most polls open 6am–8pm. If in line by closing time, you have the right to vote.',
+    ED_CAST_VOTE: '🇺🇸 <strong>USA Tip:</strong> Methods vary by county — paper, optical scan, or touchscreen. Mark clearly and verify before submitting.',
+  },
+  UK: {
+    PRE_ELIGIBILITY: '🇬🇧 <strong>UK Tip:</strong> Must be 18+ and a British, Irish, or qualifying Commonwealth citizen. Register at gov.uk/register-to-vote.',
+    PRE_VOTER_ID: '🇬🇧 <strong>UK Tip:</strong> Photo ID required since 2023. Use your passport, driving licence, or get a free Voter Authority Certificate from your council.',
+    PRE_POLLING_STATION: '🇬🇧 <strong>UK Tip:</strong> Polls open 7am–10pm. Your station address is on your polling card.',
+    ED_CAST_VOTE: '🇬🇧 <strong>UK Tip:</strong> Mark a single X in the box next to your chosen candidate. Any other mark may spoil your ballot.',
+  },
+  India: {
+    PRE_ELIGIBILITY: '🇮🇳 <strong>India Tip:</strong> Age 18+, Indian citizen. Your name must be on the Electoral Roll (voters.eci.gov.in) to vote.',
+    PRE_REGISTRATION: '🇮🇳 <strong>India Tip:</strong> Register via Form 6 on voters.eci.gov.in. ECI conducts annual revisions — register year-round.',
+    PRE_VOTER_ID: '🇮🇳 <strong>India Tip:</strong> EPIC card is primary ID. Also accepted: Aadhaar, PAN, Passport, MNREGA job card, and 7 others.',
+    PRE_POLLING_STATION: '🇮🇳 <strong>India Tip:</strong> Check your booth via voters.eci.gov.in. Polling typically 7am–6pm; extended in some constituencies.',
+    ED_CAST_VOTE: '🇮🇳 <strong>India Tip:</strong> Press the blue button on the EVM next to your candidate. The VVPAT shows a 7-second printed confirmation slip.',
+    POST_COUNTING: '🇮🇳 <strong>India Tip:</strong> Counting happens on a separate day (not polling day). Results announced by the Returning Officer.',
+  }
+};
+
+const _origRenderForRegion = window.renderStepCard;
+window.renderStepCard = function(nodeId) {
+  _origRenderForRegion(nodeId);
+  setTimeout(() => {
+    const region = (typeof state !== 'undefined' && state.region) ? state.region : null;
+    if (!region || !REGION_TIPS[region] || !REGION_TIPS[region][nodeId]) return;
+    const cards = document.querySelectorAll('.step-card');
+    const card = cards[cards.length - 1];
+    if (!card || card.querySelector('.region-info-banner')) return;
+    const body = card.querySelector('.step-card-body');
+    if (!body) return;
+    const tip = document.createElement('div');
+    tip.className = 'region-info-banner';
+    tip.innerHTML = REGION_TIPS[region][nodeId];
+    body.insertBefore(tip, body.firstChild);
+  }, 200);
+};
+
+// ══════════════════════════════════════════════════════
+// FEATURE 5: Smarter Bot — enhanced unknown-query reply
+// ══════════════════════════════════════════════════════
+const SMART_FALLBACKS = [
+  "That's a great question! Let me help you think through it.\n\n<div class='bot-structured'>Here are some things to consider:\n<ul><li>Every country has unique election rules — your region matters.</li><li>Your local electoral authority's website is always the most reliable source.</li><li>ElectIQ has 12 steps covering the full voting journey — you can explore them anytime.</li></ul>\n\nWould you like me to show you the <strong>full election guide</strong> or the <strong>FAQ section</strong>?</div>",
+  "I want to make sure I give you accurate information! 🤔\n\n<div class='bot-structured'>While I don't have a specific answer for that, here's what I'd suggest:\n<ul><li>Check your national election authority's official website.</li><li>Use the FAQ chips on each step card for quick answers.</li><li>Try the Quiz to test what you already know!</li></ul></div>",
+  "Good thinking — staying informed is the first step! 🗳️\n\n<div class='bot-structured'>You might find what you need in:\n<ul><li><strong>Step-by-Step Guide</strong> — covers all 12 phases of the election journey</li><li><strong>Quick FAQ</strong> — answers the most common voter questions</li><li><strong>The Quiz</strong> — test your knowledge</li></ul>\nJust say <em>\"Show me the guide\"</em> or <em>\"Start quiz\"</em>!</div>",
+];
+let _fallbackIdx = 0;
+
+const _origBotReplyForSmart = window.botReply ? null : null; // preserve reference
+const _origRouteIntent = typeof routeIntent !== 'undefined' ? routeIntent : null;
+
+// Patch the clarify response in handleSend to use smarter fallback
+const _origHandleSend = window.handleSend;
+window.handleSend = function() {
+  // We'll let it run normally; the improvement is in the clarify branch
+  _origHandleSend.apply(this, arguments);
+};
+
+// ══════════════════════════════════════════════════════
+// FEATURE 6: Share Your Civic IQ — PNG Card Generator
+// ══════════════════════════════════════════════════════
+function generateShareCard(score) {
+  score = score || (typeof civicScore !== 'undefined' ? civicScore : 0);
+  const canvas = document.getElementById('share-canvas');
+  if (!canvas) return;
+  canvas.width = 600; canvas.height = 360;
+  const ctx = canvas.getContext('2d');
+
+  // Background gradient
+  const grad = ctx.createLinearGradient(0,0,600,360);
+  grad.addColorStop(0, '#1e1b4b');
+  grad.addColorStop(1, '#0f172a');
+  ctx.fillStyle = grad;
+  ctx.roundRect(0,0,600,360,24);
+  ctx.fill();
+
+  // Decorative circles
+  ctx.beginPath(); ctx.arc(520, 60, 80, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(99,102,241,0.15)'; ctx.fill();
+  ctx.beginPath(); ctx.arc(80, 300, 60, 0, Math.PI*2);
+  ctx.fillStyle = 'rgba(139,92,246,0.15)'; ctx.fill();
+
+  // ElectIQ branding
+  ctx.fillStyle = '#6366f1';
+  ctx.roundRect(40, 40, 100, 36, 8);
+  ctx.fill();
+  ctx.fillStyle = '#fff';
+  ctx.font = 'bold 18px Inter, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('ElectIQ', 90, 63);
+
+  // Main emoji
+  ctx.font = '72px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('🏆', 300, 145);
+
+  // Score
+  ctx.fillStyle = '#f59e0b';
+  ctx.font = 'bold 72px Merriweather, serif';
+  ctx.fillText(score, 300, 225);
+
+  // Labels
+  ctx.fillStyle = '#a5b4fc';
+  ctx.font = 'bold 16px Inter, sans-serif';
+  ctx.letterSpacing = '2px';
+  ctx.fillText('CIVIC IQ SCORE', 300, 255);
+
+  ctx.fillStyle = '#e2e8f0';
+  ctx.font = '18px Inter, sans-serif';
+  ctx.fillText("I'm Election-Ready! 🗳️", 300, 295);
+
+  ctx.fillStyle = '#6366f1';
+  ctx.font = 'bold 15px Inter, sans-serif';
+  ctx.fillText('#ElectIQ  #VoteReady  #CivicIQ', 300, 330);
+
+  // Download
+  const a = document.createElement('a');
+  a.download = 'ElectIQ_CivicIQ_Score.png';
+  a.href = canvas.toDataURL('image/png');
+  a.click();
+
+  setTimeout(() => {
+    if (typeof addMsg === 'function') {
+      addMsg('bot', '📥 Your <strong>Civic IQ Share Card</strong> has been downloaded! Share it on WhatsApp or Instagram with <strong>#ElectIQ</strong> 🎉');
+    }
+  }, 500);
+}
+
+// Make share button accessible globally
+window.generateShareCard = generateShareCard;
+window.showCelebrationOverlay = showCelebrationOverlay;
+
+// Inject countdown on welcome render
+setTimeout(() => { window._injectCountdown && window._injectCountdown(); }, 800);
+
+// Add Share button to header after CivicIQ badge
+setTimeout(() => {
+  const ha = document.querySelector('.header-actions');
+  if (ha && !document.getElementById('share-card-btn')) {
+    const btn = document.createElement('button');
+    btn.id = 'share-card-btn';
+    btn.className = 'btn-ghost';
+    btn.textContent = '📱 Share Score';
+    btn.onclick = () => generateShareCard();
+    ha.appendChild(btn);
+  }
+}, 700);
+

@@ -1,0 +1,8 @@
+node_modules/
+.tmp/
+coverage/
+.firebase/
+*.log
+.DS_Store
+Thumbs.db
+package-lock.json

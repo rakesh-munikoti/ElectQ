@@ -1,0 +1,182 @@
+/**
+ * accessibility.css
+ * WCAG 2.1 AA compliance styles for ElectIQ.
+ * Implements: skip link, focus rings, sr-only, live regions, reduced motion.
+ */
+
+/* ── Skip Navigation Link ─────────────────────────────────────────────────
+   The very first focusable element. Hidden off-screen until focused.
+   Allows keyboard users to skip repeated navigation. */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #005FCC;
+  color: #ffffff;
+  padding: 12px 20px;
+  z-index: 99999;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 0 0 8px 0;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #ffff00;
+  outline-offset: 2px;
+}
+
+/* ── Screen Reader Only Utility ───────────────────────────────────────────
+   Visually hides content but keeps it accessible to assistive technology. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Visible Focus Ring for Keyboard Navigation ───────────────────────────
+   Overrides default browser focus styles with a high-visibility ring.
+   CRITICAL: Never use `outline: none` without providing an alternative. */
+*:focus-visible {
+  outline: 3px solid #005FCC;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Remove outline for mouse users only (not keyboard) */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ── Live Regions ─────────────────────────────────────────────────────────
+   These elements are announced by screen readers when their content changes. */
+#chat-live-region {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+#step-announcer {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* ── High Contrast Focus for Interactive Cards ────────────────────────────*/
+.step-card:focus-within,
+.quiz-card:focus-within,
+.faq-card:focus-within {
+  outline: 2px solid #005FCC;
+  outline-offset: 4px;
+}
+
+/* ── Button Focus States ─────────────────────────────────────────────────*/
+button:focus-visible,
+a:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+input:focus-visible {
+  outline: 3px solid #005FCC;
+  outline-offset: 3px;
+}
+
+/* ── Modal Focus Trap Indicator ─────────────────────────────────────────*/
+.checklist-box:focus,
+#lang-modal > div:focus {
+  outline: 3px solid #005FCC;
+}
+
+/* ── Reduced Motion Support ───────────────────────────────────────────────
+   Respects users who have set their OS to "prefer reduced motion".
+   Disables all CSS animations and transitions for these users. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Specifically pause known heavy animations */
+  body::before {
+    animation: none !important;
+  }
+
+  #confetti-canvas {
+    display: none !important;
+  }
+
+  .ticker-content {
+    animation: none !important;
+  }
+
+  .voted-sticker {
+    animation: none !important;
+  }
+
+  .milestoneIn {
+    animation: none !important;
+  }
+}
+
+/* ── Color Contrast Fixes ─────────────────────────────────────────────────
+   Ensuring all text meets WCAG 4.5:1 contrast ratio on its background. */
+
+/* Quiz difficulty badges — amber text on light amber bg has low contrast */
+.quiz-diff.hard {
+  /* amber on white — ratio is ~3.5:1 so we darken */
+  color: #92400e !important;  /* darker amber — contrast 5.4:1 on white */
+  background: rgba(217, 119, 6, 0.12) !important;
+  border-color: #92400e !important;
+}
+
+/* Step badges — amber variant */
+.step-badge.amber {
+  color: #92400e !important;
+  border-color: #92400e !important;
+}
+
+/* ── Interactive Element Minimum Touch Target ─────────────────────────────
+   WCAG 2.5.5: All interactive targets should be at least 44×44px. */
+.opt-chip,
+.sug-chip,
+.quiz-opt,
+.btn-ghost,
+.btn-restart,
+.btn-next,
+.btn-ask,
+.entry-btn {
+  min-height: 44px;
+}
+
+.send-btn,
+.voice-btn {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* ── Error State Visibility ───────────────────────────────────────────────*/
+[aria-invalid="true"] {
+  border-color: #dc2626 !important;
+  outline: 2px solid #dc2626;
+}
+
+/* ── Loading State ────────────────────────────────────────────────────────*/
+[aria-busy="true"] {
+  cursor: wait;
+  opacity: 0.7;
+}

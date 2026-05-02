@@ -1,0 +1,314 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-01",
+  "phases": ["pre_election", "election_day", "post_election"],
+  "nodes": [
+    {
+      "phase": "pre_election",
+      "id": "PRE_ELIGIBILITY",
+      "title": "Step 1: Check Your Eligibility",
+      "description": "Before anything else, confirm you have the legal right to vote in your jurisdiction.",
+      "steps": [
+        "Confirm you meet the minimum age requirement (typically 18 years old)",
+        "Verify your citizenship or residency status qualifies you to vote",
+        "Check that you are not disqualified by any court order or legal restriction"
+      ],
+      "why_it_matters": "Voting is a fundamental civic right — but it has legal requirements. Knowing your eligibility protects you from wasted effort and ensures your vote counts.",
+      "timeline_marker": "Months before election",
+      "region_notes": {
+        "USA": "Age 18+. U.S. citizens only. Some states restore voting rights to former felons — check your state's rules.",
+        "UK": "Age 18+ (16+ in Scotland/Wales for some elections). British, Irish, or qualifying Commonwealth citizen.",
+        "India": "Age 18+. Indian citizen. Name must appear on Electoral Roll."
+      },
+      "keywords": ["eligible", "eligibility", "can I vote", "qualify", "age", "citizen", "right to vote"],
+      "next_step_id": "PRE_REGISTRATION"
+    },
+    {
+      "phase": "pre_election",
+      "id": "PRE_REGISTRATION",
+      "title": "Step 2: Register to Vote",
+      "description": "Registration puts your name on the official voter roll — without it, you cannot vote.",
+      "steps": [
+        "Locate your official voter registration portal (national or state/local authority website)",
+        "Complete the registration form with your legal name, address, and date of birth",
+        "Submit before the registration deadline — deadlines vary significantly by region"
+      ],
+      "why_it_matters": "You can be fully eligible but still unable to vote if you are not registered. Registration is the gateway — it is how the election authority knows you exist as a voter.",
+      "timeline_marker": "Weeks to months before election",
+      "region_notes": {
+        "USA": "Register at vote.gov or your state's election website. Deadlines vary — some states allow same-day registration. Check your state's specific rules.",
+        "UK": "Register at gov.uk/register-to-vote. Deadline is typically 12 working days before an election. Individual Electoral Registration (IER) system.",
+        "India": "Register via voters.eci.gov.in using Form 6. The ECI conducts annual summary revisions. You can register year-round."
+      },
+      "keywords": ["register", "registration", "sign up", "voter roll", "electoral roll", "enroll"],
+      "next_step_id": "PRE_VOTER_ID"
+    },
+    {
+      "phase": "pre_election",
+      "id": "PRE_VOTER_ID",
+      "title": "Step 3: Get Your Voter ID / Documents",
+      "description": "Many jurisdictions require you to bring identification to vote. Know what you need in advance.",
+      "steps": [
+        "Find out what form of ID is accepted at polling stations in your region",
+        "If you lack the required ID, apply for a voter ID card through your electoral authority",
+        "Keep your voter registration confirmation or polling card — you may need it on Election Day"
+      ],
+      "why_it_matters": "Arriving without the right ID can mean you cannot vote, even if you are fully registered. Preparation on this step eliminates a very fixable problem.",
+      "timeline_marker": "Weeks before election",
+      "region_notes": {
+        "USA": "ID requirements vary by state — some require photo ID, others only need a signature match. Check your state's voter ID law.",
+        "UK": "Photo ID is now required in Great Britain (since 2023). Accepted: passport, driving licence, or free Voter Authority Certificate from your council.",
+        "India": "Voter ID card (EPIC) is the primary ID. Also accepted: Aadhaar, passport, driving licence, PAN card, and several others."
+      },
+      "keywords": ["ID", "voter ID", "identification", "document", "polling card", "what to bring"],
+      "next_step_id": "PRE_POLLING_STATION"
+    },
+    {
+      "phase": "pre_election",
+      "id": "PRE_POLLING_STATION",
+      "title": "Step 4: Find Your Polling Station",
+      "description": "You must vote at your assigned polling station — you generally cannot vote at a different one.",
+      "steps": [
+        "Look up your assigned polling station on your electoral authority's website using your registered address",
+        "Note the station's address and opening/closing hours",
+        "Plan your route and check for accessibility if needed"
+      ],
+      "why_it_matters": "Showing up at the wrong polling station wastes your trip and may mean you miss the chance to vote. Knowing your station in advance removes all uncertainty on Election Day.",
+      "timeline_marker": "Days before election",
+      "region_notes": {
+        "USA": "Use vote.gov or your state's lookup tool. Polling hours vary by state, typically 6am–8pm local time.",
+        "UK": "Polling cards are sent to your registered address. Stations typically open 7am–10pm on election day.",
+        "India": "Check your Voter Information Slip or voters.eci.gov.in. Polling typically runs 7am–6pm, sometimes extended in some constituencies."
+      },
+      "keywords": ["polling station", "where to vote", "polling place", "booth", "voting location"],
+      "next_step_id": "PRE_UNDERSTAND_BALLOT"
+    },
+    {
+      "phase": "pre_election",
+      "id": "PRE_UNDERSTAND_BALLOT",
+      "title": "Step 5: Understand Your Ballot",
+      "description": "Know who and what you will be voting for before you enter the polling booth.",
+      "steps": [
+        "Research the candidates and parties on your ballot — look up their platforms",
+        "Understand the voting method used (first-past-the-post, ranked choice, proportional, etc.)",
+        "If there are referendums or propositions, read official summaries from your electoral authority"
+      ],
+      "why_it_matters": "An informed vote is a powerful vote. Understanding your ballot before you arrive means you are not guessing under pressure in the booth.",
+      "timeline_marker": "Days to weeks before election",
+      "region_notes": {
+        "USA": "Presidential elections use Electoral College; many races use First-Past-The-Post. Some states use ranked-choice voting. Sample ballots often available online.",
+        "UK": "First-Past-The-Post for general elections. In some devolved elections (Scotland, Wales) proportional representation is used.",
+        "India": "First-Past-The-Post for Lok Sabha and State Assembly elections. Voting is on EVMs — candidates listed with party symbols."
+      },
+      "keywords": ["ballot", "candidates", "who to vote for", "parties", "understand voting", "how to vote", "referendum"],
+      "next_step_id": "ED_ARRIVE"
+    },
+    {
+      "phase": "election_day",
+      "id": "ED_ARRIVE",
+      "title": "Step 6: Arrive at Your Polling Station",
+      "description": "Election Day has arrived. Here is what to do when you get there.",
+      "steps": [
+        "Bring your required ID and any voter registration confirmation or polling card",
+        "Arrive with enough time — polling stations can have queues, especially in the morning and after work hours",
+        "If you are in the queue before closing time, you have the right to vote — do not leave"
+      ],
+      "why_it_matters": "The logistics of Election Day are simple, but easy to get wrong. Getting there prepared and on time is the difference between your vote counting and being left out.",
+      "timeline_marker": "Election Day — morning",
+      "region_notes": {
+        "USA": "If you are in line when polls close, you have the right to vote. Some states have long early voting periods.",
+        "UK": "Polls close at 10pm. Any voter in the queue at 10pm can vote. You do not need your polling card — it just speeds up the process.",
+        "India": "Carry your Voter ID or any approved alternate ID. If your name is on the roll, you can vote. Queues can be very long in populous constituencies."
+      },
+      "keywords": ["arrive", "election day", "go to vote", "when to go", "polling day", "what to do"],
+      "next_step_id": "ED_CHECK_IN"
+    },
+    {
+      "phase": "election_day",
+      "id": "ED_CHECK_IN",
+      "title": "Step 7: Check In at the Polling Station",
+      "description": "When you enter, polling staff will verify your identity and find you on the voter roll.",
+      "steps": [
+        "Present your ID to the polling officer at the check-in desk",
+        "The officer will find your name on the electoral register and mark you as attending",
+        "You will receive your official ballot paper or be directed to a voting machine"
+      ],
+      "why_it_matters": "The check-in process is how election authorities prevent fraud and ensure one person = one vote. It is quick and straightforward — polling officers are trained to help.",
+      "timeline_marker": "Election Day — at the station",
+      "region_notes": {
+        "USA": "Show your ID (if required by your state) and state your name/address. You may be asked to sign a poll book.",
+        "UK": "Show your photo ID. The clerk will cross your name off the register and hand you a ballot paper.",
+        "India": "Show your Voter ID or approved alternative. The presiding officer checks the roll and applies indelible ink to your finger to prevent double voting."
+      },
+      "keywords": ["check in", "sign in", "polling officer", "verify", "register", "ink", "mark"],
+      "next_step_id": "ED_CAST_VOTE"
+    },
+    {
+      "phase": "election_day",
+      "id": "ED_CAST_VOTE",
+      "title": "Step 8: Cast Your Vote",
+      "description": "This is the moment. Mark your ballot correctly and submit it.",
+      "steps": [
+        "Go to the private voting booth — your vote is secret, no one can see what you mark",
+        "Mark your ballot clearly according to the instructions (tick, cross, number, or press a button on EVM)",
+        "Follow the submission process: fold and place paper ballot in the sealed box, or confirm on the EVM"
+      ],
+      "why_it_matters": "A spoiled or incorrectly marked ballot may not be counted. Taking 60 seconds to mark it correctly is the most important action you take today.",
+      "timeline_marker": "Election Day — in the booth",
+      "region_notes": {
+        "USA": "Methods vary: paper ballot, optical scan, or touch screen depending on your county. Follow the instructions on the ballot.",
+        "UK": "Put a single X in the box next to your chosen candidate. Fold the paper and place it in the ballot box. Any other marking may spoil your ballot.",
+        "India": "Press the blue button next to your chosen candidate's name and symbol on the EVM. A beep confirms your vote. The VVPAT shows a paper confirmation."
+      },
+      "keywords": ["cast vote", "mark ballot", "how to vote", "EVM", "ballot paper", "booth", "secret ballot", "submit vote"],
+      "next_step_id": "POST_COUNTING"
+    },
+    {
+      "phase": "post_election",
+      "id": "POST_COUNTING",
+      "title": "Step 9: Votes Are Counted",
+      "description": "After polls close, a rigorous counting process begins under official supervision.",
+      "steps": [
+        "Ballot boxes are sealed, transported, and opened only at official counting centers under strict security",
+        "Votes are counted by electoral officials — candidates or their agents can observe the count",
+        "Results are verified, cross-checked, and any disputed ballots are reviewed by returning officers"
+      ],
+      "why_it_matters": "The counting process is designed to be transparent and tamper-proof. Understanding it builds confidence that your vote was counted correctly and fairly.",
+      "timeline_marker": "Election Night / Following Days",
+      "region_notes": {
+        "USA": "Counting timelines vary by state. Mail-in ballots may take days to process. Networks project winners, but official certification takes weeks.",
+        "UK": "Counting often begins immediately after polls close at 10pm. Results for most constituencies are announced overnight.",
+        "India": "Counting day is a separate official day, usually 1–2 weeks after the last polling phase. EVM results are announced by the Returning Officer."
+      },
+      "keywords": ["count", "counting", "tally", "how are votes counted", "ballot counting", "results", "when will we know"],
+      "next_step_id": "POST_RESULTS"
+    },
+    {
+      "phase": "post_election",
+      "id": "POST_RESULTS",
+      "title": "Step 10: Results Are Declared",
+      "description": "Official results are announced and a winner is formally declared.",
+      "steps": [
+        "The Returning Officer or equivalent authority officially announces the winner in each constituency/race",
+        "Final results are certified and published on the official electoral authority website",
+        "The winning party or candidate begins the process of forming a government or taking office"
+      ],
+      "why_it_matters": "Understanding how results are officially declared — versus projected by media — prevents misinformation. Official results are what legally matter.",
+      "timeline_marker": "Election Night to weeks after",
+      "region_notes": {
+        "USA": "States certify results within weeks. The Electoral College meets in December. Inauguration Day is January 20th. Media projections are not official.",
+        "UK": "Most results declared overnight. Official gazette publication follows. The PM is appointed by the monarch once a majority is clear.",
+        "India": "ECI declares results on counting day. The President invites the largest party/coalition leader to form the government."
+      },
+      "keywords": ["results", "winner", "declared", "who won", "outcome", "official result", "certification"],
+      "next_step_id": "POST_APPEALS"
+    },
+    {
+      "phase": "post_election",
+      "id": "POST_APPEALS",
+      "title": "Step 11: Disputes and Appeals",
+      "description": "If you believe there was an irregularity, there are official processes to raise concerns.",
+      "steps": [
+        "Contact your local electoral authority or returning officer to report a specific concern",
+        "Election petitions can be filed in court — there are strict deadlines (typically 21–30 days post-result)",
+        "Recounts can be requested if the margin is very narrow — the process is formal and supervised"
+      ],
+      "why_it_matters": "Democracy depends on trust in the process. Legitimate dispute channels exist for good reason. However, baseless claims undermine democracy — always rely on official evidence.",
+      "timeline_marker": "Days to weeks after results",
+      "region_notes": {
+        "USA": "Recounts can be triggered automatically (narrow margins) or requested. Legal challenges go to state courts then federal if applicable.",
+        "UK": "Election petitions must be filed within 21 days of the result. They are heard by an Election Court (two High Court judges).",
+        "India": "Election petitions filed in High Court within 45 days. The ECI also has powers to countermand elections in cases of serious malpractice."
+      },
+      "keywords": ["appeal", "dispute", "recount", "challenge", "complaint", "fraud", "irregularity", "contest results"],
+      "next_step_id": "POST_CIVIC_ROLE"
+    },
+    {
+      "phase": "post_election",
+      "id": "POST_CIVIC_ROLE",
+      "title": "Step 12: Your Ongoing Civic Role",
+      "description": "Voting is the start of civic engagement, not the end of it.",
+      "steps": [
+        "Track the actions of your elected representative — hold them accountable to their promises",
+        "Engage with your local government: attend town halls, write to your MP/representative, join civic groups",
+        "Prepare for the next election: keep your registration up to date when you move or change circumstances"
+      ],
+      "why_it_matters": "Democracy is not a one-day event. Between elections, engaged citizens drive accountability. Your voice matters beyond the ballot box.",
+      "timeline_marker": "Ongoing after election",
+      "region_notes": {
+        "USA": "Contact your Representatives and Senators via congress.gov. Local elections happen frequently — stay registered and engaged.",
+        "UK": "Write to your MP via writetothem.com. Local council elections and by-elections occur regularly.",
+        "India": "Contact your MP via the Lok Sabha website. RTI (Right to Information) applications are a powerful civic tool."
+      },
+      "keywords": ["civic role", "after election", "what now", "hold accountable", "civic engagement", "representative", "next steps"],
+      "next_step_id": null
+    }
+  ],
+  "overview": {
+    "title": "The Complete Election Journey",
+    "phases": [
+      {
+        "phase": "pre_election",
+        "label": "Pre-Election",
+        "color": "blue",
+        "emoji": "🔵",
+        "summary": "Everything you do before Election Day to prepare — eligibility, registration, ID, and research.",
+        "steps": ["PRE_ELIGIBILITY", "PRE_REGISTRATION", "PRE_VOTER_ID", "PRE_POLLING_STATION", "PRE_UNDERSTAND_BALLOT"]
+      },
+      {
+        "phase": "election_day",
+        "label": "Election Day",
+        "color": "green",
+        "emoji": "🟢",
+        "summary": "What happens on the day itself — arriving, checking in, and casting your vote.",
+        "steps": ["ED_ARRIVE", "ED_CHECK_IN", "ED_CAST_VOTE"]
+      },
+      {
+        "phase": "post_election",
+        "label": "Post-Election",
+        "color": "yellow",
+        "emoji": "🟡",
+        "summary": "After you vote — how counting works, results are declared, disputes resolved, and your role continues.",
+        "steps": ["POST_COUNTING", "POST_RESULTS", "POST_APPEALS", "POST_CIVIC_ROLE"]
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": "FAQ_001",
+      "question": "Can I vote if I am not registered?",
+      "answer": "In most countries, no — you must be on the official electoral register before you can vote. Some places allow same-day registration, but this is the exception, not the rule. Register early to be safe.",
+      "phase": "pre_election"
+    },
+    {
+      "id": "FAQ_002",
+      "question": "What if I spoil my ballot?",
+      "answer": "A spoiled ballot (incorrectly marked, torn, or defaced) is generally not counted. In most systems, you can ask for a replacement ballot if you have not yet submitted it. Once submitted, it cannot be retrieved.",
+      "phase": "election_day"
+    },
+    {
+      "id": "FAQ_003",
+      "question": "Is my vote really secret?",
+      "answer": "Yes. Ballot papers and EVMs are designed to make your specific vote untraceable to you personally. The secret ballot is a cornerstone of free and fair elections in all major democracies.",
+      "phase": "election_day"
+    },
+    {
+      "id": "FAQ_004",
+      "question": "How long does counting take?",
+      "answer": "It depends on the country and scale of the election. UK results often come overnight. US results can take days due to mail-in ballots. Indian results are announced on a dedicated counting day, weeks after polling.",
+      "phase": "post_election"
+    },
+    {
+      "id": "FAQ_005",
+      "question": "What if I cannot get to the polling station?",
+      "answer": "Most systems offer alternatives: postal/absentee voting, proxy voting (someone votes on your behalf), or accessible voting facilities. Contact your electoral authority well in advance — deadlines apply.",
+      "phase": "pre_election"
+    },
+    {
+      "id": "FAQ_006",
+      "question": "Do I have to vote for all positions on the ballot?",
+      "answer": "Generally you can choose to vote in only some races — this is called an 'undervote.' Your vote in the races you participate in will still count. A completely blank ballot would be considered spoiled.",
+      "phase": "election_day"
+    }
+  ]
+}

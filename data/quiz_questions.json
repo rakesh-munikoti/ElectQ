@@ -1,0 +1,145 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "Q001",
+      "phase": "pre_election",
+      "question": "What is the FIRST thing you should do before trying to register to vote?",
+      "options": [
+        "A) Find your polling station",
+        "B) Check your eligibility",
+        "C) Research candidates",
+        "D) Get a voter ID card"
+      ],
+      "correct": "B",
+      "explanation": "Checking eligibility (age, citizenship, residency) comes before registration. There is no point registering if you do not legally qualify.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q002",
+      "phase": "pre_election",
+      "question": "Why is meeting the voter registration deadline critical?",
+      "options": [
+        "A) You get a fine if you miss it",
+        "B) Registration is just a formality — you can vote either way",
+        "C) Missing the deadline usually means you cannot vote in that election",
+        "D) It only affects postal voting"
+      ],
+      "correct": "C",
+      "explanation": "In most jurisdictions, you must be registered before a specific deadline. Missing it typically means you cannot vote in that election cycle, even if you are fully eligible.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q003",
+      "phase": "election_day",
+      "question": "You arrive at your assigned polling station and the queue is long. Polls close in 5 minutes. What should you do?",
+      "options": [
+        "A) Leave — you missed your chance",
+        "B) Stay in the queue — if you are in line before closing time, you have the right to vote",
+        "C) Try another polling station nearby",
+        "D) Come back tomorrow"
+      ],
+      "correct": "B",
+      "explanation": "In most democracies, if you are in the queue before the official closing time, you retain the right to vote. Do not leave the queue.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q004",
+      "phase": "election_day",
+      "question": "What makes the secret ballot so important to democracy?",
+      "options": [
+        "A) It speeds up the counting process",
+        "B) It allows people to vote without fear of punishment or coercion",
+        "C) It makes recounts easier",
+        "D) It prevents too many people from voting"
+      ],
+      "correct": "B",
+      "explanation": "The secret ballot means no one can trace your vote back to you. This freedom from coercion or retaliation is fundamental to a genuine democratic choice.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q005",
+      "phase": "post_election",
+      "question": "What is the difference between a media projection and an official election result?",
+      "options": [
+        "A) There is no difference — they are legally the same",
+        "B) Media projections are based on exit polls and partial counts; official results are certified by electoral authorities",
+        "C) Official results are always announced first",
+        "D) Media projections are more accurate"
+      ],
+      "correct": "B",
+      "explanation": "Media projections are estimates based on exit polls and early counts. Official results are certified by the returning officer or electoral authority and are legally binding. The two can differ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q006",
+      "phase": "post_election",
+      "question": "What is the correct channel for disputing an election result?",
+      "options": [
+        "A) Social media campaigns",
+        "B) Approaching the winning candidate directly",
+        "C) Filing an official election petition through the courts within the legal deadline",
+        "D) Organising a re-vote independently"
+      ],
+      "correct": "C",
+      "explanation": "Election disputes must go through official legal channels — typically an election petition filed in court within a strict deadline (usually 21–45 days). Unofficial methods have no legal standing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "Q007",
+      "phase": "pre_election",
+      "question": "In India, what body is responsible for managing voter registration and conducting elections?",
+      "options": [
+        "A) The Parliament of India",
+        "B) The Supreme Court of India",
+        "C) The Election Commission of India (ECI)",
+        "D) State Governments"
+      ],
+      "correct": "C",
+      "explanation": "The Election Commission of India (ECI) is the independent constitutional authority responsible for administering elections and maintaining the electoral roll.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q008",
+      "phase": "election_day",
+      "question": "What does 'indelible ink' on the finger signify in Indian elections?",
+      "options": [
+        "A) The voter has been identified as a suspect",
+        "B) The voter has already cast their vote and cannot vote again",
+        "C) The voter's ballot was spoiled",
+        "D) The voter is a first-time voter"
+      ],
+      "correct": "B",
+      "explanation": "Indelible (non-washable) ink is applied to a voter's finger after they vote. It is a simple, effective anti-fraud measure that prevents a person from voting more than once.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "Q009",
+      "phase": "post_election",
+      "question": "After an election, what is the most important ongoing civic action you can take?",
+      "options": [
+        "A) Wait for the next election in a few years",
+        "B) Celebrate or mourn the result and move on",
+        "C) Hold your elected representative accountable and stay engaged with democracy",
+        "D) Re-register for the next election immediately"
+      ],
+      "correct": "C",
+      "explanation": "Democracy requires continuous engagement. Tracking your representative's actions, attending local meetings, and contacting officials between elections is how citizens hold power accountable.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "Q010",
+      "phase": "pre_election",
+      "question": "In the UK, what type of photo ID was made mandatory for voting in Great Britain since 2023?",
+      "options": [
+        "A) Only a passport",
+        "B) Only a driving licence",
+        "C) Various forms of approved photo ID, including a free Voter Authority Certificate",
+        "D) A National Identity Card"
+      ],
+      "correct": "C",
+      "explanation": "The UK now requires photo ID to vote. Accepted forms include a passport, driving licence, and others. Crucially, if you lack qualifying ID, you can apply for a free Voter Authority Certificate from your local council.",
+      "difficulty": "hard"
+    }
+  ]
+}
